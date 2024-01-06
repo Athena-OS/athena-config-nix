@@ -6,7 +6,6 @@ HOSTNAME=`uname -n`
 KERNEL=`uname -r`
 CPU=`awk -F '[ :][ :]+' '/^model name/ { print $2; exit; }' /proc/cpuinfo`
 ARCH=`uname -m`
-PACMAN=`checkupdates | wc -l`
 #DETECTDISK=`mount -v | fgrep 'on / ' | sed -n 's_^\(/dev/[^ ]*\) .*$_\1_p'`
 #DISC=`df -h | grep $DETECTDISK | awk '{print $5 }'`
 MEMORY1=`free -t -m | grep "Mem" | awk '{print $6" MB";}'`
@@ -67,7 +66,6 @@ echo -e "$G---------------------------------------------------------------"
 echo -e "$Y  LOAD AVG $G:$W $LOAD1, $LOAD5, $LOAD15                       "
 echo -e "$G    UPTIME $G:$W $upDays days $upHours hours $upMins minutes $upSecs seconds "
 #echo -e "$B PROCESSES $G:$W You are running $PSU of $PSA processes        "
-echo -e "$B    PACMAN $G:$W $PACMAN packages can be updated               "
 echo -e "$R     USERS $G:$W `users | xargs -n1 | sort -u | xargs | wc -w` user(s) logged in               "
 echo -e "$G---------------------------------------------------------------"
 echo -e "  $W Please do not share your login and use$G sudo$W for$R root$W access "
