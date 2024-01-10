@@ -2,10 +2,10 @@
 Name=radare2
 Comment=Advanced commandline hexadecimal editor, disassembler and debugger
 Encoding=UTF-8
-Exec=shell-rocket "if command -v radare2 &> /dev/null;then radare2 -h;$SHELL;else echo \\"radare2 is not installed. I'm retrieving it for you...\\";sudo pacman -S radare2;radare2 -h;$SHELL;fi;"
+Exec=shell-rocket "nix-shell -p radare2 --command 'radare2 -h; return'"
 Icon=kali-radare2
 StartupNotify=false
 Terminal=false
 Type=Application
 Categories=07-reverseengineer;
-X-BlackArch-Package=radare2
+X-Nix-Package=radare2

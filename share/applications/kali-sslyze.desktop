@@ -1,10 +1,10 @@
 [Desktop Entry]
 Name=sslyze
 Encoding=UTF-8
-Exec=shell-rocket "if command -v sslyze &> /dev/null;then sslyze -h;$SHELL;else echo \\"sslyze is not installed. I'm retrieving it for you...\\";sudo pacman -S sslyze;sslyze -h;$SHELL;fi;"
+Exec=shell-rocket "nix-shell -p sslyze --command 'sslyze -h; return'"
 Icon=kali-sslyze
 StartupNotify=false
 Terminal=false
 Type=Application
 Categories=01-13-ssl-analysis;
-X-BlackArch-Package=sslyze
+X-Nix-Package=sslyze

@@ -2,10 +2,10 @@
 Name=autopsy (root)
 Comment=Autopsy Forensic Browser
 Encoding=UTF-8
-Exec=shell-rocket "if command -v autopsy &> /dev/null;then sudo autopsy;$SHELL;else echo \\"Autopsy is not installed. I'm retrieving it for you...\\";sudo pacman -S autopsy;sudo autopsy;$SHELL;fi;"
+Exec=shell-rocket "nix-shell -p autopsy --command 'sudo autopsy; return'"
 Icon=kali-autopsy
 StartupNotify=false
 Terminal=false
 Type=Application
 Categories=11-forensics;11-08-forensic-suites;
-X-BlackArch-Package=autopsy
+X-Nix-Package=autopsy

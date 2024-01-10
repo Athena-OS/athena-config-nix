@@ -2,10 +2,10 @@
 Name=miredo
 Comment=Teredo IPv6 tunneling for Unix
 Encoding=UTF-8
-Exec=shell-rocket "if command -v miredo &> /dev/null;then miredo -h;$SHELL;else echo \\"miredo is not installed. I'm retrieving it for you...\\";sudo pacman -S miredo;miredo -h;$SHELL;fi;"
+Exec=shell-rocket "nix-shell -p miredo --command 'miredo -h; return'"
 Icon=kali-miredo
 StartupNotify=false
 Terminal=false
 Type=Application
 Categories=10-02-tunneling;
-X-BlackArch-Package=miredo
+X-Nix-Package=miredo

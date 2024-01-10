@@ -2,10 +2,10 @@
 Name=magicrescue
 Comment=Scans a block device and extracts known file types by looking at magic bytes.
 Encoding=UTF-8
-Exec=shell-rocket "if command -v magicrescue &> /dev/null;then magicrescue;$SHELL;else echo \\"magicrescue is not installed. I'm retrieving it for you...\\";sudo pacman -S magicrescue;magicrescue;$SHELL;fi;"
+Exec=shell-rocket "nix-shell -p magicrescue --command 'magicrescue; return'"
 Icon=kali-magicrescue
 StartupNotify=false
 Terminal=false
 Type=Application
 Categories=11-05-forensic-carving-tools;
-X-BlackArch-Package=magicrescue
+X-Nix-Package=magicrescue

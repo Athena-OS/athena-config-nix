@@ -1,10 +1,10 @@
 [Desktop Entry]
 Name=hashdeep
 Encoding=UTF-8
-Exec=shell-rocket "if command -v hashdeep &> /dev/null;then hashdeep -h;$SHELL;else echo \\"hashdeep is not installed. I'm retrieving it for you...\\";sudo pacman -S hashdeep;hashdeep -h;$SHELL;fi;"
+Exec=shell-rocket "nix-shell -p hashdeep --command 'hashdeep -h; return'"
 Icon=kali-hashdeep
 StartupNotify=false
 Terminal=false
 Type=Application
 Categories=11-forensics;
-X-BlackArch-Package=hashdeep
+X-Nix-Package=hashdeep

@@ -2,10 +2,10 @@
 Name=snmp-check
 Comment=Check hosts SNMP access
 Encoding=UTF-8
-Exec=shell-rocket "if command -v snmpcheck-nothink &> /dev/null;then snmpcheck-nothink -h;$SHELL;else echo \\"snmpcheck is not installed. I'm retrieving it for you...\\";sudo pacman -S snmpcheck;snmpcheck-nothink -h;$SHELL;fi;"
+Exec=shell-rocket "nix-shell -p snmpcheck --command 'snmpcheck-nothink -h; return'"
 Icon=kali-snmp-check
 StartupNotify=false
 Terminal=false
 Type=Application
 Categories=01-12-snmp-analysis;
-X-BlackArch-Package=snmpcheck
+X-Nix-Package=snmpcheck

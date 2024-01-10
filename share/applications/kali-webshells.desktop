@@ -1,10 +1,10 @@
 [Desktop Entry]
 Name=webshells
 Encoding=UTF-8
-Exec=shell-rocket "if test -d /usr/share/webshells;then cd /usr/share/webshells;$SHELL;else echo \\"webshells is not installed. I'm retrieving it for you...\\";sudo pacman -S webshells;cd /usr/share/webshells;$SHELL;fi;"
+Exec=shell-rocket "if test -d /usr/share/webshells --command 'then cd /usr/share/webshells;$SHELL --command 'else echo \\"webshells is not installed. I'm retrieving it for you...\\" --command 'sudo pacman -S webshells --command 'cd /usr/share/webshells; return'"
 Icon=kali-webshells
 StartupNotify=false
 Terminal=false
 Type=Application
 Categories=03-webapp-analysis;
-X-BlackArch-Package=webshells
+X-Nix-Package=webshells

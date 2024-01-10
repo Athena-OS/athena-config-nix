@@ -1,10 +1,10 @@
 [Desktop Entry]
 Name=jcat
 Encoding=UTF-8
-Exec=shell-rocket "if command -v jcat &> /dev/null;then jcat;$SHELL;else echo \\"jcat is not installed. I'm retrieving it for you...\\";sudo pacman -S sleuthkit;jcat;$SHELL;fi;"
+Exec=shell-rocket "nix-shell -p sleuthkit --command 'jcat; return'"
 Icon=kali-jcat
 StartupNotify=false
 Terminal=false
 Type=Application
 Categories=11-08-forensic-suites;
-X-BlackArch-Package=sleuthkit
+X-Nix-Package=sleuthkit

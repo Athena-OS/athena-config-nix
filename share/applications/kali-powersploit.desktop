@@ -1,10 +1,10 @@
 [Desktop Entry]
 Name=powersploit
 Encoding=UTF-8
-Exec=shell-rocket "if test -d /usr/share/windows/powersploit;then cd /usr/share/windows/powersploit;$SHELL;else echo \\"Powersploit is not installed. I'm retrieving it for you...\\";sudo pacman -S --noconfirm powersploit;cd /usr/share/windows/powersploit;$SHELL;fi;"
+Exec=shell-rocket "if test -d /usr/share/windows/powersploit --command 'then cd /usr/share/windows/powersploit;$SHELL --command 'else echo \\"Powersploit is not installed. I'm retrieving it for you...\\" --command 'sudo pacman -S --noconfirm powersploit --command 'cd /usr/share/windows/powersploit; return'"
 Icon=kali-powersploit
 StartupNotify=false
 Terminal=false
 Type=Application
 Categories=10-01-os-backdoors;10-maintaining-access;
-X-BlackArch-Package=powersploit
+X-Nix-Package=powersploit

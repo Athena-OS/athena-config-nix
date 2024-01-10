@@ -2,10 +2,10 @@
 Name=dcfldd
 Comment=Enhanced version of dd for forensics and security
 Encoding=UTF-8
-Exec=shell-rocket "if command -v dcfldd &> /dev/null;then dcfldd --help;$SHELL;else echo \\"dcfldd is not installed. I'm retrieving it for you...\\";sudo pacman -S dcfldd;dcfldd --help;$SHELL;fi;"
+Exec=shell-rocket "nix-shell -p dcfldd --command 'dcfldd --help; return'"
 Icon=athenaos-blue-net
 StartupNotify=false
 Terminal=false
 Type=Application
 Categories=11-03-digital-forensics;11-07-forensic-imaging-tools;
-X-BlackArch-Package=dcfldd
+X-Nix-Package=dcfldd

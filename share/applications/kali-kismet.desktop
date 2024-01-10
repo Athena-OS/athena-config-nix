@@ -1,10 +1,10 @@
 [Desktop Entry]
 Name=kismet
 Encoding=UTF-8
-Exec=shell-rocket "if command -v kismet &> /dev/null;then kismet -h;$SHELL;else echo \\"kismet is not installed. I'm retrieving it for you...\\";sudo pacman -S kismet;kismet -h;$SHELL;fi;"
+Exec=shell-rocket "nix-shell -p kismet --command 'kismet -h; return'"
 Icon=kali-kismet
 StartupNotify=false
 Terminal=false
 Type=Application
 Categories=06-wireless-attacks;
-X-BlackArch-Package=kismet
+X-Nix-Package=kismet

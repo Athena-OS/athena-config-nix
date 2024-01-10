@@ -2,10 +2,10 @@
 Name=ptunnel
 Comment=Tunnel TCP connections over ICMP echo request/reply packets.
 Encoding=UTF-8
-Exec=shell-rocket "if command -v ptunnel &> /dev/null;then ptunnel -h;$SHELL;else echo \\"ptunnel is not installed. I'm retrieving it for you...\\";sudo pacman -S ptunnel;ptunnel -h;$SHELL;fi;"
+Exec=shell-rocket "nix-shell -p ptunnel --command 'ptunnel -h; return'"
 Icon=kali-ptunnel
 StartupNotify=false
 Terminal=false
 Type=Application
 Categories=10-02-tunneling;
-X-BlackArch-Package=ptunnel
+X-Nix-Package=ptunnel

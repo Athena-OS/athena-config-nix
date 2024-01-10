@@ -1,10 +1,10 @@
 [Desktop Entry]
 Name=mdb-sql
 Encoding=UTF-8
-Exec=shell-rocket "if command -v mdb-sql &> /dev/null;then mdb-sql -h;$SHELL;else echo \\"mdb-sql is not installed. I'm retrieving it for you...\\";sudo pacman -S mdbtools;mdb-sql -h;$SHELL;fi;"
+Exec=shell-rocket "nix-shell -p mdbtools --command 'mdb-sql -h; return'"
 Icon=kali-mdb-sql
 StartupNotify=false
 Terminal=false
 Type=Application
 Categories=04-database-assessment;
-X-BlackArch-Package=mdbtools
+X-Nix-Package=mdbtools

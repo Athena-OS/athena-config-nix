@@ -2,10 +2,10 @@
 Name=safecopy
 Comment=Rescue data from a source that causes IO errors
 Encoding=UTF-8
-Exec=shell-rocket "if command -v safecopy &> /dev/null;then safecopy -h;$SHELL;else echo \\"safecopy is not installed. I'm retrieving it for you...\\";sudo pacman -S safecopy;safecopy -h;$SHELL;fi;"
+Exec=shell-rocket "nix-shell -p safecopy --command 'safecopy -h; return'"
 Icon=athenaos-blue-net
 StartupNotify=false
 Terminal=false
 Type=Application
 Categories=11-05-forensic-carving-tools;
-X-BlackArch-Package=safecopy
+X-Nix-Package=safecopy

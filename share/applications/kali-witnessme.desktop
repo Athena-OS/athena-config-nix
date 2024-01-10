@@ -1,10 +1,10 @@
 [Desktop Entry]
 Name=witnessme
 Encoding=UTF-8
-Exec=shell-rocket "if command -v witnessme &> /dev/null;then witnessme -h;$SHELL;else echo \\"witnessme is not installed. I'm retrieving it for you...\\";sudo pacman -S python-witnessme;witnessme -h;$SHELL;fi;"
+Exec=shell-rocket "nix-shell -p python-witnessme --command 'witnessme -h; return'"
 Icon=athenaos-blue-net
 StartupNotify=false
 Terminal=false
 Type=Application
 Categories=001-identify;
-X-BlackArch-Package=python-witnessme
+X-Nix-Package=python-witnessme

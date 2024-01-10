@@ -2,10 +2,10 @@
 Name=nbtscan
 Comment=Scan networks for NetBIOS name information
 Encoding=UTF-8
-Exec=shell-rocket "if command -v nbtscan &> /dev/null;then nbtscan -h;$SHELL;else echo \\"nbtscan is not installed. I'm retrieving it for you...\\";sudo pacman -S nbtscan;nbtscan -h;$SHELL;fi;"
+Exec=shell-rocket "nix-shell -p nbtscan --command 'nbtscan -h; return'"
 Icon=kali-nbtscan
 StartupNotify=false
 Terminal=false
 Type=Application
 Categories=01-10-smb-analysis;
-X-BlackArch-Package=nbtscan
+X-Nix-Package=nbtscan

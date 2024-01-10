@@ -2,10 +2,10 @@
 Name=netcat
 Comment=TCP/IP swiss army knife
 Encoding=UTF-8
-Exec=shell-rocket "if command -v nc &> /dev/null;then nc -h;$SHELL;else echo \\"Netcat is not installed. I'm retrieving it for you...\\";sudo pacman -S openbsd-netcat;nc -h;$SHELL;fi;"
+Exec=shell-rocket "nix-shell -p openbsd-netcat --command 'nc -h; return'"
 Icon=kali-netcat
 StartupNotify=false
 Terminal=false
 Type=Application
 Categories=01-02-identify-live-hosts;10-maintaining-access;
-X-BlackArch-Package=openbsd-netcat
+X-Nix-Package=openbsd-netcat

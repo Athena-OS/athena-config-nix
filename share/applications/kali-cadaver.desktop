@@ -2,10 +2,10 @@
 Name=cadaver
 Comment=A command-line WebDAV client for Unix.
 Encoding=UTF-8
-Exec=shell-rocket "if command -v cadaver &> /dev/null;then cadaver;$SHELL;else echo \\"Cadaver is not installed. I'm retrieving it for you...\\";sudo pacman -S cadaver;cadaver;$SHELL;fi;"
+Exec=shell-rocket "nix-shell -p cadaver --command 'cadaver; return'"
 Icon=kali-cadaver
 StartupNotify=false
 Terminal=false
 Type=Application
 Categories=03-05-web-vulnerability-scanners;
-X-BlackArch-Package=cadaver
+X-Nix-Package=cadaver

@@ -8,5 +8,5 @@ StartupNotify=false
 Terminal=false
 Type=Application
 Categories=10-maintaining-access;
-X-BlackArch-Package=starkiller
+X-Nix-Package=starkiller
 StartupWMClass=starkiller

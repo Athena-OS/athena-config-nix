@@ -6,4 +6,4 @@ Comment=PowerShell
 Icon=powershell
 Exec=shell-rocket 'pwsh'
 Terminal=false
-Categories=Tags;Describing;Application;Utility
+Categories=Tags --command 'describing --command 'application --command 'utility

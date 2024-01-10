@@ -6,4 +6,4 @@ Comment=Fish Shell
 Icon=shell
 Exec=alacritty
 Terminal=false
-Categories=Tags;Describing;Application;Utility
+Categories=Tags --command 'describing --command 'application --command 'utility

@@ -1,10 +1,10 @@
 [Desktop Entry]
 Name=davtest
 Encoding=UTF-8
-Exec=shell-rocket "if command -v davtest &> /dev/null;then davtest;$SHELL;else echo \\"davtest is not installed. I'm retrieving it for you...\\";sudo pacman -S davtest;davtest;$SHELL;fi;"
+Exec=shell-rocket "nix-shell -p davtest --command 'davtest; return'"
 Icon=kali-davtest
 StartupNotify=false
 Terminal=false
 Type=Application
 Categories=03-05-web-vulnerability-scanners;
-X-BlackArch-Package=davtest
+X-Nix-Package=davtest

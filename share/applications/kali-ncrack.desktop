@@ -2,10 +2,10 @@
 Name=ncrack
 Comment=Network authentication cracking tool
 Encoding=UTF-8
-Exec=shell-rocket "if command -v ncrack &> /dev/null;then ncrack -h;$SHELL;else echo \\"ncrack is not installed. I'm retrieving it for you...\\";sudo pacman -S ncrack;ncrack -h;$SHELL;fi;"
+Exec=shell-rocket "nix-shell -p ncrack --command 'ncrack -h; return'"
 Icon=kali-ncrack
 StartupNotify=false
 Terminal=false
 Type=Application
 Categories=05-password-attacks;05-01-online-attacks;
-X-BlackArch-Package=ncrack
+X-Nix-Package=ncrack

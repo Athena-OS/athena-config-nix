@@ -2,10 +2,10 @@
 Name=dc3dd
 Comment=Convert and copy a file
 Encoding=UTF-8
-Exec=shell-rocket "if command -v dc3dd &> /dev/null;then dc3dd --help;$SHELL;else echo \\"dc3dd is not installed. I'm retrieving it for you...\\";sudo pacman -S dc3dd;dc3dd --help;$SHELL;fi;"
+Exec=shell-rocket "nix-shell -p dc3dd --command 'dc3dd --help; return'"
 Icon=athenaos-blue-net
 StartupNotify=false
 Terminal=false
 Type=Application
 Categories=11-03-digital-forensics;11-07-forensic-imaging-tools;004-respond;
-X-BlackArch-Package=dc3dd
+X-Nix-Package=dc3dd

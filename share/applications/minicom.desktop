@@ -2,10 +2,10 @@
 Name=minicom
 Comment=Friendly menu driven serial communication program
 Encoding=UTF-8
-Exec=shell-rocket "if command -v minicom &> /dev/null;then minicom -h;$SHELL;else echo \\"minicom is not installed. I'm retrieving it for you...\\";sudo pacman -S minicom;minicom -h;$SHELL;fi;"
+Exec=shell-rocket "nix-shell -p minicom --command 'minicom -h; return'"
 Icon=kali-minicom
 StartupNotify=false
 Terminal=false
 Type=Application
 Categories=09-sniffing-spoofing;
-X-BlackArch-Package=minicom
+X-Nix-Package=minicom

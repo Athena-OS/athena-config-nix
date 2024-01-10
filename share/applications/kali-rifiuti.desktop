@@ -2,10 +2,10 @@
 Name=rifiuti
 Comment=Tool to extract information from MS recycle bins info2 files.
 Encoding=UTF-8
-Exec=shell-rocket "if command -v rifiuti &> /dev/null;then rifiuti;$SHELL;else echo \\"rifiuti is not installed. I'm retrieving it for you...\\";sudo pacman -S rifiuti2;rifiuti;$SHELL;fi;"
+Exec=shell-rocket "nix-shell -p rifiuti2 --command 'rifiuti; return'"
 Icon=athenaos-blue-net
 StartupNotify=false
 Terminal=false
 Type=Application
 Categories=11-05-forensic-carving-tools;
-X-BlackArch-Package=rifiuti2
+X-Nix-Package=rifiuti2

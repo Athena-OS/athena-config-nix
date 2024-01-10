@@ -1,10 +1,10 @@
 [Desktop Entry]
 Name=dnschef
 Encoding=UTF-8
-Exec=shell-rocket "if command -v dnschef &> /dev/null;then dnschef -h;$SHELL;else echo \\"dnschef is not installed. I'm retrieving it for you...\\";sudo pacman -S dnschef;dnschef -h;$SHELL;fi;"
+Exec=shell-rocket "nix-shell -p dnschef --command 'dnschef -h; return'"
 Icon=kali-dnschef
 StartupNotify=false
 Terminal=false
 Type=Application
 Categories=09-02-network-spoofing;09-01-network-sniffers;
-X-BlackArch-Package=dnschef
+X-Nix-Package=dnschef

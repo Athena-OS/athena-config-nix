@@ -2,10 +2,10 @@
 Name=cewl
 Comment=Custom word list generator
 Encoding=UTF-8
-Exec=shell-rocket "if command -v cewl &> /dev/null;then cewl --help;$SHELL;else echo \\"CeWL is not installed. I'm retrieving it for you...\\";sudo pacman -S cewl;cewl --help;$SHELL;fi;"
+Exec=shell-rocket "nix-shell -p cewl --command 'cewl --help; return'"
 Icon=kali-cewl
 StartupNotify=false
 Terminal=false
 Type=Application
 Categories=05-05-profile;05-password-attacks;
-X-BlackArch-Package=cewl
+X-Nix-Package=cewl
