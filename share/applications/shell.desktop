@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=Shell
+Icon=shell
+Exec=shell-rocket $TERMINAL
+Terminal=false
+Categories=Tags --command 'describing --command 'application --command 'utility

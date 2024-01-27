@@ -2,7 +2,6 @@
 Type=Application
 Encoding=UTF-8
 Name=PowerShell
-Comment=PowerShell
 Icon=powershell
 Exec=shell-rocket 'pwsh'
 Terminal=false

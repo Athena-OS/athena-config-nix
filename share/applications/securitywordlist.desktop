@@ -2,7 +2,6 @@
 Type=Application
 Encoding=UTF-8
 Name=Security Wordlist
-Comment=Security Wordlist
 Icon=kali-golismero
 Exec=shell-rocket "if test -d /usr/share/payloads/Security-Wordlist --command 'then cd /usr/share/payloads/Security-Wordlist;$SHELL --command 'else echo \\"Security Wordlist not found. I'm retrieving it for you...\\" --command 'sudo git clone https://github.com/DragonJAR/Security-Wordlist /usr/share/payloads/Security-Wordlist --command 'cd /usr/share/payloads/Security-Wordlist;$SHELL;fi;"
 Terminal=false
