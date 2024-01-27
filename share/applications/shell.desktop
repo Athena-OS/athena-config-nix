@@ -3,6 +3,6 @@ Type=Application
 Encoding=UTF-8
 Name=Shell
 Icon=shell
-Exec=shell-rocket $TERMINAL
+Exec=sh -c "$TERMINAL"
 Terminal=false
 Categories=Tags;describing;application;utility
