@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=powersploit
 Encoding=UTF-8
-Exec=shell-rocket "if test -d /usr/share/windows/powersploit --command 'then cd /usr/share/windows/powersploit;$SHELL --command 'else echo \\"Powersploit is not installed. I'm retrieving it for you...\\" --command 'sudo pacman -S --noconfirm powersploit --command 'cd /usr/share/windows/powersploit; return'"
+Exec=shell-rocket "if test -d /run/current-system/sw/share/powersploit; then cd /run/current-system/sw/share/powersploit;$SHELL; else shell-rocket \"nix-shell -p powersploit --command 'cd /run/current-system/sw/share/powersploit; return'\""
 Icon=kali-powersploit
 StartupNotify=false
 Terminal=false

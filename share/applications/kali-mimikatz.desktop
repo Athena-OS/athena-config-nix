@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=mimikatz
 Encoding=UTF-8
-Exec=shell-rocket "if test -d /usr/share/windows/mimikatz --command 'then cd /usr/share/windows/mimikatz;$SHELL --command 'else echo \\"Mimikatz is not installed. I'm retrieving it for you...\\" --command 'sudo pacman -S --noconfirm mimikatz --command 'cd /usr/share/windows/mimikatz; return'"
+Exec=shell-rocket "if test -d /run/current-system/sw/share/mimikatz; then cd /run/current-system/sw/share/mimikatz;$SHELL; else shell-rocket \"nix-shell -p mimikatz --command 'cd /run/current-system/sw/share/mimikatz; return'\""
 Icon=kali-mimikatz
 StartupNotify=false
 Terminal=false

@@ -3,6 +3,6 @@ Type=Application
 Encoding=UTF-8
 Name=SecLists
 Icon=kali-bettercap
-Exec=shell-rocket "if test -d /run/current-system/sw/share/wordlists/seclists; then cd /run/current-system/sw/share/wordlists/seclists;$SHELL --command 'else shell-rocket "nix-shell -p seclists --command 'cd /run/current-system/sw/share/wordlists/seclists; return'"
+Exec=shell-rocket "if test -d /run/current-system/sw/share/wordlists/seclists; then cd /run/current-system/sw/share/wordlists/seclists;$SHELL; else shell-rocket \"nix-shell -p seclists --command 'cd /run/current-system/sw/share/wordlists/seclists; return'\""
 Terminal=false
 Categories=Tags;describing;application;utility

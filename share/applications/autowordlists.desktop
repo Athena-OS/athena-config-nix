@@ -3,6 +3,6 @@ Type=Application
 Encoding=UTF-8
 Name=Auto Wordlists
 Icon=kali-wordlists
-Exec=shell-rocket "if test -d /usr/share/payloads/Auto_Wordlists --command 'then cd /usr/share/payloads/Auto_Wordlists;$SHELL --command 'else echo \\"Auto Wordlists not found. I'm retrieving it for you...\\" --command 'sudo pacman -S --noconfirm athena-auto-wordlists --command 'cd /usr/share/payloads/Auto_Wordlists;$SHELL;fi;"
+Exec=shell-rocket "if test -d /run/current-system/sw/share/wordlists/Auto_Wordlists; then cd /run/current-system/sw/share/wordlists/Auto_Wordlists;$SHELL; else shell-rocket \"nix-shell -p autowordlists --command 'cd /run/current-system/sw/share/wordlists/Auto_Wordlists; return'\""
 Terminal=false
 Categories=Tags;describing;application;utility

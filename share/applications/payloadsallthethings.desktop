@@ -3,6 +3,6 @@ Type=Application
 Encoding=UTF-8
 Name=PayloadsAllTheThings
 Icon=kali-commix
-Exec=shell-rocket "if test -d /usr/share/payloads/PayloadsAllTheThings --command 'then cd /usr/share/payloads/PayloadsAllTheThings;$SHELL --command 'else echo \\"PayloadsAllTheThings not found. I'm retrieving it for you...\\" --command 'sudo pacman -S --noconfirm athena-payloadsallthethings --command 'cd /usr/share/payloads/PayloadsAllTheThings;$SHELL;fi;"
+Exec=shell-rocket "if test -d /run/current-system/sw/share/wordlists/PayloadsAllTheThings; then cd /run/current-system/sw/share/wordlists/PayloadsAllTheThings;$SHELL; else shell-rocket \"nix-shell -p payloadsallthethings --command 'cd /run/current-system/sw/share/wordlists/PayloadsAllTheThings; return'\""
 Terminal=false
 Categories=Tags;describing;application;utility
