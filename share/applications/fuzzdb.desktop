@@ -3,6 +3,6 @@ Type=Application
 Encoding=UTF-8
 Name=FuzzDB
 Icon=kali-ike-scan
-Exec=shell-rocket "if test -d /run/current-system/sw/share/wordlists/fuzzdb; then cd /run/current-system/sw/share/wordlists/fuzzdb;$SHELL; else shell-rocket \"nix-shell -p fuzzdb --command 'cd /run/current-system/sw/share/wordlists/fuzzdb; return'\""
+Exec=shell-rocket "if test -d /run/current-system/sw/share/wordlists/fuzzdb; then cd /run/current-system/sw/share/wordlists/fuzzdb;$SHELL; else sudo sed -i 's/#fuzzdb/fuzzdb/g' /etc/nixos/hosts/software/default.nix; sudo nixos-rebuild switch; cd /run/current-system/sw/share/wordlists/fuzzdb;$SHELL;fi;"
 Terminal=false
 Categories=Tags;describing;application;utility

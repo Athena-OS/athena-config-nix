@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=powersploit
 Encoding=UTF-8
-Exec=shell-rocket "if test -d /run/current-system/sw/share/powersploit; then cd /run/current-system/sw/share/powersploit;$SHELL; else shell-rocket \"nix-shell -p powersploit --command 'cd /run/current-system/sw/share/powersploit; return'\""
+Exec=shell-rocket "if test -d /run/current-system/sw/share/powersploit; then cd /run/current-system/sw/share/powersploit;$SHELL; else sudo sed -i 's/#powersploit/powersploit/g' /etc/nixos/hosts/software/default.nix; sudo nixos-rebuild switch; cd /run/current-system/sw/share/powersploit;$SHELL;fi;"
 Icon=kali-powersploit
 StartupNotify=false
 Terminal=false

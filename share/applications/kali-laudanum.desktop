@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=laudanum
 Encoding=UTF-8
-Exec=shell-rocket "if test -d /usr/share/laudanum --command 'then cd /usr/share/laudanum;$SHELL --command 'else echo \\"laudanum is not installed. I'm retrieving it for you...\\" --command 'sudo pacman -S laudanum --command 'cd /usr/share/laudanum; return'"
+Exec=shell-rocket "if test -d /run/current-system/sw/share/laudanum; then cd /run/current-system/sw/share/laudanum;$SHELL; else sudo sed -i 's/#laudanum/laudanum/g' /etc/nixos/hosts/software/default.nix; sudo nixos-rebuild switch; cd /run/current-system/sw/share/laudanum;$SHELL;fi;"
 Icon=kali-laudanum
 StartupNotify=false
 Terminal=false

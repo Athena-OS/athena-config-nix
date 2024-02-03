@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=webshells
 Encoding=UTF-8
-Exec=shell-rocket "if test -d /usr/share/webshells --command 'then cd /usr/share/webshells;$SHELL --command 'else echo \\"webshells is not installed. I'm retrieving it for you...\\" --command 'sudo pacman -S webshells --command 'cd /usr/share/webshells; return'"
+Exec=shell-rocket "if test -d /run/current-system/sw/share/webshells; then cd /run/current-system/sw/share/webshells;$SHELL; else sudo sed -i 's/#webshells/webshells/g' /etc/nixos/hosts/software/default.nix; sudo nixos-rebuild switch; cd /run/current-system/sw/share/webshells;$SHELL;fi;"
 Icon=kali-webshells
 StartupNotify=false
 Terminal=false
