@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=fern wifi cracker (root)
 Encoding=UTF-8
-Exec=nix-shell -p fern-wifi-cracker --command 'sudo nohup fern-wifi-cracker; return'
+Exec=shell-rocket "nix-shell -p fern-wifi-cracker --command 'sudo nohup fern-wifi-cracker; return'"
 Icon=kali-fern-wifi-cracker
 StartupNotify=false
 Terminal=false
