@@ -2,7 +2,7 @@
 Name=wifite
 Comment=Python script to automate wireless auditing using aircrack-ng tools
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p wifite --command 'wifite --help; return'"
+Exec=shell-rocket "nix-shell -p wifite2 --command 'wifite -h; return'"
 Icon=kali-wifite
 StartupNotify=false
 Terminal=false
