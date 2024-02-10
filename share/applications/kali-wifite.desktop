@@ -8,4 +8,4 @@ StartupNotify=false
 Terminal=false
 Type=Application
 Categories=06-wireless-attacks;
-X-Nix-Package=wifite
+X-Nix-Package=wifite2
