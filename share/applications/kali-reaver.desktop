@@ -2,7 +2,7 @@
 Name=reaver
 Comment=WPS Cracker
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p reaver --command 'reaver -h; return'"
+Exec=shell-rocket "nix-shell -p reaverwps-t6x --command 'reaver; return'"
 Icon=kali-reaver
 StartupNotify=false
 Terminal=false
