@@ -3,10 +3,10 @@ Name=hydra
 Comment=A very fast network logon cracker which supports many different services
 Encoding=UTF-8
 # grep is used to highlight the supported services before running the wizard
-Exec=shell-rocket "nix-shell -p hydra --command 'hydra | grep --color=auto '^\\|Supported services:'; hydra-wizard.sh; return'"
+Exec=shell-rocket "nix-shell -p thc-hydra --command \"hydra | grep --color=auto '^\\|Supported services:'; hydra-wizard.sh; return\""
 Icon=kali-hydra
 StartupNotify=false
 Terminal=false
 Type=Application
 Categories=05-password-attacks;05-01-online-attacks;
-X-Nix-Package=hydra
+X-Nix-Package=thc-hydra
