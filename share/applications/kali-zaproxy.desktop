@@ -2,11 +2,11 @@
 Name=zap
 StartupWMClass=ZAP
 Encoding=UTF-8
-Exec=shell-rocket "nohup nix-shell -p zap --command 'zaproxy; return'"
+Exec=shell-rocket "nohup nix-shell -p zap --command 'zap; return'"
 Icon=kali-zaproxy
 StartupNotify=false
 Terminal=false
 Type=Application
 Categories=03-webapp-analysis;03-06-web-application-proxies;001-identify;
-X-Nix-Package=zaproxy
+X-Nix-Package=zap
 StartupWMClass=OWASP ZAP
