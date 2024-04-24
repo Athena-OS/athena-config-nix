@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=spike-fuzzer-generic-chunked
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p spike-fuzzer --command 'spike-fuzzer-generic-chunked; return'"
+Exec=shell-rocket -c "nix-shell -p spike-fuzzer --command 'spike-fuzzer-generic-chunked; return'"
 Icon=kali-spike
 StartupNotify=false
 Terminal=false

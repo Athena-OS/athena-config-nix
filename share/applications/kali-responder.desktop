@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=responder
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p responder --command 'responder -h; return'"
+Exec=shell-rocket -c "nix-shell -p responder --command 'responder -h; return'"
 Icon=kali-responder
 StartupNotify=false
 Terminal=false

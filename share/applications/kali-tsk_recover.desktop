@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=tsk_recover
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p sleuthkit --command 'tsk_recover; return'"
+Exec=shell-rocket -c "nix-shell -p sleuthkit --command 'tsk_recover; return'"
 Icon=kali-tsk_recover
 StartupNotify=false
 Terminal=false

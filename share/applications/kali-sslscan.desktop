@@ -2,7 +2,7 @@
 Name=sslscan
 Comment=Fast SSL/TLS scanner
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p sslscan --command 'sslscan; return'"
+Exec=shell-rocket -c "nix-shell -p sslscan --command 'sslscan; return'"
 Icon=kali-sslscan
 StartupNotify=false
 Terminal=false

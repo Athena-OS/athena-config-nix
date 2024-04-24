@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=ddrescue
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p ddrescue --command 'ddrescue -h; return'"
+Exec=shell-rocket -c "nix-shell -p ddrescue --command 'ddrescue -h; return'"
 Icon=athenaos-blue-net
 StartupNotify=false
 Terminal=false

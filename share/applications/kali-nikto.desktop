@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=nikto
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p nikto --command 'nikto -h; return'"
+Exec=shell-rocket -c "nix-shell -p nikto --command 'nikto -h; return'"
 Icon=kali-nikto
 StartupNotify=false
 Terminal=false

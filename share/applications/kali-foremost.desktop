@@ -2,7 +2,7 @@
 Name=foremost
 Comment=Recover files using their headers, footers, and data structures
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p foremost --command 'foremost -h; return'"
+Exec=shell-rocket -c "nix-shell -p foremost --command 'foremost -h; return'"
 Icon=kali-foremost
 StartupNotify=false
 Terminal=false

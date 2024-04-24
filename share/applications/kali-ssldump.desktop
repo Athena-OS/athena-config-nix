@@ -2,7 +2,7 @@
 Name=ssldump
 Comment=Dump SSL traffic on a network
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p ssldump --command 'ssldump -h; return'"
+Exec=shell-rocket -c "nix-shell -p ssldump --command 'ssldump -h; return'"
 Icon=kali-ssldump
 StartupNotify=false
 Terminal=false

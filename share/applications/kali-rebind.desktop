@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=rebind
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p rebind --command 'rebind_dns; return'"
+Exec=shell-rocket -c "nix-shell -p rebind --command 'rebind_dns; return'"
 Icon=kali-rebind
 StartupNotify=false
 Terminal=false

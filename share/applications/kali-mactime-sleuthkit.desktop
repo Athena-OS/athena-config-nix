@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=mactime-sleuthkit
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p sleuthkit --command 'mactime; return'"
+Exec=shell-rocket -c "nix-shell -p sleuthkit --command 'mactime; return'"
 Icon=kali-mactime
 StartupNotify=false
 Terminal=false

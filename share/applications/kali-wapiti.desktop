@@ -2,7 +2,7 @@
 Name=wapiti
 Comment=A web application vulnerability scanner in Python
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p wapiti --command 'wapiti -h; return'"
+Exec=shell-rocket -c "nix-shell -p wapiti --command 'wapiti -h; return'"
 Icon=kali-wapiti
 StartupNotify=false
 Terminal=false

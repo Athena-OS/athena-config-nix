@@ -2,7 +2,7 @@
 Name=dcfldd
 Comment=Enhanced version of dd for forensics and security
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p dcfldd --command 'dcfldd --help; return'"
+Exec=shell-rocket -c "nix-shell -p dcfldd --command 'dcfldd --help; return'"
 Icon=athenaos-blue-net
 StartupNotify=false
 Terminal=false

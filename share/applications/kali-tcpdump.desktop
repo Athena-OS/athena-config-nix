@@ -2,7 +2,7 @@
 Name=tcpdump
 Comment=Dump traffic on a network
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p tcpdump --command 'tcpdump -h; return'"
+Exec=shell-rocket -c "nix-shell -p tcpdump --command 'tcpdump -h; return'"
 Icon=kali-tcpdump
 StartupNotify=false
 Terminal=false

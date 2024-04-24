@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=mdb-sql
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p mdbtools --command 'mdb-sql -h; return'"
+Exec=shell-rocket -c "nix-shell -p mdbtools --command 'mdb-sql -h; return'"
 Icon=kali-mdb-sql
 StartupNotify=false
 Terminal=false

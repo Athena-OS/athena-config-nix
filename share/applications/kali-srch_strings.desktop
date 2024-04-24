@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=srch_strings
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p sleuthkit --command 'srch_strings -h; return'"
+Exec=shell-rocket -c "nix-shell -p sleuthkit --command 'srch_strings -h; return'"
 Icon=kali-srch-string
 StartupNotify=false
 Terminal=false

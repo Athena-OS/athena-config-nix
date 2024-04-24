@@ -2,7 +2,7 @@
 Name=proxytunnel
 Comment=Program to tunnel a connection through a standard HTTPS proxy
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p proxytunnel --command 'proxytunnel -h; return'"
+Exec=shell-rocket -c "nix-shell -p proxytunnel --command 'proxytunnel -h; return'"
 Icon=kali-proxytunnel
 StartupNotify=false
 Terminal=false

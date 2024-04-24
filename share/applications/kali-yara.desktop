@@ -2,7 +2,7 @@
 Name=yara
 Comment=Find files matching patterns and rules written in a special-purpose language.
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p yara --command 'yara; return'"
+Exec=shell-rocket -c "nix-shell -p yara --command 'yara; return'"
 Icon=kali-yara
 StartupNotify=false
 Terminal=false

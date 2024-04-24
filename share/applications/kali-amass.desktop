@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=amass
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p amass --command 'amass -h; return'"
+Exec=shell-rocket -c "nix-shell -p amass --command 'amass -h; return'"
 Icon=kali-amass
 StartupNotify=false
 Terminal=false

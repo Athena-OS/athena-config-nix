@@ -2,7 +2,7 @@
 Name=fierce
 Comment=DNS scanner that helps locate non-contiguous IP space and hostnames against specified domains.
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p fierce --command 'fierce -h; return'"
+Exec=shell-rocket -c "nix-shell -p fierce --command 'fierce -h; return'"
 Icon=kali-fierce
 StartupNotify=false
 Terminal=false

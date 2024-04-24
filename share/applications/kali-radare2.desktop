@@ -2,7 +2,7 @@
 Name=radare2
 Comment=Advanced commandline hexadecimal editor, disassembler and debugger
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p radare2 --command 'radare2 -h; return'"
+Exec=shell-rocket -c "nix-shell -p radare2 --command 'radare2 -h; return'"
 Icon=kali-radare2
 StartupNotify=false
 Terminal=false

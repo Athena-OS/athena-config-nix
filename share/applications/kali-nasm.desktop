@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=NASM
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p metasploit --command 'nasm; return'"
+Exec=shell-rocket -c "nix-shell -p metasploit --command 'nasm; return'"
 Icon=kali-metasploit-framework
 StartupNotify=false
 Terminal=false

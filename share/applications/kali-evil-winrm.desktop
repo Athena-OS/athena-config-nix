@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=evil-winrm
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p evil-winrm --command 'evil-winrm -h; return'"
+Exec=shell-rocket -c "nix-shell -p evil-winrm --command 'evil-winrm -h; return'"
 Icon=kali-evil-winrm
 StartupNotify=false
 Terminal=false

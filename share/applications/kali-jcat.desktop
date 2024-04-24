@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=jcat
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p sleuthkit --command 'jcat; return'"
+Exec=shell-rocket -c "nix-shell -p sleuthkit --command 'jcat; return'"
 Icon=kali-jcat
 StartupNotify=false
 Terminal=false

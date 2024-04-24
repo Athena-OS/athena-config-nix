@@ -2,7 +2,7 @@
 Name=netcat
 Comment=TCP/IP swiss army knife
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p openbsd-netcat --command 'nc -h; return'"
+Exec=shell-rocket -c "nix-shell -p openbsd-netcat --command 'nc -h; return'"
 Icon=kali-netcat
 StartupNotify=false
 Terminal=false

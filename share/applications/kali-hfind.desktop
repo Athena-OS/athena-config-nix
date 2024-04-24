@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=hfind
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p sleuthkit --command 'hfind; return'"
+Exec=shell-rocket -c "nix-shell -p sleuthkit --command 'hfind; return'"
 Icon=kali-hfind
 StartupNotify=false
 Terminal=false

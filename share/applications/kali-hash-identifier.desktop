@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=hash-identifier
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p hash-identifier --command 'hash-identifier; return'"
+Exec=shell-rocket -c "nix-shell -p hash-identifier --command 'hash-identifier; return'"
 Icon=kali-hash-identifier
 StartupNotify=false
 Terminal=false

@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=exe2hex
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p exe2hexbat --command 'exe2hex; return'"
+Exec=shell-rocket -c "nix-shell -p exe2hexbat --command 'exe2hex; return'"
 Icon=kali-exe2hexbat
 StartupNotify=false
 Terminal=false

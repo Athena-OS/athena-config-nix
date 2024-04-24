@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=pth-winexe
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p pth-toolkit --command 'pth-winexe -h; return'"
+Exec=shell-rocket -c "nix-shell -p pth-toolkit --command 'pth-winexe -h; return'"
 Icon=kali-pth
 StartupNotify=false
 Terminal=false

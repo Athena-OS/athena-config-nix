@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=img_cat
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p sleuthkit --command 'img_cat; return'"
+Exec=shell-rocket -c "nix-shell -p sleuthkit --command 'img_cat; return'"
 Icon=kali-img_cat
 StartupNotify=false
 Terminal=false

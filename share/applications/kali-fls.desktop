@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=fls
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p sleuthkit --command 'fls; return'"
+Exec=shell-rocket -c "nix-shell -p sleuthkit --command 'fls; return'"
 Icon=kali-fls
 StartupNotify=false
 Terminal=false

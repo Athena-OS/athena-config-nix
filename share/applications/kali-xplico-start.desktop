@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=xplico start
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p xplico --command 'sudo systemctl start xplico && systemctl --no-pager status xplico; return'"
+Exec=shell-rocket -c "nix-shell -p xplico --command 'sudo systemctl start xplico && systemctl --no-pager status xplico; return'"
 Icon=kali-xplico
 StartupNotify=false
 Terminal=false

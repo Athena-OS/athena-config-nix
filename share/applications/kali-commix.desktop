@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=commix
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p commix --command 'commix --wizard; return'"
+Exec=shell-rocket -c "nix-shell -p commix --command 'commix --wizard; return'"
 Icon=kali-commix
 StartupNotify=false
 Terminal=false

@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=mmstat
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p sleuthkit --command 'mmstat; return'"
+Exec=shell-rocket -c "nix-shell -p sleuthkit --command 'mmstat; return'"
 Icon=kali-mmstat
 StartupNotify=false
 Terminal=false

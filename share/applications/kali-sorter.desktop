@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=sorter
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p sleuthkit --command 'sorter; return'"
+Exec=shell-rocket -c "nix-shell -p sleuthkit --command 'sorter; return'"
 Icon=kali-sorter
 StartupNotify=false
 Terminal=false

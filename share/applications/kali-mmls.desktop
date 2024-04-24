@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=mmls
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p sleuthkit --command 'mmls; return'"
+Exec=shell-rocket -c "nix-shell -p sleuthkit --command 'mmls; return'"
 Icon=kali-mmls
 StartupNotify=false
 Terminal=false

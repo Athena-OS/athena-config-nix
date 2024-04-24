@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=theharvester
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p theharvester --command 'theHarvester -h; return'"
+Exec=shell-rocket -c "nix-shell -p theharvester --command 'theHarvester -h; return'"
 Icon=kali-theharvester
 StartupNotify=false
 Terminal=false

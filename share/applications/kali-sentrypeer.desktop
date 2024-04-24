@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=sentrypeer
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p sentrypeer --command 'sentrypeer -h; return'"
+Exec=shell-rocket -c "nix-shell -p sentrypeer --command 'sentrypeer -h; return'"
 Icon=kali-sentrypeer
 StartupNotify=false
 Terminal=false

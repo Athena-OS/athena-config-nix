@@ -2,7 +2,7 @@
 Name=nbtscan
 Comment=Scan networks for NetBIOS name information
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p nbtscan --command 'nbtscan -h; return'"
+Exec=shell-rocket -c "nix-shell -p nbtscan --command 'nbtscan -h; return'"
 Icon=kali-nbtscan
 StartupNotify=false
 Terminal=false

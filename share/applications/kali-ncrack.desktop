@@ -2,7 +2,7 @@
 Name=ncrack
 Comment=Network authentication cracking tool
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p ncrack --command 'ncrack -h; return'"
+Exec=shell-rocket -c "nix-shell -p ncrack --command 'ncrack -h; return'"
 Icon=kali-ncrack
 StartupNotify=false
 Terminal=false

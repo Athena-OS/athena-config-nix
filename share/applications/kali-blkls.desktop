@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=blkls
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p sleuthkit --command 'blkls; return'"
+Exec=shell-rocket -c "nix-shell -p sleuthkit --command 'blkls; return'"
 Icon=kali-blkls
 StartupNotify=false
 Terminal=false

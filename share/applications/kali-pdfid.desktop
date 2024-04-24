@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=pdfid
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p pdfid --command 'pdfid -h; return'"
+Exec=shell-rocket -c "nix-shell -p pdfid --command 'pdfid -h; return'"
 Icon=kali-pdfid
 StartupNotify=false
 Terminal=false

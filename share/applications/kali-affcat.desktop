@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=affcat
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p affcat --command 'affcat -h'"
+Exec=shell-rocket -c "nix-shell -p affcat --command 'affcat -h'"
 Icon=kali-affcat
 StartupNotify=false
 Terminal=false

@@ -2,7 +2,7 @@
 Name=sslsplit
 Comment=Transparent SSL/TLS interception
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p sslsplit --command 'sslsplit -h; return'"
+Exec=shell-rocket -c "nix-shell -p sslsplit --command 'sslsplit -h; return'"
 Icon=kali-sslsplit
 StartupNotify=false
 Terminal=false

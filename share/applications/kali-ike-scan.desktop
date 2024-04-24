@@ -2,7 +2,7 @@
 Name=ike-scan
 Comment=Discover and fingerprint IKE hosts (IPsec VPN servers)
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p ike-scan --command 'ike-scan -h; return'"
+Exec=shell-rocket -c "nix-shell -p ike-scan --command 'ike-scan -h; return'"
 Icon=kali-ike-scan
 StartupNotify=false
 Terminal=false

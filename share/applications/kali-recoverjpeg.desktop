@@ -2,7 +2,7 @@
 Name=recoverjpeg
 Comment=Recover jpeg pictures from a filesystem image
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p recoverjpeg --command 'recoverjpeg -h; return'"
+Exec=shell-rocket -c "nix-shell -p recoverjpeg --command 'recoverjpeg -h; return'"
 Icon=athenaos-blue-net
 StartupNotify=false
 Terminal=false

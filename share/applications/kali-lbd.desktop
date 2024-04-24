@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=lbd
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p lbd --command 'lbd; return'"
+Exec=shell-rocket -c "nix-shell -p lbd --command 'lbd; return'"
 Icon=kali-lbd
 StartupNotify=false
 Terminal=false

@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=ffind
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p sleuthkit --command 'ffind; return'"
+Exec=shell-rocket -c "nix-shell -p sleuthkit --command 'ffind; return'"
 Icon=kali-ffind
 StartupNotify=false
 Terminal=false

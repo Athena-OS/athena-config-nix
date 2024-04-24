@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=fsstat
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p sleuthkit --command 'fsstat; return'"
+Exec=shell-rocket -c "nix-shell -p sleuthkit --command 'fsstat; return'"
 Icon=kali-fsstat
 StartupNotify=false
 Terminal=false

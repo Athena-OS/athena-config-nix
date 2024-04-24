@@ -2,7 +2,7 @@
 Name=pasco
 Comment=Tool to extract information from MS IE cache files
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p pasco --command 'pasco; return'"
+Exec=shell-rocket -c "nix-shell -p pasco --command 'pasco; return'"
 Icon=athenaos-blue-net
 StartupNotify=false
 Terminal=false

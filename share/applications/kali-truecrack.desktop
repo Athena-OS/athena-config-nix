@@ -2,7 +2,7 @@
 Name=truecrack
 Comment=Brute-force password cracker for TrueCrypt (Copyright) volumes.
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p truecrack --command 'truecrack -h; return'"
+Exec=shell-rocket -c "nix-shell -p truecrack --command 'truecrack -h; return'"
 Icon=athenaos-blue-net
 StartupNotify=false
 Terminal=false

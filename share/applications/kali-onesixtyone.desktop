@@ -2,7 +2,7 @@
 Name=onesixtyone
 Comment=Fast and simple SNMP scanner
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p onesixtyone --command 'onesixtyone; return'"
+Exec=shell-rocket -c "nix-shell -p onesixtyone --command 'onesixtyone; return'"
 Icon=kali-onesixtyone
 StartupNotify=false
 Terminal=false

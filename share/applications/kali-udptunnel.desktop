@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=udptunnel
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p udptunnel --command 'udptunnel -h; return'"
+Exec=shell-rocket -c "nix-shell -p udptunnel --command 'udptunnel -h; return'"
 Icon=kali-udptunnel
 StartupNotify=false
 Terminal=false

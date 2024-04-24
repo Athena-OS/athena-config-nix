@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=ghidra
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p ghidra --command 'ghidra; return'"
+Exec=shell-rocket -c "nix-shell -p ghidra --command 'ghidra; return'"
 Icon=kali-ghidra
 StartupNotify=false
 Terminal=false

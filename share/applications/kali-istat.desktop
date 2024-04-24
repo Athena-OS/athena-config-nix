@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=istat
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p sleuthkit --command 'istat; return'"
+Exec=shell-rocket -c "nix-shell -p sleuthkit --command 'istat; return'"
 Icon=kali-istat
 StartupNotify=false
 Terminal=false

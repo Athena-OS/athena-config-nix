@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=tsk_loaddb
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p sleuthkit --command 'tsk_loaddb; return'"
+Exec=shell-rocket -c "nix-shell -p sleuthkit --command 'tsk_loaddb; return'"
 Icon=kali-tsk_loaddb
 StartupNotify=false
 Terminal=false

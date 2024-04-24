@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=grokevt-addlog
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p grokevt --command 'grokevt-addlog -h; return'"
+Exec=shell-rocket -c "nix-shell -p grokevt --command 'grokevt-addlog -h; return'"
 Icon=athenaos-blue-net
 StartupNotify=false
 Terminal=false

@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=dnschef
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p dnschef --command 'dnschef -h; return'"
+Exec=shell-rocket -c "nix-shell -p dnschef --command 'dnschef -h; return'"
 Icon=kali-dnschef
 StartupNotify=false
 Terminal=false

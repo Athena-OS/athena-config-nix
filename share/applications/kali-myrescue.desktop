@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=myrescue
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p myrescue --command 'myrescue -h; return'"
+Exec=shell-rocket -c "nix-shell -p myrescue --command 'myrescue -h; return'"
 Icon=athenaos-blue-net
 StartupNotify=false
 Terminal=false

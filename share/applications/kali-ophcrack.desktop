@@ -2,7 +2,7 @@
 Name=ophcrack
 Comment=A Microsoft Windows password cracker using rainbow tables.
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p ophcrack --command 'ophcrack; return'"
+Exec=shell-rocket -c "nix-shell -p ophcrack --command 'ophcrack; return'"
 Icon=kali-ophcrack
 StartupNotify=false
 Terminal=false

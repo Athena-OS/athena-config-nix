@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=swaks
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p swaks --command 'swaks --help; return'"
+Exec=shell-rocket -c "nix-shell -p swaks --command 'swaks --help; return'"
 Icon=kali-swaks
 StartupNotify=false
 Terminal=false

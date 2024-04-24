@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=Empire
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p empire --command 'empire -h; return'"
+Exec=shell-rocket -c "nix-shell -p empire --command 'empire -h; return'"
 Icon=kali-powershell-empire
 StartupNotify=false
 Terminal=false

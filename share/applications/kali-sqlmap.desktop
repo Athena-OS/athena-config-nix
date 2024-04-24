@@ -2,7 +2,7 @@
 Name=sqlmap
 Comment=Automatic SQL injection tool
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p sqlmap --command 'sqlmap --wizard; return'"
+Exec=shell-rocket -c "nix-shell -p sqlmap --command 'sqlmap --wizard; return'"
 Icon=kali-sqlmap
 StartupNotify=false
 Terminal=false

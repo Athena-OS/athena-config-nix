@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=ext4magic
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p ext4magic --command 'ext4magic -h; return'"
+Exec=shell-rocket -c "nix-shell -p ext4magic --command 'ext4magic -h; return'"
 Icon=athenaos-blue-net
 StartupNotify=false
 Terminal=false

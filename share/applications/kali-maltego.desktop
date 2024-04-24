@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=maltego
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p maltego --command 'maltego; return'"
+Exec=shell-rocket -c "nix-shell -p maltego --command 'maltego; return'"
 Icon=kali-maltego
 StartupNotify=false
 Terminal=false

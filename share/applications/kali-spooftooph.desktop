@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=spooftooph
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p spooftooph --command 'spooftooph -h; return'"
+Exec=shell-rocket -c "nix-shell -p spooftooph --command 'spooftooph -h; return'"
 Icon=kali-spooftooph
 StartupNotify=false
 Terminal=false

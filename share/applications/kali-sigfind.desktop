@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=sigfind
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p sleuthkit --command 'sigfind; return'"
+Exec=shell-rocket -c "nix-shell -p sleuthkit --command 'sigfind; return'"
 Icon=kali-sigfind
 StartupNotify=false
 Terminal=false

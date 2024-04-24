@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=samdump2
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p samdump2 --command 'samdump2 -h; return'"
+Exec=shell-rocket -c "nix-shell -p samdump2 --command 'samdump2 -h; return'"
 Icon=kali-samdump2
 StartupNotify=false
 Terminal=false

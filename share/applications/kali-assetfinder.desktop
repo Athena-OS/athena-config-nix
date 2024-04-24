@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=assetfinder
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p assetfinder --command 'assetfinder -h; return'"
+Exec=shell-rocket -c "nix-shell -p assetfinder --command 'assetfinder -h; return'"
 Icon=athenaos-blue-net
 StartupNotify=false
 Terminal=false

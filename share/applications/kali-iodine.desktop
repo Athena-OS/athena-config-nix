@@ -2,7 +2,7 @@
 Name=iodine
 Comment=Tunnel IPv4 over DNS
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p iodine --command 'iodine -h; return'"
+Exec=shell-rocket -c "nix-shell -p iodine --command 'iodine -h; return'"
 Icon=kali-iodine
 StartupNotify=false
 Terminal=false

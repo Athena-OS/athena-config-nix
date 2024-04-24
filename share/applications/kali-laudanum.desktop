@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=laudanum
 Encoding=UTF-8
-Exec=shell-rocket "if test -d /run/current-system/sw/share/laudanum; then cd /run/current-system/sw/share/laudanum;$SHELL; else sudo sed -i 's/#laudanum/laudanum/g' /etc/nixos/hosts/software/default.nix; sudo nixos-rebuild switch; cd /run/current-system/sw/share/laudanum;$SHELL;fi;"
+Exec=shell-rocket -c "if test -d /run/current-system/sw/share/laudanum; then cd /run/current-system/sw/share/laudanum; else sudo sed -i 's/#laudanum/laudanum/g' /etc/nixos/hosts/software/default.nix; sudo nixos-rebuild switch; cd /run/current-system/sw/share/laudanum;fi;"
 Icon=kali-laudanum
 StartupNotify=false
 Terminal=false

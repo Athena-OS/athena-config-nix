@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=img_stat
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p sleuthkit --command 'img_stat; return'"
+Exec=shell-rocket -c "nix-shell -p sleuthkit --command 'img_stat; return'"
 Icon=kali-img_stat
 StartupNotify=false
 Terminal=false

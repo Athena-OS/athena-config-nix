@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=john
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p john --command 'john; return'"
+Exec=shell-rocket -c "nix-shell -p john --command 'john; return'"
 Icon=kali-john
 StartupNotify=false
 Terminal=false

@@ -2,7 +2,7 @@
 Name=proxychains4
 Comment=Redirect connections through proxy servers
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p proxychains-ng --command 'proxychains4; return'"
+Exec=shell-rocket -c "nix-shell -p proxychains-ng --command 'proxychains4; return'"
 Icon=kali-proxychains
 StartupNotify=false
 Terminal=false

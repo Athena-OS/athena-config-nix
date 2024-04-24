@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=pdf-parser
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p pdf-parser --command 'pdf-parser -h; return'"
+Exec=shell-rocket -c "nix-shell -p pdf-parser --command 'pdf-parser -h; return'"
 Icon=kali-pdf-parser
 StartupNotify=false
 Terminal=false

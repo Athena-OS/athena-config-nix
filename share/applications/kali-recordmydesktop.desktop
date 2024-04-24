@@ -2,7 +2,7 @@
 Name=recordmydesktop
 Comment=Record desktop sessions to an Ogg-Theora-Vorbis file.
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p recordmydesktop --command 'recordmydesktop -h; return'"
+Exec=shell-rocket -c "nix-shell -p recordmydesktop --command 'recordmydesktop -h; return'"
 Icon=kali-recordmydesktop
 StartupNotify=false
 Terminal=false

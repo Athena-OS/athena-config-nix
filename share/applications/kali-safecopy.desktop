@@ -2,7 +2,7 @@
 Name=safecopy
 Comment=Rescue data from a source that causes IO errors
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p safecopy --command 'safecopy -h; return'"
+Exec=shell-rocket -c "nix-shell -p safecopy --command 'safecopy -h; return'"
 Icon=athenaos-blue-net
 StartupNotify=false
 Terminal=false

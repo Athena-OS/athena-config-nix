@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=jadx-gui
 Encoding=UTF-8
-Exec=shell-rocket "nohup nix-shell -p jadx --command 'jadx-gui; return'"
+Exec=shell-rocket -c "nohup nix-shell -p jadx --command 'jadx-gui; return'"
 Icon=kali-jadx
 StartupNotify=false
 Terminal=false

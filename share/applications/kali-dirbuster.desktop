@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=dirbuster
 Encoding=UTF-8
-Exec=shell-rocket "nohup nix-shell -p dirbuster --command 'dirbuster; return'"
+Exec=shell-rocket -c "nohup nix-shell -p dirbuster --command 'dirbuster; return'"
 Icon=kali-dirbuster
 StartupNotify=false
 Terminal=false

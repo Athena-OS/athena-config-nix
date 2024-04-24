@@ -2,7 +2,7 @@
 Name=scrounge-ntfs
 Comment=Helps retrieve data from corrupted NTFS partitions
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p scrounge-ntfs --command 'scrounge-ntfs -h; return'"
+Exec=shell-rocket -c "nix-shell -p scrounge-ntfs --command 'scrounge-ntfs -h; return'"
 Icon=kali-scrounge-ntfs
 StartupNotify=false
 Terminal=false

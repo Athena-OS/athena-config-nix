@@ -2,7 +2,7 @@
 Name=apktool
 Comment=Tool for reverse engineering Android apk files
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p android-apktool --command 'apktool; return'"
+Exec=shell-rocket -c "nix-shell -p android-apktool --command 'apktool; return'"
 Icon=kali-apktool
 StartupNotify=false
 Terminal=false

@@ -2,7 +2,7 @@
 Name=snmp-check
 Comment=Check hosts SNMP access
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p snmpcheck --command 'snmpcheck-nothink -h; return'"
+Exec=shell-rocket -c "nix-shell -p snmpcheck --command 'snmpcheck-nothink -h; return'"
 Icon=kali-snmp-check
 StartupNotify=false
 Terminal=false

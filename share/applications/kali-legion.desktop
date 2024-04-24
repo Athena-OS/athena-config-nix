@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=legion (root)
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p legion --command 'pkexec legion; return'"
+Exec=shell-rocket -c "nix-shell -p legion --command 'pkexec legion; return'"
 Icon=kali-legion
 StartupNotify=false
 Terminal=false

@@ -2,7 +2,7 @@
 Name=magicrescue
 Comment=Scans a block device and extracts known file types by looking at magic bytes.
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p magicrescue --command 'magicrescue; return'"
+Exec=shell-rocket -c "nix-shell -p magicrescue --command 'magicrescue; return'"
 Icon=kali-magicrescue
 StartupNotify=false
 Terminal=false

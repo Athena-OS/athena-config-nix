@@ -2,7 +2,7 @@
 Name=ssdeep
 Comment=Computes context triggered piecewise hashes (fuzzy hashes)
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p ssdeep --command 'ssdeep -h; return'"
+Exec=shell-rocket -c "nix-shell -p ssdeep --command 'ssdeep -h; return'"
 Icon=kali-ssdeep
 StartupNotify=false
 Terminal=false

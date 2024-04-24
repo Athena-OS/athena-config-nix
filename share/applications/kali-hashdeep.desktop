@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=hashdeep
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p hashdeep --command 'hashdeep -h; return'"
+Exec=shell-rocket -c "nix-shell -p hashdeep --command 'hashdeep -h; return'"
 Icon=kali-hashdeep
 StartupNotify=false
 Terminal=false

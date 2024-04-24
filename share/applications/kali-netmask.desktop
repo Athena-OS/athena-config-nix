@@ -2,7 +2,7 @@
 Name=netmask
 Comment=A netmask generation and conversion program
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p netmask --command 'netmask -h; return'"
+Exec=shell-rocket -c "nix-shell -p netmask --command 'netmask -h; return'"
 Icon=kali-netmask
 StartupNotify=false
 Terminal=false

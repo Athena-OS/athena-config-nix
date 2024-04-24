@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=mimikatz
 Encoding=UTF-8
-Exec=shell-rocket "if test -d /run/current-system/sw/share/mimikatz; then cd /run/current-system/sw/share/mimikatz;$SHELL; else sudo sed -i 's/#mimikatz/mimikatz/g' /etc/nixos/hosts/software/default.nix; sudo nixos-rebuild switch; cd /run/current-system/sw/share/mimikatz;$SHELL;fi;"
+Exec=shell-rocket -c "if test -d /run/current-system/sw/share/mimikatz; then cd /run/current-system/sw/share/mimikatz; else sudo sed -i 's/#mimikatz/mimikatz/g' /etc/nixos/hosts/software/default.nix; sudo nixos-rebuild switch; cd /run/current-system/sw/share/mimikatz;fi;"
 Icon=kali-mimikatz
 StartupNotify=false
 Terminal=false

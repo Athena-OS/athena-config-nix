@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=ewfacquire
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p libewf --command 'ewfacquire -h; return'"
+Exec=shell-rocket -c "nix-shell -p libewf --command 'ewfacquire -h; return'"
 Icon=athenaos-blue-net
 StartupNotify=false
 Terminal=false

@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=smbmap
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p smbmap --command 'smbmap -h; return'"
+Exec=shell-rocket -c "nix-shell -p smbmap --command 'smbmap -h; return'"
 Icon=kali-smbmap
 StartupNotify=false
 Terminal=false

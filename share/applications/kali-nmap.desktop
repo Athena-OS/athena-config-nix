@@ -2,7 +2,7 @@
 Name=nmap
 Comment=Network exploration tool and security / port scanner
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p nmap --command 'nmap -h; return'"
+Exec=shell-rocket -c "nix-shell -p nmap --command 'nmap -h; return'"
 Icon=kali-nmap
 StartupNotify=false
 Terminal=false

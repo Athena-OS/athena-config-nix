@@ -2,7 +2,7 @@
 Name=cutycapt
 Comment=Utility to capture WebKit's rendering of a web page
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p cutycapt --command 'cutycapt --help; return'"
+Exec=shell-rocket -c "nix-shell -p cutycapt --command 'cutycapt --help; return'"
 Icon=kali-cutycapt
 StartupNotify=false
 Terminal=false

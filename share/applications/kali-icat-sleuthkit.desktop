@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=icat-sleuthkit
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p sleuthkit --command 'icat; return'"
+Exec=shell-rocket -c "nix-shell -p sleuthkit --command 'icat; return'"
 Icon=kali-icat
 StartupNotify=false
 Terminal=false

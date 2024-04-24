@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=spike-fuzzer-generic-listen_tcp
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p spike-fuzzer --command 'spike-fuzzer-generic-listen_tcp; return'"
+Exec=shell-rocket -c "nix-shell -p spike-fuzzer --command 'spike-fuzzer-generic-listen_tcp; return'"
 Icon=kali-spike
 StartupNotify=false
 Terminal=false

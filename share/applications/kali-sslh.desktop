@@ -2,7 +2,7 @@
 Name=sslh
 Comment=Protocol demultiplexer
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p sslh --command 'sslh -h; return'"
+Exec=shell-rocket -c "nix-shell -p sslh --command 'sslh -h; return'"
 Icon=kali-sslh
 StartupNotify=false
 Terminal=false

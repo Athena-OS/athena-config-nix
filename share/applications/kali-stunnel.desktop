@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=stunnel
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p stunnel --command 'stunnel -help; return'"
+Exec=shell-rocket -c "nix-shell -p stunnel --command 'stunnel -help; return'"
 Icon=kali-stunnel4
 StartupNotify=false
 Terminal=false

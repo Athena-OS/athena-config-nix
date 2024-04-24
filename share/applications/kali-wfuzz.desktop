@@ -2,7 +2,7 @@
 Name=wfuzz
 Comment=A web application bruteforcer
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p wfuzz --command 'wfuzz; return'"
+Exec=shell-rocket -c "nix-shell -p wfuzz --command 'wfuzz; return'"
 Icon=kali-wfuzz
 StartupNotify=false
 Terminal=false

@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=bytecode-viewer
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p bytecode-viewer --command 'bytecode-viewer; return'"
+Exec=shell-rocket -c "nix-shell -p bytecode-viewer --command 'bytecode-viewer; return'"
 Icon=kali-bytecode-viewer
 StartupNotify=false
 Terminal=false

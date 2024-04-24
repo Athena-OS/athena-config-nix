@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=burpsuite
 Encoding=UTF-8
-Exec=shell-rocket "nohup nix-shell -p burpsuite --command 'burpsuite; return'"
+Exec=shell-rocket -c "nohup nix-shell -p burpsuite --command 'burpsuite; return'"
 Icon=kali-burpsuite
 StartupNotify=false
 Terminal=false

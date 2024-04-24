@@ -2,7 +2,7 @@
 Name=fcrackzip
 Comment=A Free/Fast Zip Password Cracker
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p fcrackzip --command 'fcrackzip --help; return'"
+Exec=shell-rocket -c "nix-shell -p fcrackzip --command 'fcrackzip --help; return'"
 Icon=athenaos-blue-net
 StartupNotify=false
 Terminal=false

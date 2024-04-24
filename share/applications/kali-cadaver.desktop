@@ -2,7 +2,7 @@
 Name=cadaver
 Comment=A command-line WebDAV client for Unix.
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p cadaver --command 'cadaver; return'"
+Exec=shell-rocket -c "nix-shell -p cadaver --command 'cadaver; return'"
 Icon=kali-cadaver
 StartupNotify=false
 Terminal=false

@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=mitmproxy
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p mitmproxy --command 'mitmproxy -h; return'"
+Exec=shell-rocket -c "nix-shell -p mitmproxy --command 'mitmproxy -h; return'"
 Icon=kali-mitmproxy
 StartupNotify=false
 Terminal=false

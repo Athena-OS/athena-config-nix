@@ -2,7 +2,7 @@
 Name=wpscan
 Comment=WordPress Security Scanner
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p wpscan --command 'wpscan --help; return'"
+Exec=shell-rocket -c "nix-shell -p wpscan --command 'wpscan --help; return'"
 Icon=kali-wpscan
 StartupNotify=false
 Terminal=false

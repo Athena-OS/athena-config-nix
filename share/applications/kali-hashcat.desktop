@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=hashcat
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p hashcat --command 'hashcat --help; return'"
+Exec=shell-rocket -c "nix-shell -p hashcat --command 'hashcat --help; return'"
 Icon=kali-hashcat
 StartupNotify=false
 Terminal=false

@@ -2,7 +2,7 @@
 Name=galleta
 Comment=Tool to extract information from MSIE cookie files
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p galleta --command 'galleta; return'"
+Exec=shell-rocket -c "nix-shell -p galleta --command 'galleta; return'"
 Icon=kali-galleta
 StartupNotify=false
 Terminal=false

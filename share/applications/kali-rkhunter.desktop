@@ -2,7 +2,7 @@
 Name=rkhunter
 Comment=RootKit Hunter
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p rkhunter --command 'rkhunter -h; return'"
+Exec=shell-rocket -c "nix-shell -p rkhunter --command 'rkhunter -h; return'"
 Icon=kali-rkhunter
 StartupNotify=false
 Terminal=false

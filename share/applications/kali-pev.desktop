@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=pev
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p pev --command 'readpe --help ; peres --help ; pedis --help ; pestr --help; return'"
+Exec=shell-rocket -c "nix-shell -p pev --command 'readpe --help ; peres --help ; pedis --help ; pestr --help; return'"
 Icon=athenaos-blue-net
 StartupNotify=false
 Terminal=false

@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=pth-smbclient
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p pth-toolkit --command 'pth-smbclient -h; return'"
+Exec=shell-rocket -c "nix-shell -p pth-toolkit --command 'pth-smbclient -h; return'"
 Icon=kali-pth
 StartupNotify=false
 Terminal=false

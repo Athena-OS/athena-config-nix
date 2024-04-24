@@ -2,7 +2,7 @@
 Name=autopsy (root)
 Comment=Autopsy Forensic Browser
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p autopsy --command 'sudo autopsy; return'"
+Exec=shell-rocket -c "nix-shell -p autopsy --command 'sudo autopsy; return'"
 Icon=kali-autopsy
 StartupNotify=false
 Terminal=false

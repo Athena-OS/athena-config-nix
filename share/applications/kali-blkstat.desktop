@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=blkstat
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p sleuthkit --command 'blkstat; return'"
+Exec=shell-rocket -c "nix-shell -p sleuthkit --command 'blkstat; return'"
 Icon=kali-blkstat
 StartupNotify=false
 Terminal=false

@@ -2,7 +2,7 @@
 Name=weevely
 Comment=Weaponized web shell
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p weevely --command 'weevely terminal -h; return'"
+Exec=shell-rocket -c "nix-shell -p weevely --command 'weevely terminal -h; return'"
 Icon=kali-weevely
 StartupNotify=false
 Terminal=false

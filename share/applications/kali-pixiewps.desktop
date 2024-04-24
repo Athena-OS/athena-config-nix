@@ -2,7 +2,7 @@
 Name=pixiewps
 Comment=Offline Wi-Fi Protected Setup bruteforce tool
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p pixiewps --command 'pixiewps -h; return'"
+Exec=shell-rocket -c "nix-shell -p pixiewps --command 'pixiewps -h; return'"
 Icon=kali-pixiewps
 StartupNotify=false
 Terminal=false

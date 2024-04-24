@@ -2,7 +2,7 @@
 Name=ptunnel
 Comment=Tunnel TCP connections over ICMP echo request/reply packets.
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p ptunnel --command 'ptunnel -h; return'"
+Exec=shell-rocket -c "nix-shell -p ptunnel --command 'ptunnel -h; return'"
 Icon=kali-ptunnel
 StartupNotify=false
 Terminal=false

@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=javasnoop
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p javasnoop --command 'javasnoop; return'"
+Exec=shell-rocket -c "nix-shell -p javasnoop --command 'javasnoop; return'"
 Icon=kali-javasnoop
 StartupNotify=false
 Terminal=false

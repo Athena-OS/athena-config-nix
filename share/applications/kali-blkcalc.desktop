@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=blkcalc
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p sleuthkit --command 'blkcalc; return'"
+Exec=shell-rocket -c "nix-shell -p sleuthkit --command 'blkcalc; return'"
 Icon=kali-blkcalc
 StartupNotify=false
 Terminal=false

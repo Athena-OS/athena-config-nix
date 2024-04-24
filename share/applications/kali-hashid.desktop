@@ -2,7 +2,7 @@
 Name=hashid
 Comment=Identify the different types of hashes used to encrypt data
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p hashid --command 'hashid -h; return'"
+Exec=shell-rocket -c "nix-shell -p hashid --command 'hashid -h; return'"
 Icon=kali-hashid
 StartupNotify=false
 Terminal=false

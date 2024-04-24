@@ -2,7 +2,7 @@
 Name=miredo
 Comment=Teredo IPv6 tunneling for Unix
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p miredo --command 'miredo -h; return'"
+Exec=shell-rocket -c "nix-shell -p miredo --command 'miredo -h; return'"
 Icon=kali-miredo
 StartupNotify=false
 Terminal=false

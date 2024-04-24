@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=osrframework
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p osrframework --command 'osr-osrframework-cli -h; return'"
+Exec=shell-rocket -c "nix-shell -p osrframework --command 'osr-osrframework-cli -h; return'"
 Icon=athenaos-blue-net
 StartupNotify=false
 Terminal=false

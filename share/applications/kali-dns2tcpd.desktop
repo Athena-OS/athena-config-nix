@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=dns2tcpd
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p dns2tcp --command 'dns2tcpd; return'"
+Exec=shell-rocket -c "nix-shell -p dns2tcp --command 'dns2tcpd; return'"
 Icon=kali-dns2tcp
 StartupNotify=false
 Terminal=false

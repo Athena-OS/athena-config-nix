@@ -2,7 +2,7 @@
 Name=ffuf
 Comment=Fast web fuzzer written in Go
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p ffuf --command 'ffuf -h; return'"
+Exec=shell-rocket -c "nix-shell -p ffuf --command 'ffuf -h; return'"
 Icon=kali-ffuf
 StartupNotify=false
 Terminal=false

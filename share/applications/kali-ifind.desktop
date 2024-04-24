@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=ifind
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p sleuthkit --command 'ifind; return'"
+Exec=shell-rocket -c "nix-shell -p sleuthkit --command 'ifind; return'"
 Icon=kali-ifind
 StartupNotify=false
 Terminal=false

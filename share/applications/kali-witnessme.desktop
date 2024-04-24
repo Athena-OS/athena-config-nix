@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=witnessme
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p python-witnessme --command 'witnessme -h; return'"
+Exec=shell-rocket -c "nix-shell -p python-witnessme --command 'witnessme -h; return'"
 Icon=athenaos-blue-net
 StartupNotify=false
 Terminal=false

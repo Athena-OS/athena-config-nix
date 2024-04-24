@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=kismet
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p kismet --command 'kismet -h; return'"
+Exec=shell-rocket -c "nix-shell -p kismet --command 'kismet -h; return'"
 Icon=kali-kismet
 StartupNotify=false
 Terminal=false

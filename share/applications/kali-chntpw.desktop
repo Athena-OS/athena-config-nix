@@ -2,7 +2,7 @@
 Name=chntpw
 Comment=Utility to overwrite passwords of Windows systems
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p chntpw --command 'chntpw -h; return'"
+Exec=shell-rocket -c "nix-shell -p chntpw --command 'chntpw -h; return'"
 Icon=kali-chntpw
 StartupNotify=false
 Terminal=false

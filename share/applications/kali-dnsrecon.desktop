@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=dnsrecon
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p dnsrecon --command 'dnsrecon -h; return'"
+Exec=shell-rocket -c "nix-shell -p dnsrecon --command 'dnsrecon -h; return'"
 Icon=kali-dnsrecon
 StartupNotify=false
 Terminal=false

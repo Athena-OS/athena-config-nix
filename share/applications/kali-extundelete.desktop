@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=extundelete
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p extundelete --command 'extundelete --help; return'"
+Exec=shell-rocket -c "nix-shell -p extundelete --command 'extundelete --help; return'"
 Icon=athenaos-blue-net
 StartupNotify=false
 Terminal=false

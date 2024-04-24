@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=ext3grep
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p ext3grep --command 'ext3grep -h; return'"
+Exec=shell-rocket -c "nix-shell -p ext3grep --command 'ext3grep -h; return'"
 Icon=athenaos-blue-net
 StartupNotify=false
 Terminal=false

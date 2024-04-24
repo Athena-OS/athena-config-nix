@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=social engineering toolkit (root)
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p social-engineer-toolkit --command 'sudo setoolkit; return'"
+Exec=shell-rocket -c "nix-shell -p social-engineer-toolkit --command 'sudo setoolkit; return'"
 Icon=kali-set
 StartupNotify=false
 Terminal=false

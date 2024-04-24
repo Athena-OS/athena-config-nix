@@ -3,6 +3,6 @@ Type=Application
 Encoding=UTF-8
 Name=PayloadsAllTheThings
 Icon=kali-commix
-Exec=shell-rocket "if test -d /run/current-system/sw/share/wordlists/payloadsallthethings; then cd /run/current-system/sw/share/wordlists/payloadsallthethings;$SHELL; else sudo sed -i 's/#payloadsallthethings/payloadsallthethings/g' /etc/nixos/hosts/software/default.nix; sudo nixos-rebuild switch; cd /run/current-system/sw/share/wordlists/payloadsallthethings;$SHELL;fi;"
+Exec=shell-rocket -c "if test -d /run/current-system/sw/share/wordlists/payloadsallthethings; then cd /run/current-system/sw/share/wordlists/payloadsallthethings; else sudo sed -i 's/#payloadsallthethings/payloadsallthethings/g' /etc/nixos/hosts/software/default.nix; sudo nixos-rebuild switch; cd /run/current-system/sw/share/wordlists/payloadsallthethings;fi;"
 Terminal=false
 Categories=Tags;describing;application;utility

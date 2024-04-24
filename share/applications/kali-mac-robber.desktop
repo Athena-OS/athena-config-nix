@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=mac-robber
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p mac-robber --command 'mac-robber; return'"
+Exec=shell-rocket -c "nix-shell -p mac-robber --command 'mac-robber; return'"
 Icon=athenaos-blue-net
 StartupNotify=false
 Terminal=false

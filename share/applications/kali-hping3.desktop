@@ -2,7 +2,7 @@
 Name=hping3
 Comment=Send (almost) arbitrary TCP/IP packets to network hosts
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p hping --command 'hping3 -h; return'"
+Exec=shell-rocket -c "nix-shell -p hping --command 'hping3 -h; return'"
 Icon=kali-hping3
 StartupNotify=false
 Terminal=false

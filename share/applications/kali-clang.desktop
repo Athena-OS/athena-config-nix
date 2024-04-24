@@ -2,7 +2,7 @@
 Name=clang
 Comment=The Clang C, C++, and Objective-C compiler
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p clang --command 'clang --help; return'"
+Exec=shell-rocket -c "nix-shell -p clang --command 'clang --help; return'"
 Icon=kali-clang
 StartupNotify=false
 Terminal=false

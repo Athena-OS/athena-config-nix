@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=pipal
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p pipal --command 'pipal -h; return'"
+Exec=shell-rocket -c "nix-shell -p pipal --command 'pipal -h; return'"
 Icon=kali-pipal
 StartupNotify=false
 Terminal=false

@@ -2,7 +2,7 @@
 Name=wafw00f
 Comment=Identify and fingerprint Web Application Firewall products
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p wafw00f --command 'wafw00f -h; return'"
+Exec=shell-rocket -c "nix-shell -p wafw00f --command 'wafw00f -h; return'"
 Icon=kali-wafw00f
 StartupNotify=false
 Terminal=false

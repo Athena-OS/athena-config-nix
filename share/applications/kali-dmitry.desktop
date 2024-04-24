@@ -2,7 +2,7 @@
 Name=dmitry
 Comment=Deepmagic Information Gathering Tool
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p dmitry --command 'dmitry; return'"
+Exec=shell-rocket -c "nix-shell -p dmitry --command 'dmitry; return'"
 Icon=kali-dmitry
 StartupNotify=false
 Terminal=false

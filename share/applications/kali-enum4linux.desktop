@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=enum4linux
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p enum4linux --command 'enum4linux; return'"
+Exec=shell-rocket -c "nix-shell -p enum4linux --command 'enum4linux; return'"
 Icon=kali-enum4linux
 StartupNotify=false
 Terminal=false

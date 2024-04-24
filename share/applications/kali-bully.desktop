@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=bully
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p bully --command 'bully; return'"
+Exec=shell-rocket -c "nix-shell -p bully --command 'bully; return'"
 Icon=kali-bully
 StartupNotify=false
 Terminal=false

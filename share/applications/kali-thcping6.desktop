@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=thcping6
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p thc-ipv6 --command 'thcping6; return'"
+Exec=shell-rocket -c "nix-shell -p thc-ipv6 --command 'thcping6; return'"
 Icon=kali-thcping6
 StartupNotify=false
 Terminal=false

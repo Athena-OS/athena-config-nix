@@ -2,7 +2,7 @@
 Name=crunch
 Comment=Generate wordlists from a character set
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p crunch --command 'crunch; return'"
+Exec=shell-rocket -c "nix-shell -p crunch --command 'crunch; return'"
 Icon=kali-crunch
 StartupNotify=false
 Terminal=false

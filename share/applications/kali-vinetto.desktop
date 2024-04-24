@@ -2,7 +2,7 @@
 Name=vinetto
 Comment=Extract thumbnails and associated metadata from Thumbs.db files
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p vinetto --command 'vinetto -h; return'"
+Exec=shell-rocket -c "nix-shell -p vinetto --command 'vinetto -h; return'"
 Icon=athenaos-blue-net
 StartupNotify=false
 Terminal=false

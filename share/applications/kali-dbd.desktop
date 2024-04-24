@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=dbd
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p dbd --command 'dbd -h; return'"
+Exec=shell-rocket -c "nix-shell -p dbd --command 'dbd -h; return'"
 Icon=kali-dbd
 StartupNotify=false
 Terminal=false

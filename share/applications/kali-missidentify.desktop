@@ -2,7 +2,7 @@
 Name=missidentify
 Comment=Find executable files without an executable extension
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p missidentify --command 'missidentify -h; return'"
+Exec=shell-rocket -c "nix-shell -p missidentify --command 'missidentify -h; return'"
 Icon=athenaos-blue-net
 StartupNotify=false
 Terminal=false

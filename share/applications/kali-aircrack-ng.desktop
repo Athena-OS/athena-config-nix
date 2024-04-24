@@ -2,7 +2,7 @@
 Name=aircrack-ng
 Comment=A 802.11 WEP / WPA-PSK key cracker
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p aircrack-ng --command 'aircrack-ng --help; return'"
+Exec=shell-rocket -c "nix-shell -p aircrack-ng --command 'aircrack-ng --help; return'"
 Icon=kali-aircrack-ng
 StartupNotify=false
 Terminal=false

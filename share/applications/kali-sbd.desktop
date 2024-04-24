@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=sbd
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p sbd --command 'sbd -h; return'"
+Exec=shell-rocket -c "nix-shell -p sbd --command 'sbd -h; return'"
 Icon=kali-sbd
 StartupNotify=false
 Terminal=false

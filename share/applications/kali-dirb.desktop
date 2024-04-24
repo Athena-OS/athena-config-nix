@@ -2,7 +2,7 @@
 Name=dirb
 Comment=Web Content Scanner
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p dirb --command 'dirb; return'"
+Exec=shell-rocket -c "nix-shell -p dirb --command 'dirb; return'"
 Icon=kali-dirb
 StartupNotify=false
 Terminal=false

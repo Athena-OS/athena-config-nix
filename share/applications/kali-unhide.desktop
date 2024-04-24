@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=unhide
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p unhide --command 'sudo unhide; return'"
+Exec=shell-rocket -c "nix-shell -p unhide --command 'sudo unhide; return'"
 Icon=athenaos-blue-net
 StartupNotify=false
 Terminal=false

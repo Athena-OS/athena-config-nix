@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=voiphopper
 Encoding=UTF-8
-Exec=shell-rocket "nix-shell -p voiphopper --command 'voiphopper; return'"
+Exec=shell-rocket -c "nix-shell -p voiphopper --command 'voiphopper; return'"
 Icon=kali-voiphopper
 StartupNotify=false
 Terminal=false
