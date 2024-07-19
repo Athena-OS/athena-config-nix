@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=scapy
+Comment=Interactive packet manipulation tool
+Encoding=UTF-8
+Exec=shell-rocket -c "nix-shell -p scapy --command 'scapy; return'"
+Icon=athena-scapy
+StartupNotify=false
+Terminal=false
+Type=Application
+Categories=09-sniffing-spoofing;
+X-Nix-Package=python3-scapy

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=bytecode-viewer
+Encoding=UTF-8
+Exec=shell-rocket -c "nix-shell -p bytecode-viewer --command 'bytecode-viewer; return'"
+Icon=athena-bytecode-viewer
+StartupNotify=false
+Terminal=false
+Type=Application
+Categories=07-reverseengineer;
+X-Nix-Package=bytecode-viewer
+StartupWMClass=the-bytecode-club-bytecodeviewer-BytecodeViewer

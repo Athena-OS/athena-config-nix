@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=jadx-gui
+Encoding=UTF-8
+Exec=shell-rocket -c "nohup nix-shell -p jadx --command 'jadx-gui; return'"
+Icon=athena-jadx
+StartupNotify=false
+Terminal=false
+Type=Application
+Categories=07-reverseengineer;
+X-Nix-Package=jadx
+StartupWMClass=jadx-gui-JadxGUI

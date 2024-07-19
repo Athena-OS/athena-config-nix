@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=ghidra
+Encoding=UTF-8
+Exec=shell-rocket -c "nix-shell -p ghidra --command 'ghidra; return'"
+Icon=athena-ghidra
+StartupNotify=false
+Terminal=false
+Type=Application
+Categories=07-reverseengineer;004-respond;
+X-Nix-Package=ghidra
+StartupWMClass=ghidra-Ghidra

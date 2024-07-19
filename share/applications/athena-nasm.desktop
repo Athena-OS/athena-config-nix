@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=NASM
+Encoding=UTF-8
+Exec=shell-rocket -c "nix-shell -p nasm --command 'nasm -h; return'"
+Icon=athena-metasploit-framework
+StartupNotify=false
+Terminal=false
+Type=Application
+Categories=07-reverseengineer;
+X-Nix-Package=metasploit

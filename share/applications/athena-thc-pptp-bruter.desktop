@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=thc-pptp-bruter
+Encoding=UTF-8
+Exec=shell-rocket -c "nix-shell -p thc-pptp-bruter --command 'thc-pptp-bruter; return'"
+Icon=athena-thc-pptp-bruter
+StartupNotify=false
+Terminal=false
+Type=Application
+Categories=05-01-online-attacks;
+X-Nix-Package=thc-pptp-bruter

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=sigfind
+Encoding=UTF-8
+Exec=shell-rocket -c "nix-shell -p sleuthkit --command 'sigfind; return'"
+Icon=athena-sigfind
+StartupNotify=false
+Terminal=false
+Type=Application
+Categories=11-08-forensic-suites;
+X-Nix-Package=sleuthkit

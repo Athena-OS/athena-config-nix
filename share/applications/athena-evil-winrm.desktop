@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=evil-winrm
+Encoding=UTF-8
+Exec=shell-rocket -c "nix-shell -p evil-winrm --command 'evil-winrm -h; return'"
+Icon=athena-evil-winrm
+StartupNotify=false
+Terminal=false
+Type=Application
+Categories=10-maintaining-access;05-04-pass-hash;
+X-Nix-Package=evil-winrm

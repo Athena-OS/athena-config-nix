@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=hash-identifier
+Encoding=UTF-8
+Exec=shell-rocket -c "nix-shell -p hash-identifier --command 'hash-identifier; return'"
+Icon=athena-hash-identifier
+StartupNotify=false
+Terminal=false
+Type=Application
+Categories=05-02-offline-attacks;
+X-Nix-Package=hash-identifier

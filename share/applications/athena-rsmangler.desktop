@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=rsmangler
+Encoding=UTF-8
+Exec=shell-rocket -c "nix-shell -p rsmangler --command 'rsmangler -h; return'"
+Icon=athena-rsmangler
+StartupNotify=false
+Terminal=false
+Type=Application
+Categories=05-05-profile;
+X-Nix-Package=rsmangler

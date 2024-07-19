@@ -2,7 +2,7 @@
 Type=Application
 Encoding=UTF-8
 Name=Security Wordlist
-Icon=kali-golismero
+Icon=athena-golismero
 Exec=shell-rocket -c "if test -d /run/current-system/sw/share/wordlists/securitywordlist; then cd /run/current-system/sw/share/wordlists/securitywordlist;$SHELL; else sudo sed -i 's/#securitywordlist/securitywordlist/g' /etc/nixos/hosts/software/default.nix; sudo nixos-rebuild switch; cd /run/current-system/sw/share/wordlists/securitywordlist;$SHELL;fi"
 Terminal=false
 Categories=Tags;describing;application;utility

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=dmitry
+Comment=Deepmagic Information Gathering Tool
+Encoding=UTF-8
+Exec=shell-rocket -c "nix-shell -p dmitry --command 'dmitry; return'"
+Icon=athena-dmitry
+StartupNotify=false
+Terminal=false
+Type=Application
+Categories=01-info-gathering;
+X-Nix-Package=dmitry

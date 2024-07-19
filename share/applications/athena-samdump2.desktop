@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=samdump2
+Encoding=UTF-8
+Exec=shell-rocket -c "nix-shell -p samdump2 --command 'samdump2 -h; return'"
+Icon=athena-samdump2
+StartupNotify=false
+Terminal=false
+Type=Application
+Categories=05-02-offline-attacks;
+X-Nix-Package=samdump2

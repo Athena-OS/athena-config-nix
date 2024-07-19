@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=metasploit framework
+Encoding=UTF-8
+Exec=shell-rocket -c "nix-shell -p metasploit --command 'msfconsole -h; return'"
+Icon=athena-metasploit-framework
+StartupNotify=false
+Terminal=false
+Type=Application
+Categories=08-exploitation-tools;
+X-Nix-Package=metasploit-framework

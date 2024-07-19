@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=proxychains4
+Comment=Redirect connections through proxy servers
+Encoding=UTF-8
+Exec=shell-rocket -c "nix-shell -p proxychains-ng --command 'proxychains4; return'"
+Icon=athena-proxychains
+StartupNotify=false
+Terminal=false
+Type=Application
+Categories=10-02-tunneling;10-maintaining-access;
+X-Nix-Package=proxychains-ng

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=tcpreplay
+Comment=Replay network traffic stored in pcap files
+Encoding=UTF-8
+Exec=shell-rocket -c "nix-shell -p tcpreplay --command 'tcpreplay -h; return'"
+Icon=athena-tcpreplay
+StartupNotify=false
+Terminal=false
+Type=Application
+Categories=09-02-network-spoofing;
+X-Nix-Package=tcpreplay

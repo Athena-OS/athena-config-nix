@@ -2,7 +2,7 @@
 Type=Application
 Encoding=UTF-8
 Name=Auto Wordlists
-Icon=kali-wordlists
+Icon=athena-wordlists
 Exec=shell-rocket -c "if test -d /run/current-system/sw/share/wordlists/autowordlists; then cd /run/current-system/sw/share/wordlists/autowordlists;$SHELL; else sudo sed -i 's/#autowordlists/autowordlists/g' /etc/nixos/hosts/software/default.nix; sudo nixos-rebuild switch; cd /run/current-system/sw/share/wordlists/autowordlists;$SHELL;fi"
 Terminal=false
 Categories=Tags;describing;application;utility

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=sslyze
+Encoding=UTF-8
+Exec=shell-rocket -c "nix-shell -p sslyze --command 'sslyze -h; return'"
+Icon=athena-sslyze
+StartupNotify=false
+Terminal=false
+Type=Application
+Categories=01-13-ssl-analysis;
+X-Nix-Package=sslyze

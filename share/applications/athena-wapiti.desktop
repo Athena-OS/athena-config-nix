@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=wapiti
+Comment=A web application vulnerability scanner in Python
+Encoding=UTF-8
+Exec=shell-rocket -c "nix-shell -p wapiti --command 'wapiti -h; return'"
+Icon=athena-wapiti
+StartupNotify=false
+Terminal=false
+Type=Application
+Categories=03-05-web-vulnerability-scanners;001-identify;
+X-Nix-Package=wapiti

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=dnsrecon
+Encoding=UTF-8
+Exec=shell-rocket -c "nix-shell -p dnsrecon --command 'dnsrecon -h; return'"
+Icon=athena-dnsrecon
+StartupNotify=false
+Terminal=false
+Type=Application
+Categories=01-01-dns-analysis;
+X-Nix-Package=dnsrecon

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=fern wifi cracker (root)
+Encoding=UTF-8
+Exec=shell-rocket -c "nohup nix-shell -p fern-wifi-cracker --command 'sudo fern-wifi-cracker; return'"
+Icon=athena-fern-wifi-cracker
+StartupNotify=false
+Terminal=false
+Type=Application
+Categories=06-01-wireless-tools;06-wireless-attacks;
+X-Nix-Package=fern-wifi-cracker

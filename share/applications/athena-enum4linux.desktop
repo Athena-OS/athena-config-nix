@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=enum4linux
+Encoding=UTF-8
+Exec=shell-rocket -c "nix-shell -p enum4linux --command 'enum4linux; return'"
+Icon=athena-enum4linux
+StartupNotify=false
+Terminal=false
+Type=Application
+Categories=01-10-smb-analysis;
+X-Nix-Package=enum4linux
