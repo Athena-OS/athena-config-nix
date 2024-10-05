@@ -3,6 +3,6 @@ Type=Application
 Encoding=UTF-8
 Name=PowerShell
 Icon=powershell
-Exec=shell-rocket 'pwsh'
+Exec=shell-rocket -c 'pwsh'
 Terminal=false
 Categories=Tags;describing;application;utility
