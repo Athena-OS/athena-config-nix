@@ -1,10 +1,10 @@
 [Desktop Entry]
 Name=unhide
-Encoding=UTF-8
-Exec=shell-rocket -c "nix-shell -p unhide --command 'sudo unhide; return'"
-Icon=athenaos-blue-net
+Comment=Forensic tool to find hidden processes
+Exec=cyber-shell -b unhide -r
+Icon=athena-menu
 StartupNotify=false
 Terminal=false
 Type=Application
-Categories=11-forensics;004-respond;
-X-Nix-Package=unhide
+Categories=athena-forensics;mitre-respond;red-11-forensics;blue-respond;
+X-Athena-Package=unhide

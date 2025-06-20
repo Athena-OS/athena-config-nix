@@ -1,10 +1,10 @@
 [Desktop Entry]
 Name=thcping6
 Encoding=UTF-8
-Exec=shell-rocket -c "nix-shell -p thc-ipv6 --command 'thcping6; return'"
+Exec=cyber-shell -b thcping6 -p thc-ipv6
 Icon=athena-thcping6
 StartupNotify=false
 Terminal=false
 Type=Application
-Categories=01-02-identify-live-hosts;
-X-Nix-Package=thc-ipv6
+Categories=red-identify-live-hosts;
+X-Athena-Package=thc-ipv6

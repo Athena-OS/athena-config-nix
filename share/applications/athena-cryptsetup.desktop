@@ -1,10 +1,10 @@
 [Desktop Entry]
 Name=cryptsetup
-Encoding=UTF-8
-Exec=shell-rocket -c "nix-shell -p cryptsetup --command 'cryptsetup --help; return'"
-Icon=athenaos-blue-net
+Comment=Manage plain dm-crypt, LUKS, and other encrypted volumes
+Exec=cyber-shell -b cryptsetup -x '--help'
+Icon=athena-cryptsetup
 StartupNotify=false
 Terminal=false
 Type=Application
-Categories=002-protect;
-X-Nix-Package=cryptsetup
+Categories=mitre-protect;blue-protect;
+X-Athena-Package=cryptsetup

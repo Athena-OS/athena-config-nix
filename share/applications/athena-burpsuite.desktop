@@ -1,11 +1,11 @@
 [Desktop Entry]
 Name=burpsuite
-Encoding=UTF-8
-Exec=shell-rocket -c "nohup nix-shell -p burpsuite --command 'burpsuite; return'"
+Comment=platform for security testing of web applications
+Exec=cyber-shell -b burpsuite -g
 Icon=athena-burpsuite
 StartupNotify=false
 Terminal=false
 Type=Application
-Categories=03-webapp-analysis;03-06-web-application-proxies;
-X-Nix-Package=burpsuite
+Categories=mitre-web-vulnerability-scanning;mitre-reconnaissance;red-03-webapp-analysis;red-web-application-proxies;
+X-Athena-Package=burpsuite
 StartupWMClass=burp-StartBurp

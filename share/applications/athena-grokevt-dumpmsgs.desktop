@@ -1,10 +1,10 @@
 [Desktop Entry]
 Name=grokevt-dumpmsgs
 Encoding=UTF-8
-Exec=shell-rocket -c "nix-shell -p grokevt --command 'grokevt-dumpmsgs -h; return'"
-Icon=athenaos-blue-net
+Exec=cyber-shell -b grokevt-dumpmsgs -p grokevt -x '-h'
+Icon=athena-menu
 StartupNotify=false
 Terminal=false
 Type=Application
-Categories=11-08-forensic-suites;003-detect;
-X-Nix-Package=grokevt
+Categories=red-forensic-suites;blue-detect;
+X-Athena-Package=grokevt

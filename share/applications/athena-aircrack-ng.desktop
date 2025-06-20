@@ -1,11 +1,10 @@
 [Desktop Entry]
 Name=aircrack-ng
 Comment=A 802.11 WEP / WPA-PSK key cracker
-Encoding=UTF-8
-Exec=shell-rocket -c "nix-shell -p aircrack-ng --command 'aircrack-ng --help; return'"
+Exec=cyber-shell -b aircrack-ng
 Icon=athena-aircrack-ng
 StartupNotify=false
 Terminal=false
 Type=Application
-Categories=06-wireless-attacks;
-X-Nix-Package=aircrack-ng
+Categories=mitre-wifi-credential-access;red-06-wireless-attacks;
+X-Athena-Package=aircrack-ng

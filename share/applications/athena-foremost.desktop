@@ -1,11 +1,10 @@
 [Desktop Entry]
 Name=foremost
 Comment=Recover files using their headers, footers, and data structures
-Encoding=UTF-8
-Exec=shell-rocket -c "nix-shell -p foremost --command 'foremost -h; return'"
+Exec=cyber-shell -b foremost -x '-h'
 Icon=athena-foremost
 StartupNotify=false
 Terminal=false
 Type=Application
-Categories=11-forensics;11-05-forensic-carving-tools;004-respond;
-X-Nix-Package=foremost
+Categories=athena-forensic-carving-tools;athena-forensics;mitre-respond;red-11-forensics;red-forensic-carving-tools;blue-respond;
+X-Athena-Package=foremost

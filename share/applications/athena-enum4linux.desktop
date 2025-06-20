@@ -1,10 +1,10 @@
 [Desktop Entry]
 Name=enum4linux
-Encoding=UTF-8
-Exec=shell-rocket -c "nix-shell -p enum4linux --command 'enum4linux; return'"
+Comment=Enumerates info from Windows and Samba systems
+Exec=cyber-shell -b enum4linux
 Icon=athena-enum4linux
 StartupNotify=false
 Terminal=false
 Type=Application
-Categories=01-10-smb-analysis;
-X-Nix-Package=enum4linux
+Categories=mitre-network-share-discovery;mitre-discovery;red-smb-analysis;
+X-Athena-Package=enum4linux

@@ -1,10 +1,10 @@
 [Desktop Entry]
 Name=stunnel
 Encoding=UTF-8
-Exec=shell-rocket -c "nix-shell -p stunnel --command 'stunnel -help; return'"
+Exec=cyber-shell -b stunnel -x '-help'
 Icon=athena-stunnel4
 StartupNotify=false
 Terminal=false
 Type=Application
-Categories=10-02-tunneling;
-X-Nix-Package=stunnel
+Categories=red-tunneling;
+X-Athena-Package=stunnel

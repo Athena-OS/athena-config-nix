@@ -2,7 +2,8 @@
 Type=Application
 Encoding=UTF-8
 Name=PowerShell
+Comment=PowerShell
 Icon=powershell
-Exec=shell-rocket -c 'pwsh'
+Exec=cyber-shell -b pwsh -p powershell
 Terminal=false
-Categories=Tags;describing;application;utility
+Categories=Tags;Describing;Application;Utility

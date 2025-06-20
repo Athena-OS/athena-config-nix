@@ -1,10 +1,10 @@
 [Desktop Entry]
 Name=grokevt-addlog
-Encoding=UTF-8
-Exec=shell-rocket -c "nix-shell -p grokevt --command 'grokevt-addlog -h; return'"
-Icon=athenaos-blue-net
+Comment=A tool for adding a raw event log to an existing GrokEVT database.
+Exec=cyber-shell -b grokevt-addlog -p grokevt -x '-h'
+Icon=athena-menu
 StartupNotify=false
 Terminal=false
 Type=Application
-Categories=11-08-forensic-suites;003-detect;
-X-Nix-Package=grokevt
+Categories=athena-sleuth-kit-suite;mitre-detect;red-forensic-suites;blue-detect;
+X-Athena-Package=grokevt

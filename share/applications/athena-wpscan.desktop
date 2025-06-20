@@ -1,11 +1,10 @@
 [Desktop Entry]
 Name=wpscan
 Comment=WordPress Security Scanner
-Encoding=UTF-8
-Exec=shell-rocket -c "nix-shell -p wpscan --command 'wpscan --help; return'"
+Exec=cyber-shell -b wpscan -x '--help'
 Icon=athena-wpscan
 StartupNotify=false
 Terminal=false
 Type=Application
-Categories=03-webapp-analysis;03-01-cms-identification;03-05-web-vulnerability-scanners;
-X-Nix-Package=wpscan
+Categories=mitre-web-vulnerability-scanning;red-03-webapp-analysis;red-cms-identification;red-web-vulnerability-scanners;
+X-Athena-Package=wpscan

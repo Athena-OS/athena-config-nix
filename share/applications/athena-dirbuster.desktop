@@ -1,11 +1,11 @@
 [Desktop Entry]
 Name=dirbuster
-Encoding=UTF-8
-Exec=shell-rocket -c "nohup nix-shell -p dirbuster --command 'dirbuster; return'"
+Comment=Web server directory brute-forcer
+Exec=cyber-shell -b dirbuster -g
 Icon=athena-dirbuster
 StartupNotify=false
 Terminal=false
 Type=Application
-Categories=03-04-web-crawlers;
-X-Nix-Package=dirbuster
+Categories=mitre-web-scanning;mitre-reconnaissance;red-web-crawlers;
+X-Athena-Package=dirbuster
 StartupWMClass=com-sittinglittleduck-DirBuster-Start

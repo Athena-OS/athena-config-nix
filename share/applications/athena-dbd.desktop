@@ -1,10 +1,10 @@
 [Desktop Entry]
 Name=dbd
-Encoding=UTF-8
-Exec=shell-rocket -c "nix-shell -p dbd --command 'dbd -h; return'"
+Comment=Netcat clone with encryption
+Exec=cyber-shell -b dbd -x '-h'
 Icon=athena-dbd
 StartupNotify=false
 Terminal=false
 Type=Application
-Categories=10-02-tunneling;10-01-os-backdoors;
-X-Nix-Package=dbd
+Categories=mitre-non-application-layer-protocol;red-tunneling;red-os-backdoors;
+X-Athena-Package=dbd

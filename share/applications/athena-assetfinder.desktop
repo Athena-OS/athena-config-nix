@@ -1,10 +1,10 @@
 [Desktop Entry]
 Name=assetfinder
-Encoding=UTF-8
-Exec=shell-rocket -c "nix-shell -p assetfinder --command 'assetfinder -h; return'"
-Icon=athenaos-blue-net
+Comment=Find domains and subdomains related to a given domain
+Exec=cyber-shell -b assetfinder -x '-h'
+Icon=athena-menu
 StartupNotify=false
 Terminal=false
 Type=Application
-Categories=001-identify;
-X-Nix-Package=assetfinder
+Categories=mitre-web-scanning;mitre-identify;blue-identify;
+X-Athena-Package=assetfinder

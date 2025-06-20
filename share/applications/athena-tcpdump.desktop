@@ -1,11 +1,10 @@
 [Desktop Entry]
 Name=tcpdump
 Comment=Dump traffic on a network
-Encoding=UTF-8
-Exec=shell-rocket -c "nix-shell -p tcpdump --command 'tcpdump -h; return'"
+Exec=cyber-shell -b tcpdump -x '-h'
 Icon=athena-tcpdump
 StartupNotify=false
 Terminal=false
 Type=Application
-Categories=09-sniffing-spoofing;
-X-Nix-Package=tcpdump
+Categories=mitre-network-sniffing;mitre-discovery;red-09-sniffing-spoofing;
+X-Athena-Package=tcpdump

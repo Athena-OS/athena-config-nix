@@ -1,11 +1,10 @@
 [Desktop Entry]
 Name=miredo
 Comment=Teredo IPv6 tunneling for Unix
-Encoding=UTF-8
-Exec=shell-rocket -c "nix-shell -p miredo --command 'miredo -h; return'"
+Exec=cyber-shell -b miredo -x '-h'
 Icon=athena-miredo
 StartupNotify=false
 Terminal=false
 Type=Application
-Categories=10-02-tunneling;
-X-Nix-Package=miredo
+Categories=mitre-protocol-tunneling;red-tunneling;
+X-Athena-Package=miredo

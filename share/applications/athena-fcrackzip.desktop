@@ -1,11 +1,10 @@
 [Desktop Entry]
 Name=fcrackzip
 Comment=A Free/Fast Zip Password Cracker
-Encoding=UTF-8
-Exec=shell-rocket -c "nix-shell -p fcrackzip --command 'fcrackzip --help; return'"
-Icon=athenaos-blue-net
+Exec=cyber-shell -b fcrackzip -x '--help'
+Icon=athena-menu
 StartupNotify=false
 Terminal=false
 Type=Application
-Categories=05-02-offline-attacks;
-X-Nix-Package=fcrackzip
+Categories=mitre-password-cracking;red-offline-attacks;
+X-Athena-Package=fcrackzip

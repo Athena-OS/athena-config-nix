@@ -1,10 +1,10 @@
 [Desktop Entry]
 Name=samdump2
-Encoding=UTF-8
-Exec=shell-rocket -c "nix-shell -p samdump2 --command 'samdump2 -h; return'"
+Comment=Retrieves syskey and extract hashes from Windows 2k/NT/XP/Vista SAM.
+Exec=cyber-shell -b samdump2 -x '-h'
 Icon=athena-samdump2
 StartupNotify=false
 Terminal=false
 Type=Application
-Categories=05-02-offline-attacks;
-X-Nix-Package=samdump2
+Categories=mitre-os-credential-dumping;red-offline-attacks;
+X-Athena-Package=samdump2

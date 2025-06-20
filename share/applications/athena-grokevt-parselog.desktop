@@ -1,10 +1,10 @@
 [Desktop Entry]
 Name=grokevt-parselog
-Encoding=UTF-8
-Exec=shell-rocket -c "nix-shell -p grokevt --command 'grokevt-parselog -h; return'"
-Icon=athenaos-blue-net
+Comment=Parse a windows event log and generate human-readable output based on message resources stored in a database.
+Exec=cyber-shell -b grokevt-parselog -p grokevt -x '-h'
+Icon=athena-menu
 StartupNotify=false
 Terminal=false
 Type=Application
-Categories=11-08-forensic-suites;003-detect;
-X-Nix-Package=grokevt
+Categories=athena-sleuth-kit-suite;mitre-detect;red-forensic-suites;blue-detect;
+X-Athena-Package=grokevt

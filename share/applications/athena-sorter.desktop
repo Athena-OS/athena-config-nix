@@ -1,10 +1,10 @@
 [Desktop Entry]
 Name=sorter
-Encoding=UTF-8
-Exec=shell-rocket -c "nix-shell -p sleuthkit --command 'sorter; return'"
+Comment=Sort files in an image into categories based on file type
+Exec=cyber-shell -b sorter -p sleuthkit
 Icon=athena-sorter
 StartupNotify=false
 Terminal=false
 Type=Application
-Categories=11-08-forensic-suites;
-X-Nix-Package=sleuthkit
+Categories=athena-sleuth-kit-suite;red-forensic-suites;
+X-Athena-Package=sleuthkit

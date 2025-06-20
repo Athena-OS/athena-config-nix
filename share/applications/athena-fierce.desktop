@@ -1,11 +1,10 @@
 [Desktop Entry]
 Name=fierce
 Comment=DNS scanner that helps locate non-contiguous IP space and hostnames against specified domains.
-Encoding=UTF-8
-Exec=shell-rocket -c "nix-shell -p fierce --command 'fierce -h; return'"
+Exec=cyber-shell -b fierce -x '-h'
 Icon=athena-fierce
 StartupNotify=false
 Terminal=false
 Type=Application
-Categories=01-01-dns-analysis;
-X-Nix-Package=fierce
+Categories=mitre-remote-system-discovery;mitre-discovery;red-dns-analysis;
+X-Athena-Package=fierce

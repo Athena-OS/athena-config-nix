@@ -1,10 +1,10 @@
 [Desktop Entry]
 Name=xfreerdp
 Encoding=UTF-8
-Exec=shell-rocket -c "nix-shell -p freerdp --command 'xfreerdp; return'"
+Exec=cyber-shell -b xfreerdp -p freerdp
 Icon=athena-pth
 StartupNotify=false
 Terminal=false
 Type=Application
-Categories=05-04-pass-hash;
-X-Nix-Package=freerdp
+Categories=red-pass-hash;
+X-Athena-Package=freerdp

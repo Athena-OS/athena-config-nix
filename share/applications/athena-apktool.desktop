@@ -1,11 +1,10 @@
 [Desktop Entry]
 Name=apktool
 Comment=Tool for reverse engineering Android apk files
-Encoding=UTF-8
-Exec=shell-rocket -c "nix-shell -p android-apktool --command 'apktool; return'"
+Exec=cyber-shell -b apktool -p android-apktool
 Icon=athena-apktool
 StartupNotify=false
 Terminal=false
 Type=Application
-Categories=07-reverseengineer;11-01-android-tools;
-X-Nix-Package=android-apktool
+Categories=mitre-resource-development;red-07-reverseengineer;red-android-tools;
+X-Athena-Package=android-apktool

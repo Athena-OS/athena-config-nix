@@ -1,11 +1,11 @@
 [Desktop Entry]
 Name=bytecode-viewer
-Encoding=UTF-8
-Exec=shell-rocket -c "nix-shell -p bytecode-viewer --command 'bytecode-viewer; return'"
+Comment=Java 8+ Jar & Android APK Reverse Engineering Suite
+Exec=cyber-shell -b bytecode-viewer -g
 Icon=athena-bytecode-viewer
 StartupNotify=false
 Terminal=false
 Type=Application
-Categories=07-reverseengineer;
-X-Nix-Package=bytecode-viewer
+Categories=mitre-resource-development;red-07-reverseengineer;
+X-Athena-Package=bytecode-viewer
 StartupWMClass=the-bytecode-club-bytecodeviewer-BytecodeViewer

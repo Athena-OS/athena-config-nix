@@ -1,11 +1,10 @@
 [Desktop Entry]
 Name=macchanger
 Comment=MAC Changer
-Encoding=UTF-8
-Exec=shell-rocket -c "nix-shell -p macchanger --command 'macchanger -h; return'"
+Exec=cyber-shell -b macchanger -x '-h'
 Icon=athena-macchanger
 StartupNotify=false
 Terminal=false
 Type=Application
-Categories=09-sniffing-spoofing;
-X-Nix-Package=macchanger
+Categories=mitre-defense-evasion;red-09-sniffing-spoofing;
+X-Athena-Package=macchanger

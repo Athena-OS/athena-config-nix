@@ -1,0 +1,10 @@
+[Desktop Entry]
+Exec=x-terminal-emulator -e kali-tweaks -title "Kali Tweaks"
+StartupNotify=false
+Terminal=false
+Type=Application
+X-Athena-Package=kali-tweaks
+Name=Kali Tweaks
+Comment=Tool to adjust advanced configuration settings for Kali Linux
+Icon=athena-tweaks
+Categories=Settings;X-XFCE-SettingsDialog;athena-services-and-other-tools

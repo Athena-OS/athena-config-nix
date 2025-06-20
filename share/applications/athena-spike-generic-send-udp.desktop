@@ -1,10 +1,10 @@
 [Desktop Entry]
 Name=spike-fuzzer-generic-send_udp
 Encoding=UTF-8
-Exec=shell-rocket -c "nix-shell -p spike-fuzzer --command 'spike-fuzzer-generic-send_udp; return'"
+Exec=cyber-shell -b spike-fuzzer-generic-send_udp -p spike-fuzzer
 Icon=athena-spike
 StartupNotify=false
 Terminal=false
 Type=Application
-Categories=02-02-fuzzers;
-X-Nix-Package=spike-fuzzer
+Categories=red-fuzzers;
+X-Athena-Package=spike-fuzzer

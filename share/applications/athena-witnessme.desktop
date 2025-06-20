@@ -1,10 +1,10 @@
 [Desktop Entry]
 Name=witnessme
-Encoding=UTF-8
-Exec=shell-rocket -c "nix-shell -p python-witnessme --command 'witnessme -h; return'"
-Icon=athenaos-blue-net
+Comment=Web Inventory tool
+Exec=cyber-shell -b witnessme -p python-witnessme -x '-h'
+Icon=athena-menu
 StartupNotify=false
 Terminal=false
 Type=Application
-Categories=001-identify;
-X-Nix-Package=python-witnessme
+Categories=athena-reporting-tools;mitre-identify;blue-identify;
+X-Athena-Package=python-witnessme

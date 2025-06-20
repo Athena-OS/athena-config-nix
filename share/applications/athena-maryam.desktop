@@ -1,10 +1,10 @@
 [Desktop Entry]
 Name=maryam
-Encoding=UTF-8
-Exec=shell-rocket -c "nix-shell -p maryam --command 'maryam -h; return'"
-Icon=athenaos-blue-net
+Comment=OWASP Maryam is a modular/optional open source framework bas
+Exec=cyber-shell -b maryam -x '-h'
+Icon=athena-menu
 StartupNotify=false
 Terminal=false
 Type=Application
-Categories=001-identify;
-X-Nix-Package=maryam
+Categories=mitre-identify;blue-identify;
+X-Athena-Package=maryam

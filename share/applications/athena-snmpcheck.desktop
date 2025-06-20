@@ -2,10 +2,10 @@
 Name=snmp-check
 Comment=Check hosts SNMP access
 Encoding=UTF-8
-Exec=shell-rocket -c "nix-shell -p snmpcheck --command 'snmpcheck-nothink -h; return'"
+Exec=cyber-shell -b snmpcheck-nothink -p snmpcheck -x '-h'
 Icon=athena-snmp-check
 StartupNotify=false
 Terminal=false
 Type=Application
-Categories=01-12-snmp-analysis;
-X-Nix-Package=snmpcheck
+Categories=red-snmp-analysis;
+X-Athena-Package=snmpcheck

@@ -1,10 +1,10 @@
 [Desktop Entry]
 Name=kismet
-Encoding=UTF-8
-Exec=shell-rocket -c "nix-shell -p kismet --command 'kismet -h; return'"
+Comment=Wireless sniffer and monitor
+Exec=cyber-shell -b kismet -x '-h'
 Icon=athena-kismet
 StartupNotify=false
 Terminal=false
 Type=Application
-Categories=06-wireless-attacks;
-X-Nix-Package=kismet
+Categories=mitre-wifi;red-06-wireless-attacks;
+X-Athena-Package=kismet

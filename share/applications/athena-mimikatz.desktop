@@ -1,10 +1,10 @@
 [Desktop Entry]
 Name=mimikatz
-Encoding=UTF-8
-Exec=shell-rocket -c "if test -d /run/current-system/sw/share/windows/mimikatz; then cd /run/current-system/sw/share/windows/mimikatz;$SHELL; else sudo sed -i 's/#mimikatz/mimikatz/g' /etc/nixos/hosts/software/default.nix; sudo nixos-rebuild switch; cd /run/current-system/sw/share/windows/mimikatz;$SHELL;fi"
+Comment=Uses admin rights on Windows to display passwords in plaintext
+Exec=cyber-shell -b mimikatz -d /usr/share/windows/mimikatz
 Icon=athena-mimikatz
 StartupNotify=false
 Terminal=false
 Type=Application
-Categories=10-maintaining-access;05-04-pass-hash;
-X-Nix-Package=mimikatz
+Categories=mitre-os-credential-dumping;mitre-pass-the-hash;red-10-maintaining-access;red-pass-hash;
+X-Athena-Package=mimikatz

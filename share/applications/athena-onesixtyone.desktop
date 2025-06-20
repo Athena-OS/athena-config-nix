@@ -1,11 +1,10 @@
 [Desktop Entry]
 Name=onesixtyone
 Comment=Fast and simple SNMP scanner
-Encoding=UTF-8
-Exec=shell-rocket -c "nix-shell -p onesixtyone --command 'onesixtyone; return'"
+Exec=cyber-shell -b onesixtyone
 Icon=athena-onesixtyone
 StartupNotify=false
 Terminal=false
 Type=Application
-Categories=01-12-snmp-analysis;05-01-online-attacks;
-X-Nix-Package=onesixtyone
+Categories=mitre-snmp;red-snmp-analysis;red-online-attacks;
+X-Athena-Package=onesixtyone

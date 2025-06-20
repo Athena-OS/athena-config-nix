@@ -1,10 +1,10 @@
 [Desktop Entry]
 Name=sslyze
-Encoding=UTF-8
-Exec=shell-rocket -c "nix-shell -p sslyze --command 'sslyze -h; return'"
+Comment=Fast and full-featured SSL scanner
+Exec=cyber-shell -b sslyze -x '-h'
 Icon=athena-sslyze
 StartupNotify=false
 Terminal=false
 Type=Application
-Categories=01-13-ssl-analysis;
-X-Nix-Package=sslyze
+Categories=mitre-network-service-discovery;red-ssl-analysis;
+X-Athena-Package=sslyze

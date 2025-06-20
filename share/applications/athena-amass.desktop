@@ -1,10 +1,10 @@
 [Desktop Entry]
 Name=amass
-Encoding=UTF-8
-Exec=shell-rocket -c "nix-shell -p amass --command 'amass -h; return'"
+Comment=In-depth DNS Enumeration and Network Mapping
+Exec=cyber-shell -b amass
 Icon=athena-amass
 StartupNotify=false
 Terminal=false
 Type=Application
-Categories=01-info-gathering;001-identify;
-X-Nix-Package=amass
+Categories=mitre-network-information;mitre-network-service-discovery;mitre-discovery;mitre-identify;red-01-info-gathering;blue-identify;
+X-Athena-Package=amass

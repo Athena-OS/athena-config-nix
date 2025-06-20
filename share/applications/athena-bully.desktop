@@ -1,10 +1,10 @@
 [Desktop Entry]
 Name=bully
-Encoding=UTF-8
-Exec=shell-rocket -c "nix-shell -p bully --command 'bully; return'"
+Comment=Implementation of the WPS brute force attack, written in C
+Exec=cyber-shell -b bully
 Icon=athena-bully
 StartupNotify=false
 Terminal=false
 Type=Application
-Categories=06-01-wireless-tools;
-X-Nix-Package=bully
+Categories=mitre-wifi-credential-access;red-wireless-tools;
+X-Athena-Package=bully

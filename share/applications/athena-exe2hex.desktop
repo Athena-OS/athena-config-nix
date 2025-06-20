@@ -1,10 +1,10 @@
 [Desktop Entry]
 Name=exe2hex
-Encoding=UTF-8
-Exec=shell-rocket -c "nix-shell -p exe2hexbat --command 'exe2hex; return'"
-Icon=athena-exe2hexbat
+Comment=Convert EXE to bat
+Exec=cyber-shell -b exe2hex
+Icon=athena-exe2hex
 StartupNotify=false
 Terminal=false
 Type=Application
-Categories=10-02-tunneling;10-maintaining-access;
-X-Nix-Package=exe2hexbat
+Categories=mitre-defense-evasion;red-tunneling;red-10-maintaining-access;
+X-Athena-Package=exe2hex

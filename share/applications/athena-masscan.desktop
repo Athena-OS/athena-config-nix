@@ -1,10 +1,10 @@
 [Desktop Entry]
 Name=masscan
-Encoding=UTF-8
-Exec=shell-rocket -c "nix-shell -p masscan --command 'masscan --help; return'"
+Comment=Fast scan of the Internet
+Exec=cyber-shell -b masscan -x '--help'
 Icon=athena-masscan
 StartupNotify=false
 Terminal=false
 Type=Application
-Categories=01-02-identify-live-hosts;01-04-network-scanners;
-X-Nix-Package=masscan
+Categories=mitre-network-service-discovery;mitre-discovery;red-identify-live-hosts;red-network-scanners;
+X-Athena-Package=masscan

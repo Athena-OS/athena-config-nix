@@ -1,10 +1,10 @@
 [Desktop Entry]
 Name=ext4magic
-Encoding=UTF-8
-Exec=shell-rocket -c "nix-shell -p ext4magic --command 'ext4magic -h; return'"
-Icon=athenaos-blue-net
+Comment=Recover deleted files on ext3/4 filesystems
+Exec=cyber-shell -b ext4magic -x '-h'
+Icon=athena-menu
 StartupNotify=false
 Terminal=false
 Type=Application
-Categories=11-05-forensic-carving-tools;005-recover;
-X-Nix-Package=ext4magic
+Categories=athena-forensic-carving-tools;mitre-recover;red-forensic-carving-tools;blue-recover;
+X-Athena-Package=ext4magic

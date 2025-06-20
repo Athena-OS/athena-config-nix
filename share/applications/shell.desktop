@@ -1,8 +1,9 @@
 [Desktop Entry]
 Type=Application
 Encoding=UTF-8
-Name=Shell
+Name=Fish Shell
+Comment=Fish Shell
 Icon=shell
-Exec=sh -c "$TERMINAL"
+Exec=alacritty
 Terminal=false
-Categories=Tags;describing;application;utility
+Categories=Tags;Describing;Application;Utility

@@ -1,10 +1,10 @@
 [Desktop Entry]
 Name=pth-sqsh
 Encoding=UTF-8
-Exec=shell-rocket -c "nix-shell -p pth-toolkit --command 'pth-sqsh --help; return'"
+Exec=cyber-shell -b pth-sqsh -p pth-toolkit -x '--help'
 Icon=athena-pth
 StartupNotify=false
 Terminal=false
 Type=Application
-Categories=05-04-pass-hash;
-X-Nix-Package=pth-toolkit
+Categories=red-pass-hash;
+X-Athena-Package=pth-toolkit

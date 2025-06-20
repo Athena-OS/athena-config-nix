@@ -1,11 +1,10 @@
 [Desktop Entry]
-Name=autopsy (root)
+Name=autopsy
 Comment=Autopsy Forensic Browser
-Encoding=UTF-8
-Exec=shell-rocket -c "nix-shell -p autopsy --command 'sudo autopsy; return'"
+Exec=cyber-shell -b autopsy '--nosplash' -g
 Icon=athena-autopsy
 StartupNotify=false
 Terminal=false
 Type=Application
-Categories=11-forensics;11-08-forensic-suites;
-X-Nix-Package=autopsy
+Categories=athena-sleuth-kit-suite;athena-forensics;red-11-forensics;red-forensic-suites;
+X-Athena-Package=autopsy

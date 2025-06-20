@@ -1,10 +1,10 @@
 [Desktop Entry]
 Name=myrescue
-Encoding=UTF-8
-Exec=shell-rocket -c "nix-shell -p myrescue --command 'myrescue -h; return'"
-Icon=athenaos-blue-net
+Comment=Harddisc Rescue
+Exec=cyber-shell -b myrescue -x '-h'
+Icon=athena-menu
 StartupNotify=false
 Terminal=false
 Type=Application
-Categories=11-05-forensic-carving-tools;005-recover;
-X-Nix-Package=myrescue
+Categories=athena-forensic-carving-tools;mitre-recover;red-forensic-carving-tools;blue-recover;
+X-Athena-Package=myrescue

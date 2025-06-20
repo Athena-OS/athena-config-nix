@@ -1,10 +1,10 @@
 [Desktop Entry]
 Name=hashdeep
-Encoding=UTF-8
-Exec=shell-rocket -c "nix-shell -p hashdeep --command 'hashdeep -h; return'"
+Comment=Compute, compare, or audit multiple message digests
+Exec=cyber-shell -b hashdeep -x '-h'
 Icon=athena-hashdeep
 StartupNotify=false
 Terminal=false
 Type=Application
-Categories=11-forensics;
-X-Nix-Package=hashdeep
+Categories=athena-forensics;red-11-forensics;
+X-Athena-Package=hashdeep

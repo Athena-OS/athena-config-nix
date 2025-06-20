@@ -1,11 +1,10 @@
 [Desktop Entry]
 Name=netdiscover
 Comment=Active/passive ARP reconnaissance tool
-Encoding=UTF-8
-Exec=shell-rocket -c "nix-shell -p netdiscover --command 'netdiscover -h; return'"
+Exec=cyber-shell -b netdiscover -x '-h'
 Icon=athena-netdiscover
 StartupNotify=false
 Terminal=false
 Type=Application
-Categories=01-info-gathering;01-08-route-analysis;
-X-Nix-Package=netdiscover
+Categories=mitre-system-network-configuration-discovery;mitre-discovery;red-01-info-gathering;red-route-analysis;
+X-Athena-Package=netdiscover

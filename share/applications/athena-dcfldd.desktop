@@ -1,11 +1,10 @@
 [Desktop Entry]
 Name=dcfldd
 Comment=Enhanced version of dd for forensics and security
-Encoding=UTF-8
-Exec=shell-rocket -c "nix-shell -p dcfldd --command 'dcfldd --help; return'"
-Icon=athenaos-blue-net
+Exec=cyber-shell -b dcfldd -x '--help'
+Icon=athena-menu
 StartupNotify=false
 Terminal=false
 Type=Application
-Categories=11-03-digital-forensics;11-07-forensic-imaging-tools;
-X-Nix-Package=dcfldd
+Categories=athena-digital-forensics;athena-forensic-imaging-tools;red-digital-forensics;red-forensic-imaging-tools;
+X-Athena-Package=dcfldd

@@ -1,10 +1,10 @@
 [Desktop Entry]
 Name=pdfid
-Encoding=UTF-8
-Exec=shell-rocket -c "nix-shell -p pdfid --command 'pdfid -h; return'"
+Comment=Scans PDF files for certain PDF keywords
+Exec=cyber-shell -b pdfid -x '-h'
 Icon=athena-pdfid
 StartupNotify=false
 Terminal=false
 Type=Application
-Categories=11-11-pdf-forensics-tools;
-X-Nix-Package=pdfid
+Categories=athena-pdf-forensics-tools;red-pdf-forensics-tools;
+X-Athena-Package=pdfid

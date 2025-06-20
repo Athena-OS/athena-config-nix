@@ -1,10 +1,10 @@
 [Desktop Entry]
 Name=bulk_extractor
 Encoding=UTF-8
-Exec=shell-rocket -c "nix-shell -p bulk_extractor --command 'bulk_extractor -h; return'"
+Exec=cyber-shell -b bulk_extractor -p bulk-extractor
 Icon=athena-bulk-extractor
 StartupNotify=false
 Terminal=false
 Type=Application
-Categories=11-forensics;
-X-Nix-Package=bulk_extractor
+Categories=red-11-forensics;
+X-Athena-Package=bulk-extractor

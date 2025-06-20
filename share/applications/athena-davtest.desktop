@@ -1,10 +1,10 @@
 [Desktop Entry]
 Name=davtest
-Encoding=UTF-8
-Exec=shell-rocket -c "nix-shell -p davtest --command 'davtest; return'"
+Comment=Testing tool for WebDAV servers
+Exec=cyber-shell -b davtest
 Icon=athena-davtest
 StartupNotify=false
 Terminal=false
 Type=Application
-Categories=03-05-web-vulnerability-scanners;
-X-Nix-Package=davtest
+Categories=mitre-web-vulnerability-scanning;red-web-vulnerability-scanners;
+X-Athena-Package=davtest

@@ -1,11 +1,10 @@
 [Desktop Entry]
 Name=wifite
 Comment=Python script to automate wireless auditing using aircrack-ng tools
-Encoding=UTF-8
-Exec=shell-rocket -c "nix-shell -p wifite2 --command 'wifite -h; return'"
+Exec=cyber-shell -b wifite -x '--help'
 Icon=athena-wifite
 StartupNotify=false
 Terminal=false
 Type=Application
-Categories=06-wireless-attacks;
-X-Nix-Package=wifite2
+Categories=mitre-wifi-credential-access;red-06-wireless-attacks;
+X-Athena-Package=wifite

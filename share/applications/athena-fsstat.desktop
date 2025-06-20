@@ -1,10 +1,10 @@
 [Desktop Entry]
 Name=fsstat
-Encoding=UTF-8
-Exec=shell-rocket -c "nix-shell -p sleuthkit --command 'fsstat; return'"
+Comment=Display general details of a file system
+Exec=cyber-shell -b fsstat -p sleuthkit
 Icon=athena-fsstat
 StartupNotify=false
 Terminal=false
 Type=Application
-Categories=11-08-forensic-suites;
-X-Nix-Package=sleuthkit
+Categories=athena-sleuth-kit-suite;red-forensic-suites;
+X-Athena-Package=sleuthkit

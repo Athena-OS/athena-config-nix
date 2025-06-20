@@ -1,10 +1,10 @@
 [Desktop Entry]
 Name=rebind
 Encoding=UTF-8
-Exec=shell-rocket -c "nix-shell -p rebind --command 'rebind_dns; return'"
+Exec=cyber-shell -b rebind_dns -p rebind
 Icon=athena-rebind
 StartupNotify=false
 Terminal=false
 Type=Application
-Categories=09-02-network-spoofing;
-X-Nix-Package=rebind
+Categories=red-network-spoofing;
+X-Athena-Package=rebind

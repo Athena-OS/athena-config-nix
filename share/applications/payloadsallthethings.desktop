@@ -2,7 +2,8 @@
 Type=Application
 Encoding=UTF-8
 Name=PayloadsAllTheThings
+Comment=PayloadsAllTheThings
 Icon=athena-commix
-Exec=shell-rocket -c "if test -d /run/current-system/sw/share/wordlists/payloadsallthethings; then cd /run/current-system/sw/share/wordlists/payloadsallthethings;$SHELL; else sudo sed -i 's/#payloadsallthethings/payloadsallthethings/g' /etc/nixos/hosts/software/default.nix; sudo nixos-rebuild switch; cd /run/current-system/sw/share/wordlists/payloadsallthethings;$SHELL;fi"
+Exec=cyber-shell -b payloadsallthethings -d /usr/share/payloads/payloadsallthethings,/usr/share/payloadsallthethings
 Terminal=false
-Categories=Tags;describing;application;utility
+Categories=Tags;Describing;Application;Utility

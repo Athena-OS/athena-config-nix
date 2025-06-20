@@ -1,11 +1,10 @@
 [Desktop Entry]
 Name=pasco
 Comment=Tool to extract information from MS IE cache files
-Encoding=UTF-8
-Exec=shell-rocket -c "nix-shell -p pasco --command 'pasco; return'"
-Icon=athenaos-blue-net
+Exec=cyber-shell -b pasco
+Icon=athena-menu
 StartupNotify=false
 Terminal=false
 Type=Application
-Categories=11-05-forensic-carving-tools;
-X-Nix-Package=pasco
+Categories=athena-forensic-carving-tools;red-forensic-carving-tools;
+X-Athena-Package=pasco

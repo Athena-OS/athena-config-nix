@@ -1,10 +1,10 @@
 [Desktop Entry]
 Name=ext3grep
-Encoding=UTF-8
-Exec=shell-rocket -c "nix-shell -p ext3grep --command 'ext3grep -h; return'"
-Icon=athenaos-blue-net
+Comment=Ext3 file recovery tool
+Exec=cyber-shell -b ext3grep -x '-h'
+Icon=athena-menu
 StartupNotify=false
 Terminal=false
 Type=Application
-Categories=11-05-forensic-carving-tools;005-recover;
-X-Nix-Package=ext3grep
+Categories=athena-forensic-carving-tools;mitre-recover;red-forensic-carving-tools;blue-recover;
+X-Athena-Package=ext3grep

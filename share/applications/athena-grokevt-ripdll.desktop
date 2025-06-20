@@ -1,10 +1,10 @@
 [Desktop Entry]
 Name=grokevt-ripdll
-Encoding=UTF-8
-Exec=shell-rocket -c "nix-shell -p grokevt --command 'grokevt-ripdll -h; return'"
-Icon=athenaos-blue-net
+Comment=A tool for extracting message resources from a PE-formatted file.
+Exec=cyber-shell -b grokevt-ripdll -p grokevt -x '-h'
+Icon=athena-menu
 StartupNotify=false
 Terminal=false
 Type=Application
-Categories=11-08-forensic-suites;003-detect;
-X-Nix-Package=grokevt
+Categories=athena-sleuth-kit-suite;mitre-detect;red-forensic-suites;blue-detect;
+X-Athena-Package=grokevt

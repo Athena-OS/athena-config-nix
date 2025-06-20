@@ -1,11 +1,10 @@
 [Desktop Entry]
 Name=cadaver
 Comment=A command-line WebDAV client for Unix.
-Encoding=UTF-8
-Exec=shell-rocket -c "nix-shell -p cadaver --command 'cadaver; return'"
+Exec=cyber-shell -b cadaver -x '-h'
 Icon=athena-cadaver
 StartupNotify=false
 Terminal=false
 Type=Application
-Categories=03-05-web-vulnerability-scanners;
-X-Nix-Package=cadaver
+Categories=mitre-application-layer-protocol;red-web-vulnerability-scanners;
+X-Athena-Package=cadaver

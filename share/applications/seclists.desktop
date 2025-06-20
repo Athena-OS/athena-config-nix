@@ -2,7 +2,8 @@
 Type=Application
 Encoding=UTF-8
 Name=SecLists
+Comment=SecLists
 Icon=athena-bettercap
-Exec=shell-rocket -c "if test -d /run/current-system/sw/share/wordlists/seclists; then cd /run/current-system/sw/share/wordlists/seclists;$SHELL; else sudo sed -i 's/#seclists/seclists/g' /etc/nixos/hosts/software/default.nix; sudo nixos-rebuild switch; cd /run/current-system/sw/share/wordlists/seclists;$SHELL;fi"
+Exec=cyber-shell -b seclists -d /usr/share/payloads/seclists,/usr/share/seclists
 Terminal=false
-Categories=Tags;describing;application;utility
+Categories=Tags;Describing;Application;Utility

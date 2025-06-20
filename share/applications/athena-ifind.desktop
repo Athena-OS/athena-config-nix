@@ -1,10 +1,10 @@
 [Desktop Entry]
 Name=ifind
-Encoding=UTF-8
-Exec=shell-rocket -c "nix-shell -p sleuthkit --command 'ifind; return'"
+Comment=Find the meta-data structure that has allocated a given disk unit or file name.
+Exec=cyber-shell -b ifind -p sleuthkit
 Icon=athena-ifind
 StartupNotify=false
 Terminal=false
 Type=Application
-Categories=11-08-forensic-suites;
-X-Nix-Package=sleuthkit
+Categories=athena-sleuth-kit-suite;red-forensic-suites;
+X-Athena-Package=sleuthkit

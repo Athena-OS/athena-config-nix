@@ -1,10 +1,10 @@
 [Desktop Entry]
 Name=lbd
-Encoding=UTF-8
-Exec=shell-rocket -c "nix-shell -p lbd --command 'lbd; return'"
+Comment=Load balancer detector
+Exec=cyber-shell -b lbd
 Icon=athena-lbd
 StartupNotify=false
 Terminal=false
 Type=Application
-Categories=01-03-ids-ips-identification;
-X-Nix-Package=lbd
+Categories=mitre-web-scanning;red-ids-ips-identification;
+X-Athena-Package=lbd
