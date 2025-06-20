@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=rcrack
 Comment=Rainbow table password cracker
-Exec=cyber-shell -b rcrack -p rainbowcrack
+Exec=shell-rocket -b rcrack -p rainbowcrack
 Icon=athena-rcrack
 StartupNotify=false
 Terminal=false

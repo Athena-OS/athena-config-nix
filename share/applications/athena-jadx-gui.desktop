@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=jadx-gui
 Comment=Dex to Java decompiler
-Exec=cyber-shell -b jadx-gui -p jadx -g
+Exec=shell-rocket -b jadx-gui -p jadx -g
 Icon=athena-jadx-gui
 StartupNotify=false
 Terminal=false

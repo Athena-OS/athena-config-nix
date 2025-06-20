@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=wcvs
 Comment=Go-based CLI tool for testing for web cache poisoning
-Exec=cyber-shell -b wcvs -x '-h'
+Exec=shell-rocket -b wcvs -x '-h'
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

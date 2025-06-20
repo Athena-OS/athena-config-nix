@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=safecopy
 Comment=Rescue data from a source that causes IO errors
-Exec=cyber-shell -b safecopy -x '-h'
+Exec=shell-rocket -b safecopy -x '-h'
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

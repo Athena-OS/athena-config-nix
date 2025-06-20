@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=sqlninja
 Comment=SQL server injection and takeover tool
-Exec=cyber-shell -b sqlninja
+Exec=shell-rocket -b sqlninja
 Icon=athena-sqlninja
 StartupNotify=false
 Terminal=false

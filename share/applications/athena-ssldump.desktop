@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=ssldump
 Comment=Dump SSL traffic on a network
-Exec=cyber-shell -b ssldump -x '-h'
+Exec=shell-rocket -b ssldump -x '-h'
 Icon=athena-ssldump
 StartupNotify=false
 Terminal=false

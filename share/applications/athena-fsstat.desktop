@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=fsstat
 Comment=Display general details of a file system
-Exec=cyber-shell -b fsstat -p sleuthkit
+Exec=shell-rocket -b fsstat -p sleuthkit
 Icon=athena-fsstat
 StartupNotify=false
 Terminal=false

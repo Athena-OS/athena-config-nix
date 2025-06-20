@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=dirsearch
 Comment=An advanced command-line tool designed to brute force directories and files in webservers
-Exec=cyber-shell -b dirsearch -x '-h'
+Exec=shell-rocket -b dirsearch -x '-h'
 Icon=athena-dirsearch
 StartupNotify=false
 Terminal=false

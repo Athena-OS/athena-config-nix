@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=cymothoa
 Comment=Stealth backdooring tool
-Exec=cyber-shell -b cymothoa-udp_server -p cymothoa
+Exec=shell-rocket -b cymothoa-udp_server -p cymothoa
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

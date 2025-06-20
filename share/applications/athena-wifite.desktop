@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=wifite
 Comment=Python script to automate wireless auditing using aircrack-ng tools
-Exec=cyber-shell -b wifite -x '--help'
+Exec=shell-rocket -b wifite -x '--help'
 Icon=athena-wifite
 StartupNotify=false
 Terminal=false

@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=dnsrecon
 Comment=DNS Enumeration and Scanning Tool
-Exec=cyber-shell -b dnsrecon -x '-h'
+Exec=shell-rocket -b dnsrecon -x '-h'
 Icon=athena-dnsrecon
 StartupNotify=false
 Terminal=false

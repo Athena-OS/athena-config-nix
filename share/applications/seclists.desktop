@@ -4,6 +4,6 @@ Encoding=UTF-8
 Name=SecLists
 Comment=SecLists
 Icon=athena-bettercap
-Exec=cyber-shell -b seclists -d /usr/share/payloads/seclists,/usr/share/seclists
+Exec=shell-rocket -b seclists -d /usr/share/payloads/seclists,/usr/share/seclists
 Terminal=false
 Categories=Tags;Describing;Application;Utility

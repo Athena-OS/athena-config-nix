@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=maryam
 Comment=OWASP Maryam is a modular/optional open source framework bas
-Exec=cyber-shell -b maryam -x '-h'
+Exec=shell-rocket -b maryam -x '-h'
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

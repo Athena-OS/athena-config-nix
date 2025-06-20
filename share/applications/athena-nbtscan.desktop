@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=nbtscan
 Comment=Scan networks for NetBIOS name information
-Exec=cyber-shell -b nbtscan -x '-h'
+Exec=shell-rocket -b nbtscan -x '-h'
 Icon=athena-nbtscan
 StartupNotify=false
 Terminal=false

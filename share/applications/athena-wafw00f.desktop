@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=wafw00f
 Comment=Identify and fingerprint Web Application Firewall products
-Exec=cyber-shell -b wafw00f -x '-h'
+Exec=shell-rocket -b wafw00f -x '-h'
 Icon=athena-wafw00f
 StartupNotify=false
 Terminal=false

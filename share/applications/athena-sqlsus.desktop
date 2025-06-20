@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=sqlsus
 Comment=MySQL injection tool
-Exec=cyber-shell -b sqlsus
+Exec=shell-rocket -b sqlsus
 Icon=athena-sqlsus
 StartupNotify=false
 Terminal=false

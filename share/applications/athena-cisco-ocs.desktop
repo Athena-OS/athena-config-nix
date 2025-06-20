@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=cisco-ocs
 Comment=Mass Cisco scanner
-Exec=cyber-shell -b cisco-ocs
+Exec=shell-rocket -b cisco-ocs
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

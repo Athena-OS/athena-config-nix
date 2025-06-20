@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=setoolkit
 Comment=Social-Engineer Toolkit
-Exec=cyber-shell -b setoolkit -p set -r
+Exec=shell-rocket -b setoolkit -p set -r
 Icon=athena-setoolkit
 StartupNotify=false
 Terminal=false

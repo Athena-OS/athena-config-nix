@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=sipsak
 Comment=A utility for various tests on sip servers and user agents
-Exec=cyber-shell -b sipsak
+Exec=shell-rocket -b sipsak
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

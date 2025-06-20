@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=email2phonenumber
 Comment=OSINT tool to obtain a target's phone number by having their email address
-Exec=cyber-shell -b email2phonenumber -x '--help'
+Exec=shell-rocket -b email2phonenumber -x '--help'
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

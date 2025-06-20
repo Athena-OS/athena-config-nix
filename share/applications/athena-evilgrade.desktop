@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=evilgrade
 Comment=Evilgrade framework
-Exec=cyber-shell -b evilgrade
+Exec=shell-rocket -b evilgrade
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

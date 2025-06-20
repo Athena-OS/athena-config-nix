@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=dirbuster
 Comment=Web server directory brute-forcer
-Exec=cyber-shell -b dirbuster -g
+Exec=shell-rocket -b dirbuster -g
 Icon=athena-dirbuster
 StartupNotify=false
 Terminal=false

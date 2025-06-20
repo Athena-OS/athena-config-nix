@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=httrack
 Comment=Offline browser : copy websites to a local directory
-Exec=cyber-shell -b httrack -x '-h'
+Exec=shell-rocket -b httrack -x '-h'
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

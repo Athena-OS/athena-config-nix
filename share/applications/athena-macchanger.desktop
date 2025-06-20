@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=macchanger
 Comment=MAC Changer
-Exec=cyber-shell -b macchanger -x '-h'
+Exec=shell-rocket -b macchanger -x '-h'
 Icon=athena-macchanger
 StartupNotify=false
 Terminal=false

@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=finalrecon
 Comment=fast and simple Python script for web reconnaissance
-Exec=cyber-shell -b finalrecon -x '-h'
+Exec=shell-rocket -b finalrecon -x '-h'
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

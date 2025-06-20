@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=maltego
 Comment=Open source intelligence and forensics application
-Exec=cyber-shell -b maltego -g
+Exec=shell-rocket -b maltego -g
 Icon=athena-maltego
 StartupNotify=false
 Terminal=false

@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=cowpatty
 Comment=Brute-force dictionary attack against WPA-PSK
-Exec=cyber-shell -b cowpatty
+Exec=shell-rocket -b cowpatty
 Icon=athena-cowpatty
 StartupNotify=false
 Terminal=false

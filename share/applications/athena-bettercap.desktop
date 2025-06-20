@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=bettercap
 Comment=Complete, modular, portable and easily extensible MITM framework
-Exec=cyber-shell -b bettercap -x '-h'
+Exec=shell-rocket -b bettercap -x '-h'
 Icon=athena-bettercap
 StartupNotify=false
 Terminal=false

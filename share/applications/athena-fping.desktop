@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=fping
 Comment=Send ICMP ECHO_REQUEST packets to network hosts
-Exec=cyber-shell -b fping -x '-h'
+Exec=shell-rocket -b fping -x '-h'
 Icon=athena-fping
 StartupNotify=false
 Terminal=false

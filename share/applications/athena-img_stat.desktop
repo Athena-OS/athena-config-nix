@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=img_stat
 Comment=Display details of an image file
-Exec=cyber-shell -b img_stat -p sleuthkit
+Exec=shell-rocket -b img_stat -p sleuthkit
 Icon=athena-img_stat
 StartupNotify=false
 Terminal=false

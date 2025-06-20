@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=dbd
 Comment=Netcat clone with encryption
-Exec=cyber-shell -b dbd -x '-h'
+Exec=shell-rocket -b dbd -x '-h'
 Icon=athena-dbd
 StartupNotify=false
 Terminal=false

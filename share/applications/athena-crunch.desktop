@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=crunch
 Comment=Generate wordlists from a character set
-Exec=cyber-shell -b crunch
+Exec=shell-rocket -b crunch
 Icon=athena-crunch
 StartupNotify=false
 Terminal=false

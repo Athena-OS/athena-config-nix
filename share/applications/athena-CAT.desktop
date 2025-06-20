@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=CAT
 Comment=Concatenate files and print on the standard output
-Exec=cyber-shell -b CAT -p cisco-auditing-tool
+Exec=shell-rocket -b CAT -p cisco-auditing-tool
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

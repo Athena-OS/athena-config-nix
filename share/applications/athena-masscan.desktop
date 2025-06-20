@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=masscan
 Comment=Fast scan of the Internet
-Exec=cyber-shell -b masscan -x '--help'
+Exec=shell-rocket -b masscan -x '--help'
 Icon=athena-masscan
 StartupNotify=false
 Terminal=false

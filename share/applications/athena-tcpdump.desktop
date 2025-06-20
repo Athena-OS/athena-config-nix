@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=tcpdump
 Comment=Dump traffic on a network
-Exec=cyber-shell -b tcpdump -x '-h'
+Exec=shell-rocket -b tcpdump -x '-h'
 Icon=athena-tcpdump
 StartupNotify=false
 Terminal=false

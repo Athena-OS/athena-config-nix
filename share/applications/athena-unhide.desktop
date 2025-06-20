@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=unhide
 Comment=Forensic tool to find hidden processes
-Exec=cyber-shell -b unhide -r
+Exec=shell-rocket -b unhide -r
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

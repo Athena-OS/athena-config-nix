@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=outguess
 Comment=Universal steganographic tool
-Exec=cyber-shell -b outguess
+Exec=shell-rocket -b outguess
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

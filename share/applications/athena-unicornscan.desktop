@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=unicornscan
 Comment=Userland distributed TCP/IP stack
-Exec=cyber-shell -b unicornscan -x '-h'
+Exec=shell-rocket -b unicornscan -x '-h'
 Icon=athena-unicornscan
 StartupNotify=false
 Terminal=false

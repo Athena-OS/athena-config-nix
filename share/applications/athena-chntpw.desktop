@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=chntpw
 Comment=Utility to overwrite passwords of Windows systems
-Exec=cyber-shell -b chntpw
+Exec=shell-rocket -b chntpw
 Icon=athena-chntpw
 StartupNotify=false
 Terminal=false

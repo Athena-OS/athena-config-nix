@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=lbd
 Comment=Load balancer detector
-Exec=cyber-shell -b lbd
+Exec=shell-rocket -b lbd
 Icon=athena-lbd
 StartupNotify=false
 Terminal=false

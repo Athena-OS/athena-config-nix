@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=slowhttptest
 Comment=Denial Of Service attacks simulator
-Exec=cyber-shell -b slowhttptest -x '-h'
+Exec=shell-rocket -b slowhttptest -x '-h'
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

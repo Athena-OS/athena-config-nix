@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=reaver
 Comment=WPS Cracker
-Exec=cyber-shell -b reaver -x '-h'
+Exec=shell-rocket -b reaver -x '-h'
 Icon=athena-reaver
 StartupNotify=false
 Terminal=false

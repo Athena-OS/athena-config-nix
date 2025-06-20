@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=recon-ng
 Comment=Web Reconnaissance framework
-Exec=cyber-shell -b recon-ng
+Exec=shell-rocket -b recon-ng
 Icon=athena-recon-ng
 StartupNotify=false
 Terminal=false

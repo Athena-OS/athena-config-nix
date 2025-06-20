@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=ncrack
 Comment=Network authentication cracking tool
-Exec=cyber-shell -b ncrack -x '-h'
+Exec=shell-rocket -b ncrack -x '-h'
 Icon=athena-ncrack
 StartupNotify=false
 Terminal=false

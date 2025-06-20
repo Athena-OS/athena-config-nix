@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=pspy
 Comment=Monitor Linux processes without root permissions
-Exec=cyber-shell -b pspy -x '-h'
+Exec=shell-rocket -b pspy -x '-h'
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

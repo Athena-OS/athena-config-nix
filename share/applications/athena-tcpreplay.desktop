@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=tcpreplay
 Comment=Replay network traffic stored in pcap files
-Exec=cyber-shell -b tcpreplay -x '-h'
+Exec=shell-rocket -b tcpreplay -x '-h'
 Icon=athena-tcpreplay
 StartupNotify=false
 Terminal=false

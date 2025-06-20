@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=NASM
 Encoding=UTF-8
-Exec=cyber-shell -b nasm -x '-h'
+Exec=shell-rocket -b nasm -x '-h'
 Icon=athena-metasploit-framework
 StartupNotify=false
 Terminal=false

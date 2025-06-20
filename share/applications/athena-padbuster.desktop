@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=padbuster
 Comment=Script for performing Padding Oracle attacks
-Exec=cyber-shell -b padbuster
+Exec=shell-rocket -b padbuster
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

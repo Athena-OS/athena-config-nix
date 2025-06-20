@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=bulk_extractor
 Encoding=UTF-8
-Exec=cyber-shell -b bulk_extractor -p bulk-extractor
+Exec=shell-rocket -b bulk_extractor -p bulk-extractor
 Icon=athena-bulk-extractor
 StartupNotify=false
 Terminal=false

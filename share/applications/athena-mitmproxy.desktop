@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=mitmproxy
 Comment=SSL-capable man-in-the-middle HTTP proxy
-Exec=cyber-shell -b mitmproxy -x '-h'
+Exec=shell-rocket -b mitmproxy -x '-h'
 Icon=athena-mitmproxy
 StartupNotify=false
 Terminal=false

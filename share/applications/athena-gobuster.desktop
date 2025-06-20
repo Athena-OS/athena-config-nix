@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=gobuster
 Comment=Directory/file & DNS busting tool written in Go
-Exec=cyber-shell -b gobuster
+Exec=shell-rocket -b gobuster
 Icon=athena-gobuster
 StartupNotify=false
 Terminal=false

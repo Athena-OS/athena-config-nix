@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=mmls
 Comment=Display the partition layout of a volume system (partition tables)
-Exec=cyber-shell -b mmls -p sleuthkit
+Exec=shell-rocket -b mmls -p sleuthkit
 Icon=athena-mmls
 StartupNotify=false
 Terminal=false

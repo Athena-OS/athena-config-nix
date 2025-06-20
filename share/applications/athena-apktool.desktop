@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=apktool
 Comment=Tool for reverse engineering Android apk files
-Exec=cyber-shell -b apktool -p android-apktool
+Exec=shell-rocket -b apktool -p android-apktool
 Icon=athena-apktool
 StartupNotify=false
 Terminal=false

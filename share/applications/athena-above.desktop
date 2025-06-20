@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=above
 Comment=Invisible protocol sniffer for finding vulnerabilities in the network
-Exec=cyber-shell -b above
+Exec=shell-rocket -b above
 Icon=athena-above
 StartupNotify=false
 Terminal=false

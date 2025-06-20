@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=netdiscover
 Comment=Active/passive ARP reconnaissance tool
-Exec=cyber-shell -b netdiscover -x '-h'
+Exec=shell-rocket -b netdiscover -x '-h'
 Icon=athena-netdiscover
 StartupNotify=false
 Terminal=false

@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=smbmap
 Comment=SMB enumeration tool
-Exec=cyber-shell -b smbmap -x '-h'
+Exec=shell-rocket -b smbmap -x '-h'
 Icon=athena-smbmap
 StartupNotify=false
 Terminal=false

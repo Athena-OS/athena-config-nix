@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=searchsploit
 Comment=Exploit Database Archive Search
-Exec=cyber-shell -b searchsploit -p exploitdb
+Exec=shell-rocket -b searchsploit -p exploitdb
 Icon=athena-searchsploit
 StartupNotify=false
 Terminal=false

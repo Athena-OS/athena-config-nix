@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=photon
 Comment=Incredibly fast crawler designed for open source intelligence
-Exec=cyber-shell -b photon
+Exec=shell-rocket -b photon
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

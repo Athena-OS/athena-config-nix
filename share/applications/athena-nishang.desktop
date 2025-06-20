@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=nishang
 Comment=Collection of PowerShell scripts and payloads
-Exec=cyber-shell -b nishang -d /usr/share/windows/nishang
+Exec=shell-rocket -b nishang -d /usr/share/windows/nishang
 Icon=athena-nishang
 StartupNotify=false
 Terminal=false

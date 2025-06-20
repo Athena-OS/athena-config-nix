@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=reglookup
 Comment=Windows NT+ registry reader/lookup tool
-Exec=cyber-shell -b reglookup
+Exec=shell-rocket -b reglookup
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

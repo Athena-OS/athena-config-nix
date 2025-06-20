@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=ext3grep
 Comment=Ext3 file recovery tool
-Exec=cyber-shell -b ext3grep -x '-h'
+Exec=shell-rocket -b ext3grep -x '-h'
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

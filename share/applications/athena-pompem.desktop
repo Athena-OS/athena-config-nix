@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=pompem
 Comment=Exploit and Vulnerability Finder
-Exec=cyber-shell -b pompem -x '-h'
+Exec=shell-rocket -b pompem -x '-h'
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

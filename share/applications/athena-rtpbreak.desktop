@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=rtpbreak
 Comment=Detects, reconstructs, and analyzes RTP sessions
-Exec=cyber-shell -b rtpbreak -x '-h'
+Exec=shell-rocket -b rtpbreak -x '-h'
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

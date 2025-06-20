@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=recoverjpeg
 Comment=Recover jpeg pictures from a filesystem image
-Exec=cyber-shell -b recoverjpeg -x '-h'
+Exec=shell-rocket -b recoverjpeg -x '-h'
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

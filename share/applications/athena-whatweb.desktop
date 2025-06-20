@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=whatweb
 Comment=Next generation Web scanner. Identify technologies used by websites.
-Exec=cyber-shell -b whatweb -x '-h'
+Exec=shell-rocket -b whatweb -x '-h'
 Icon=athena-whatweb
 StartupNotify=false
 Terminal=false

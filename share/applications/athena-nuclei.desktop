@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=nuclei
 Comment=Fast and customizable vulnerability scanner based on simple YAML based DSL
-Exec=cyber-shell -b nuclei -x '-h'
+Exec=shell-rocket -b nuclei -x '-h'
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

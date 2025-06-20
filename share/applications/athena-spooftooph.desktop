@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=spooftooph
 Comment=Automates spoofing or cloning Bluetooth devices
-Exec=cyber-shell -b spooftooph -x '-h'
+Exec=shell-rocket -b spooftooph -x '-h'
 Icon=athena-spooftooph
 StartupNotify=false
 Terminal=false

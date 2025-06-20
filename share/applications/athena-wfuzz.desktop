@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=wfuzz
 Comment=A web application bruteforcer
-Exec=cyber-shell -b wfuzz
+Exec=shell-rocket -b wfuzz
 Icon=athena-wfuzz
 StartupNotify=false
 Terminal=false

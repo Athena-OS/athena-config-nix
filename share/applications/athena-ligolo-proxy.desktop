@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=ligolo-proxy
 Comment=Advanced, yet simple, tunneling/pivoting tool that uses a TUN interface
-Exec=cyber-shell -b ligolo-ng-proxy -x '-h'
+Exec=shell-rocket -b ligolo-ng-proxy -x '-h'
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

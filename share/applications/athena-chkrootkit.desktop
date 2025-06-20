@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=chkrootkit
 Comment=Scan the system for signs of rootkits
-Exec=cyber-shell -b chkrootkit -x '-h'
+Exec=shell-rocket -b chkrootkit -x '-h'
 Icon=athena-chkrootkit
 StartupNotify=false
 Terminal=false

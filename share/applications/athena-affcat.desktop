@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=affcat
 Comment=Output contents of an image file to stdout.
-Exec=cyber-shell -b affcat -p afflib
+Exec=shell-rocket -b affcat -p afflib
 Icon=athena-affcat
 StartupNotify=false
 Terminal=false

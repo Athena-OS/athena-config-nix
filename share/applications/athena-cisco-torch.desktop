@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=cisco-torch
 Comment=Cisco device scanner
-Exec=cyber-shell -b cisco-torch
+Exec=shell-rocket -b cisco-torch
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

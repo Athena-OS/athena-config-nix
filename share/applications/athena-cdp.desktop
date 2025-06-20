@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=cdp
 Comment=Cdp packet generator
-Exec=cyber-shell -b irpas-cdp -p irpas
+Exec=shell-rocket -b irpas-cdp -p irpas
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

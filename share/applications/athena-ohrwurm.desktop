@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=ohrwurm
 Comment=RTP fuzzer
-Exec=cyber-shell -b ohrwurm -r
+Exec=shell-rocket -b ohrwurm -r
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=hping3
 Comment=Send (almost) arbitrary TCP/IP packets to network hosts
-Exec=cyber-shell -b hping3 -p hping -x '-h'
+Exec=shell-rocket -b hping3 -p hping -x '-h'
 Icon=athena-hping3
 StartupNotify=false
 Terminal=false

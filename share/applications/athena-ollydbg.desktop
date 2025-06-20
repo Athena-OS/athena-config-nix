@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=ollydbg
 Comment=32-bit assembler level analysing debugger
-Exec=cyber-shell -b ollydbg -g
+Exec=shell-rocket -b ollydbg -g
 Icon=athena-ollydbg
 StartupNotify=false
 Terminal=false

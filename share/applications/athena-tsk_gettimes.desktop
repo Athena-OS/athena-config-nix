@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=tsk_gettimes
 Comment=Collect MAC times from a disk image into a body file.
-Exec=cyber-shell -b tsk_gettimes -p sleuthkit -x '-h'
+Exec=shell-rocket -b tsk_gettimes -p sleuthkit -x '-h'
 Icon=athena-tsk_gettimes
 StartupNotify=false
 Terminal=false

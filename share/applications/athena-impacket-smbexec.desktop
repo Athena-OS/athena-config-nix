@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=impacket-smbexec
 Comment=Python3 module to easily build and dissect network protocols
-Exec=cyber-shell -b smbexec.py -p impacket
+Exec=shell-rocket -b smbexec.py -p impacket
 Icon=athena-impacket-smbexec
 StartupNotify=false
 Terminal=false

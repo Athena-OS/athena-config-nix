@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=thc-ssl-dos
 Comment=Stress tester for the SSL handshake
-Exec=cyber-shell -b thc-ssl-dos -x '-h'
+Exec=shell-rocket -b thc-ssl-dos -x '-h'
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

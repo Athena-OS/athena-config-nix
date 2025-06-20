@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=zaproxy
 Comment=Testing tool for finding vulnerabilities in web applications
-Exec=cyber-shell -b zaproxy -g
+Exec=shell-rocket -b zaproxy -g
 Icon=athena-zaproxy
 StartupNotify=false
 Terminal=false

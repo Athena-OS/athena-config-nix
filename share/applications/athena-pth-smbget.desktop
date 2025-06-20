@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=pth-smbget
 Encoding=UTF-8
-Exec=cyber-shell -b pth-smbget -p pth-toolkit -x '--help'
+Exec=shell-rocket -b pth-smbget -p pth-toolkit -x '--help'
 Icon=athena-pth
 StartupNotify=false
 Terminal=false

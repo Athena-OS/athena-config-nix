@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=extundelete
 Comment=Utility to undelete files from an ext3 or ext4 partition.
-Exec=cyber-shell -b extundelete -x '--help'
+Exec=shell-rocket -b extundelete -x '--help'
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

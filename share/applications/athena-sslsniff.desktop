@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=sslsniff
 Comment=SSL/TLS man-in-the-middle attack tool
-Exec=cyber-shell -b sslsniff
+Exec=shell-rocket -b sslsniff
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

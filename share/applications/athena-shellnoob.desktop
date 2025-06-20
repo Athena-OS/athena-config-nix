@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=shellnoob
 Comment=Shellcode writing toolkit
-Exec=cyber-shell -b shellnoob
+Exec=shell-rocket -b shellnoob
 Icon=athena-shellnoob
 StartupNotify=false
 Terminal=false

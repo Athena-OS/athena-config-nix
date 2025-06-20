@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=maskgen
 Comment=Password analysis and cracking kit
-Exec=cyber-shell -b maskgen -p pack -x '-h'
+Exec=shell-rocket -b maskgen -p pack -x '-h'
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

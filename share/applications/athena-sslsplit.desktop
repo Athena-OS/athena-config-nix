@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=sslsplit
 Comment=- transparent SSL/TLS interception
-Exec=cyber-shell -b sslsplit -x '-h'
+Exec=shell-rocket -b sslsplit -x '-h'
 Icon=athena-sslsplit
 StartupNotify=false
 Terminal=false

@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=ext4magic
 Comment=Recover deleted files on ext3/4 filesystems
-Exec=cyber-shell -b ext4magic -x '-h'
+Exec=shell-rocket -b ext4magic -x '-h'
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

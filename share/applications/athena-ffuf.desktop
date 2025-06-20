@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=ffuf
 Comment=Fast web fuzzer written in Go
-Exec=cyber-shell -b ffuf -x '-h'
+Exec=shell-rocket -b ffuf -x '-h'
 Icon=athena-ffuf
 StartupNotify=false
 Terminal=false

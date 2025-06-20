@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=bloodhound-python
 Comment=Ingestor for BloodHound, based on Impacket (Python 3)
-Exec=cyber-shell -b bloodhound-python
+Exec=shell-rocket -b bloodhound-python
 Icon=athena-bloodhound-python
 StartupNotify=false
 Terminal=false

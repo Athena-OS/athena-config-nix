@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=rifiuti2
 Comment=MS Windows recycle bin analysis tool
-Exec=cyber-shell -b rifiuti -p rifiuti2
+Exec=shell-rocket -b rifiuti -p rifiuti2
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

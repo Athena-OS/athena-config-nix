@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=subfinder
 Comment=subdomain discovery tool
-Exec=cyber-shell -b subfinder -x '-h'
+Exec=shell-rocket -b subfinder -x '-h'
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

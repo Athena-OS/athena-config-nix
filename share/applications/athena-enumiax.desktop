@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=enumiax
 Comment=IAX protocol username enumerator
-Exec=cyber-shell -b enumiax
+Exec=shell-rocket -b enumiax
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

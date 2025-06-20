@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=readpst
 Comment=Convert PST (MS Outlook Personal Folders) files to mbox and other formats
-Exec=cyber-shell -b readpst -p libpst -x '-h'
+Exec=shell-rocket -b readpst -p libpst -x '-h'
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

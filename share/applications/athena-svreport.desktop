@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=svreport
 Comment=Report engine manage sessions from previous scans with SIPVicious
-Exec=cyber-shell -b sipvicious-svreport -p sipvicious -x '-h'
+Exec=shell-rocket -b sipvicious-svreport -p sipvicious -x '-h'
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

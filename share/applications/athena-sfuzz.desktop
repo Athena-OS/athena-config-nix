@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=sfuzz
 Comment=Black Box testing utilities
-Exec=cyber-shell -b sfuzz
+Exec=shell-rocket -b sfuzz
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

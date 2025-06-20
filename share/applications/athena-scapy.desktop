@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=scapy
 Comment=Interactive packet manipulation tool
-Exec=cyber-shell -b scapy
+Exec=shell-rocket -b scapy
 Icon=athena-scapy
 StartupNotify=false
 Terminal=false

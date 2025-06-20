@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=sublist3r
 Comment=Tool designed to enumerate subdomains of websites using OSINT
-Exec=cyber-shell -b sublist3r -x '-h'
+Exec=shell-rocket -b sublist3r -x '-h'
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

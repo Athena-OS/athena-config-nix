@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=steghide
 Comment=A steganography program
-Exec=cyber-shell -b steghide
+Exec=shell-rocket -b steghide
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

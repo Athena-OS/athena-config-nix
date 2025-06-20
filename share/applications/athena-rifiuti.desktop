@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=rifiuti
 Comment=Tool to extract information from MS recycle bins info2 files.
-Exec=cyber-shell -b rifiuti -p rifiuti2
+Exec=shell-rocket -b rifiuti -p rifiuti2
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

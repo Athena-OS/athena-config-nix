@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=scrounge-ntfs
 Comment=Helps retrieve data from corrupted NTFS partitions
-Exec=cyber-shell -b scrounge-ntfs -x '-h'
+Exec=shell-rocket -b scrounge-ntfs -x '-h'
 Icon=athena-scrounge-ntfs
 StartupNotify=false
 Terminal=false

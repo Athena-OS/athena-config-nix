@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=metasploit-framework
 Comment=Framework for exploit development and vulnerability research
-Exec=cyber-shell -b msfconsole -p metasploit
+Exec=shell-rocket -b msfconsole -p metasploit
 Icon=athena-metasploit-framework
 StartupNotify=false
 Terminal=false

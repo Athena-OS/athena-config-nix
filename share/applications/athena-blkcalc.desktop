@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=blkcalc
 Comment=Converts between unallocated disk unit numbers and regular disk unit numbers.
-Exec=cyber-shell -b blkcalc -p sleuthkit
+Exec=shell-rocket -b blkcalc -p sleuthkit
 Icon=athena-blkcalc
 StartupNotify=false
 Terminal=false

@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=blkls
 Comment=List or output file system data units.
-Exec=cyber-shell -b blkls -p sleuthkit
+Exec=shell-rocket -b blkls -p sleuthkit
 Icon=athena-blkls
 StartupNotify=false
 Terminal=false

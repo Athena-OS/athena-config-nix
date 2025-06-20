@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=scalpel
 Comment=Recover files using a header/footer database
-Exec=cyber-shell -b scalpel -x '-h'
+Exec=shell-rocket -b scalpel -x '-h'
 Icon=athena-scalpel
 StartupNotify=false
 Terminal=false

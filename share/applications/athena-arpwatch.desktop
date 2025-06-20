@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=arpwatch
 Comment=Keep track of ethernet/ip address pairings
-Exec=cyber-shell -b arpwatch -x '-h'
+Exec=shell-rocket -b arpwatch -x '-h'
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

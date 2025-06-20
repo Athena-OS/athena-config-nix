@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=svcrack
 Comment=Online password guessing tool for SIP devices
-Exec=cyber-shell -b sipvicious-svcrack -p sipvicious -x '-h'
+Exec=shell-rocket -b sipvicious-svcrack -p sipvicious -x '-h'
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

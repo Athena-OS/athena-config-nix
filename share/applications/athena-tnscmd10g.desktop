@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=tnscmd10g
 Comment=Tool to prod the oracle tnslsnr process
-Exec=cyber-shell -b tnscmd10g -p tnscmd
+Exec=shell-rocket -b tnscmd10g -p tnscmd
 Icon=athena-tnscmd10g
 StartupNotify=false
 Terminal=false

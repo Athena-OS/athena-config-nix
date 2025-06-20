@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=medusa
 Comment=Parallel Network Login Auditor
-Exec=cyber-shell -b medusa -x '-h'
+Exec=shell-rocket -b medusa -x '-h'
 Icon=athena-medusa
 StartupNotify=false
 Terminal=false

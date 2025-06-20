@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=heartleech
 Comment=Exploits OpenSSL heartbleed vulnerability
-Exec=cyber-shell -b heartleech
+Exec=shell-rocket -b heartleech
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

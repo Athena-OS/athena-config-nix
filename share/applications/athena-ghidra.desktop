@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=ghidra
 Comment=Software Reverse Engineering Framework
-Exec=cyber-shell -b ghidra -g
+Exec=shell-rocket -b ghidra -g
 Icon=athena-ghidra
 StartupNotify=false
 Terminal=false

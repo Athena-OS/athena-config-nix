@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=sipp
 Comment=Traffic generator for the SIP protocol
-Exec=cyber-shell -b sipp
+Exec=shell-rocket -b sipp
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

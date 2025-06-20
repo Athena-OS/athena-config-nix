@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=crackmapexec
 Comment=Swiss army knife for pentesting networks
-Exec=cyber-shell -b crackmapexec -r
+Exec=shell-rocket -b crackmapexec -r
 Icon=athena-crackmapexec
 StartupNotify=false
 Terminal=false

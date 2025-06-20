@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=rizin
 Comment=Advanced commandline hexadecimal editor, disassembler and debugger
-Exec=cyber-shell -b rizin -x '-h'
+Exec=shell-rocket -b rizin -x '-h'
 Icon=athena-rizin
 StartupNotify=false
 Terminal=false

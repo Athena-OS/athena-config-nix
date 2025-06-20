@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=hackrf_info
 Comment=Probe device and show configuration
-Exec=cyber-shell -b hackrf_info -p hackrf
+Exec=shell-rocket -b hackrf_info -p hackrf
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

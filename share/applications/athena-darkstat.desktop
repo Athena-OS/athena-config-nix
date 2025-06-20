@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=darkstat
 Comment=Network statistics gatherer
-Exec=cyber-shell -b darkstat
+Exec=shell-rocket -b darkstat
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

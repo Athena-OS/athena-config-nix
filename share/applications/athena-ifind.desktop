@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=ifind
 Comment=Find the meta-data structure that has allocated a given disk unit or file name.
-Exec=cyber-shell -b ifind -p sleuthkit
+Exec=shell-rocket -b ifind -p sleuthkit
 Icon=athena-ifind
 StartupNotify=false
 Terminal=false

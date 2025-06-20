@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=trufflehog
 Comment=Searches through git repositories for secrets
-Exec=cyber-shell -b trufflehog
+Exec=shell-rocket -b trufflehog
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

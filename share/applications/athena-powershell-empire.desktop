@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=powershell-empire
 Comment=PowerShell and Python post-exploitation agent
-Exec=cyber-shell -b empire
+Exec=shell-rocket -b empire
 Icon=athena-powershell-empire
 StartupNotify=false
 Terminal=false

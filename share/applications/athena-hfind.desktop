@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=hfind
 Comment=Lookup a hash value in a hash database
-Exec=cyber-shell -b hfind -p sleuthkit
+Exec=shell-rocket -b hfind -p sleuthkit
 Icon=athena-hfind
 StartupNotify=false
 Terminal=false

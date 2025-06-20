@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=clang++
 Comment=C, C++ and Objective-C compiler (LLVM based), clang binary
-Exec=cyber-shell -b clang++ -p clang -x '--help'
+Exec=shell-rocket -b clang++ -p clang -x '--help'
 Icon=athena-clang++
 StartupNotify=false
 Terminal=false

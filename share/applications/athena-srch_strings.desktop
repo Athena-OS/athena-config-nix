@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=srch_strings
 Comment=Display printable strings in files
-Exec=cyber-shell -b srch_strings -p sleuthkit -x '-h'
+Exec=shell-rocket -b srch_strings -p sleuthkit -x '-h'
 Icon=athena-srch_strings
 StartupNotify=false
 Terminal=false

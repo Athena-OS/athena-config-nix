@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=webshells
 Comment=Collection of webshells
-Exec=cyber-shell -b webshells -d /usr/share/webshells
+Exec=shell-rocket -b webshells -d /usr/share/webshells
 Icon=athena-webshells
 StartupNotify=false
 Terminal=false

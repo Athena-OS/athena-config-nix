@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=hashdeep
 Comment=Compute, compare, or audit multiple message digests
-Exec=cyber-shell -b hashdeep -x '-h'
+Exec=shell-rocket -b hashdeep -x '-h'
 Icon=athena-hashdeep
 StartupNotify=false
 Terminal=false

@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=massdns
 Comment=high-performance DNS stub resolver
-Exec=cyber-shell -b massdns
+Exec=shell-rocket -b massdns
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

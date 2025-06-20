@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=bed
 Comment=A network protocol fuzzer
-Exec=cyber-shell -b bed
+Exec=shell-rocket -b bed
 Icon=athena-bed
 StartupNotify=false
 Terminal=false

@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=amass
 Comment=In-depth DNS Enumeration and Network Mapping
-Exec=cyber-shell -b amass
+Exec=shell-rocket -b amass
 Icon=athena-amass
 StartupNotify=false
 Terminal=false

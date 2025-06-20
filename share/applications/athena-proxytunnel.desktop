@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=proxytunnel
 Comment=Program to tunnel a connection through a standard HTTPS proxy
-Exec=cyber-shell -b proxytunnel -x '-h'
+Exec=shell-rocket -b proxytunnel -x '-h'
 Icon=athena-proxytunnel
 StartupNotify=false
 Terminal=false

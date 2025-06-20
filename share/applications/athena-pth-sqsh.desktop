@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=pth-sqsh
 Encoding=UTF-8
-Exec=cyber-shell -b pth-sqsh -p pth-toolkit -x '--help'
+Exec=shell-rocket -b pth-sqsh -p pth-toolkit -x '--help'
 Icon=athena-pth
 StartupNotify=false
 Terminal=false

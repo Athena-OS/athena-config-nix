@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=siege
 Comment=An HTTP/FTP load tester and benchmarking utility.
-Exec=cyber-shell -b siege
+Exec=shell-rocket -b siege
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

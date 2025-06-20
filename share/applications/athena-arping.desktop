@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=arping
 Comment=Sends arp and/or ip pings to a given host
-Exec=cyber-shell -b arping -p iputils
+Exec=shell-rocket -b arping -p iputils
 Icon=athena-arping
 StartupNotify=false
 Terminal=false

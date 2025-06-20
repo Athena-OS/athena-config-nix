@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=ftest
 Comment=Tool for testing firewalls and Intrusion Detection System (IDS)
-Exec=cyber-shell -b ftest -p ftester
+Exec=shell-rocket -b ftest -p ftester
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

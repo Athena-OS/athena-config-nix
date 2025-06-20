@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=mac-robber
 Comment=Collects data about allocated files in mounted filesystems
-Exec=cyber-shell -b mac-robber
+Exec=shell-rocket -b mac-robber
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

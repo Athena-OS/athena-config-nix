@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=yara
 Comment=Find files matching patterns and rules written in a special-purpose language.
-Exec=cyber-shell -b yara -x '-h'
+Exec=shell-rocket -b yara -x '-h'
 Icon=athena-yara
 StartupNotify=false
 Terminal=false

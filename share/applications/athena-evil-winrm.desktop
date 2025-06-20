@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=evil-winrm
 Comment=ultimate WinRM shell for hacking/pentesting
-Exec=cyber-shell -b evil-winrm -x '-h'
+Exec=shell-rocket -b evil-winrm -x '-h'
 Icon=athena-evil-winrm
 StartupNotify=false
 Terminal=false

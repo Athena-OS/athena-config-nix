@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=ligolo-agent
 Comment=Advanced, yet simple, tunneling/pivoting tool that uses a TUN interface
-Exec=cyber-shell -b ligolo-ng-agent -x '-h'
+Exec=shell-rocket -b ligolo-ng-agent -x '-h'
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

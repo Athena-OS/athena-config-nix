@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=ike-scan
 Comment=Discover and fingerprint IKE hosts (IPsec VPN servers)
-Exec=cyber-shell -b ike-scan -x '-h'
+Exec=shell-rocket -b ike-scan -x '-h'
 Icon=athena-ike-scan
 StartupNotify=false
 Terminal=false

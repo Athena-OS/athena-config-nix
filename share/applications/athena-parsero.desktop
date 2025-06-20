@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=parsero
 Comment=Robots.txt audit tool
-Exec=cyber-shell -b parsero
+Exec=shell-rocket -b parsero
 Icon=athena-parsero
 StartupNotify=false
 Terminal=false

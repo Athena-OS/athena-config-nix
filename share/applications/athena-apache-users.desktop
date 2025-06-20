@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=apache-users
 Comment=Enumerate usernames on systems with Apache UserDir module
-Exec=cyber-shell -b apache-users
+Exec=shell-rocket -b apache-users
 Icon=athena-apache-users
 StartupNotify=false
 Terminal=false

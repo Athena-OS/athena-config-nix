@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=cryptsetup
 Comment=Manage plain dm-crypt, LUKS, and other encrypted volumes
-Exec=cyber-shell -b cryptsetup -x '--help'
+Exec=shell-rocket -b cryptsetup -x '--help'
 Icon=athena-cryptsetup
 StartupNotify=false
 Terminal=false

@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=caido
 Encoding=UTF-8
-Exec=cyber-shell -b caido -p caido-desktop -g
+Exec=shell-rocket -b caido -p caido-desktop -g
 Icon=athena-caido
 StartupNotify=false
 Terminal=false

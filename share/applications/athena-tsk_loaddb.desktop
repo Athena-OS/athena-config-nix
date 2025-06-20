@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=tsk_loaddb
 Comment=Populate a SQLite database with metadata from a disk image
-Exec=cyber-shell -b tsk_loaddb -p sleuthkit
+Exec=shell-rocket -b tsk_loaddb -p sleuthkit
 Icon=athena-tsk_loaddb
 StartupNotify=false
 Terminal=false

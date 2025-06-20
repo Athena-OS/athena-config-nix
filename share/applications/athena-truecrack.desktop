@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=truecrack
 Comment=Brute-force password cracker for TrueCrypt (Copyright) volumes.
-Exec=cyber-shell -b truecrack -x '-h'
+Exec=shell-rocket -b truecrack -x '-h'
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

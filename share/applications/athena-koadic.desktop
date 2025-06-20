@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=koadic
 Comment=Windows post-exploitation rootkit
-Exec=cyber-shell -b koadic
+Exec=shell-rocket -b koadic
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

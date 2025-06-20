@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=sigfind
 Comment=Find a binary signature in a file
-Exec=cyber-shell -b sigfind -p sleuthkit
+Exec=shell-rocket -b sigfind -p sleuthkit
 Icon=athena-sigfind
 StartupNotify=false
 Terminal=false

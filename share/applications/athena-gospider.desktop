@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=gospider
 Comment=Fast web spider written in Go
-Exec=cyber-shell -b gospider -x '-h'
+Exec=shell-rocket -b gospider -x '-h'
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

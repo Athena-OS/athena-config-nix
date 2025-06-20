@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=tlssled
 Comment=Evaluates the security of a target SSL/TLS (HTTPS) server
-Exec=cyber-shell -b tlssled
+Exec=shell-rocket -b tlssled
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

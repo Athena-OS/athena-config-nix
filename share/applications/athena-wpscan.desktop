@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=wpscan
 Comment=WordPress Security Scanner
-Exec=cyber-shell -b wpscan -x '--help'
+Exec=shell-rocket -b wpscan -x '--help'
 Icon=athena-wpscan
 StartupNotify=false
 Terminal=false

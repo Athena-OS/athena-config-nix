@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=eyewitness
 Comment=Rapid web application triage tool
-Exec=cyber-shell -b eyewitness
+Exec=shell-rocket -b eyewitness
 Icon=athena-eyewitness
 StartupNotify=false
 Terminal=false

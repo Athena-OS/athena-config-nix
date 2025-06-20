@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=udptunnel
 Comment=Tunnel UDP packets over a TCP connection
-Exec=cyber-shell -b udptunnel -x '-h'
+Exec=shell-rocket -b udptunnel -x '-h'
 Icon=athena-udptunnel
 StartupNotify=false
 Terminal=false

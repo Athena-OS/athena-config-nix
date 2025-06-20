@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=nipper
 Comment=Network Infrastructure Parser. Produces reports based of network device configuration file settings.
-Exec=cyber-shell -b nipper -x '--help'
+Exec=shell-rocket -b nipper -x '--help'
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

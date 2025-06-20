@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=mfoc
 Comment=MIFARE Classic offline cracker
-Exec=cyber-shell -b mfoc -x '-h'
+Exec=shell-rocket -b mfoc -x '-h'
 Icon=athena-mfoc
 StartupNotify=false
 Terminal=false

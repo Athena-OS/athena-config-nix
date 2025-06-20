@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=generic_send_tcp
 Comment=Network protocol fuzzer
-Exec=cyber-shell -b spike-fuzzer-generic-send_tcp -p spike-fuzzer
+Exec=shell-rocket -b spike-fuzzer-generic-send_tcp -p spike-fuzzer
 Icon=athena-generic_send_tcp
 StartupNotify=false
 Terminal=false

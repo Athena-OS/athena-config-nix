@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=assetfinder
 Comment=Find domains and subdomains related to a given domain
-Exec=cyber-shell -b assetfinder -x '-h'
+Exec=shell-rocket -b assetfinder -x '-h'
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

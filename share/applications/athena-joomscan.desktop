@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=joomscan
 Comment=OWASP Joomla Vulnerability Scanner Project
-Exec=cyber-shell -b joomscan -x '-h'
+Exec=shell-rocket -b joomscan -x '-h'
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

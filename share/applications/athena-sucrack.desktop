@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=sucrack
 Comment=Is a multithreaded Linux/UNIX tool for brute-force cracking of local user accounts via su.
-Exec=cyber-shell -b sucrack
+Exec=shell-rocket -b sucrack
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

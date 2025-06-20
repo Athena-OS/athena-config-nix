@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=missidentify
 Comment=Find executable files without an executable extension
-Exec=cyber-shell -b missidentify -x '-h'
+Exec=shell-rocket -b missidentify -x '-h'
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

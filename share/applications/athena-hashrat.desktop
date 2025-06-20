@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=hashrat
 Comment=Hashing tool supporting several hashes and recursivity
-Exec=cyber-shell -b hashrat -x '--help'
+Exec=shell-rocket -b hashrat -x '--help'
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

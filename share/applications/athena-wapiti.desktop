@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=wapiti
 Comment=A web application vulnerability scanner in Python
-Exec=cyber-shell -b wapiti -x '-h'
+Exec=shell-rocket -b wapiti -x '-h'
 Icon=athena-wapiti
 StartupNotify=false
 Terminal=false

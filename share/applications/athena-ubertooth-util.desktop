@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=ubertooth-util
 Comment=General purpose Ubertooth utility
-Exec=cyber-shell -b ubertooth-util -p ubertooth
+Exec=shell-rocket -b ubertooth-util -p ubertooth
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

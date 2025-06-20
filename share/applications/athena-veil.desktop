@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=veil
 Comment=Generates payloads to bypass anti-virus solutions
-Exec=cyber-shell -b veil
+Exec=shell-rocket -b veil
 Icon=athena-veil
 StartupNotify=false
 Terminal=false

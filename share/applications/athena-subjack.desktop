@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=subjack
 Comment=Subdomain Takeover tool
-Exec=cyber-shell -b subjack
+Exec=shell-rocket -b subjack
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

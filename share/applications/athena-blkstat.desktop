@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=blkstat
 Comment=Display details of a file system data unit (i.e. block or sector)
-Exec=cyber-shell -b blkstat -p sleuthkit
+Exec=shell-rocket -b blkstat -p sleuthkit
 Icon=athena-blkstat
 StartupNotify=false
 Terminal=false

@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=spiderfoot-cli
 Comment=OSINT collection and reconnaissance tool
-Exec=cyber-shell -b spiderfoot-cli -p spiderfoot -x '--help'
+Exec=shell-rocket -b spiderfoot-cli -p spiderfoot -x '--help'
 Icon=athena-spiderfoot-cli
 StartupNotify=false
 Terminal=false

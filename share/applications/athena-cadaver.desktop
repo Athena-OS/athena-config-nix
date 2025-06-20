@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=cadaver
 Comment=A command-line WebDAV client for Unix.
-Exec=cyber-shell -b cadaver -x '-h'
+Exec=shell-rocket -b cadaver -x '-h'
 Icon=athena-cadaver
 StartupNotify=false
 Terminal=false

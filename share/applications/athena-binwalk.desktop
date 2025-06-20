@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=binwalk
 Comment=Tool for searching binary images for embedded files and executable code
-Exec=cyber-shell -b binwalk -x '-h'
+Exec=shell-rocket -b binwalk -x '-h'
 Icon=athena-binwalk
 StartupNotify=false
 Terminal=false

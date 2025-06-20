@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=fcrackzip
 Comment=A Free/Fast Zip Password Cracker
-Exec=cyber-shell -b fcrackzip -x '--help'
+Exec=shell-rocket -b fcrackzip -x '--help'
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=pth-wmis
 Encoding=UTF-8
-Exec=cyber-shell -b pth-wmis -p pth-toolkit -x '-h'
+Exec=shell-rocket -b pth-wmis -p pth-toolkit -x '-h'
 Icon=athena-pth
 StartupNotify=false
 Terminal=false

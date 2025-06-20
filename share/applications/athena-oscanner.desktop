@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=oscanner
 Comment=Oracle assessment framework
-Exec=cyber-shell -b oscanner
+Exec=shell-rocket -b oscanner
 Icon=athena-oscanner
 StartupNotify=false
 Terminal=false

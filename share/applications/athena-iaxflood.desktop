@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=iaxflood
 Comment=VoIP flooder tool
-Exec=cyber-shell -b iaxflood
+Exec=shell-rocket -b iaxflood
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

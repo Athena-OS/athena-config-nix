@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=mmcat
 Comment=Output the contents of a partition to stdout
-Exec=cyber-shell -b mmcat -p sleuthkit
+Exec=shell-rocket -b mmcat -p sleuthkit
 Icon=athena-mmcat
 StartupNotify=false
 Terminal=false

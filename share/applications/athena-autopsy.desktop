@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=autopsy
 Comment=Autopsy Forensic Browser
-Exec=cyber-shell -b autopsy '--nosplash' -g
+Exec=shell-rocket -b autopsy '--nosplash' -g
 Icon=athena-autopsy
 StartupNotify=false
 Terminal=false

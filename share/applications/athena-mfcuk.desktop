@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=mfcuk
 Comment=MiFare Classic Universal toolKit
-Exec=cyber-shell -b mfcuk
+Exec=shell-rocket -b mfcuk
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

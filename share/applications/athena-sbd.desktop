@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=sbd
 Comment=Secure backdoor for linux and windows
-Exec=cyber-shell -b sbd -x '-h'
+Exec=shell-rocket -b sbd -x '-h'
 Icon=athena-sbd
 StartupNotify=false
 Terminal=false

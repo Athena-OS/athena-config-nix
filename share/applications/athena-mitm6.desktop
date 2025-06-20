@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=mitm6
 Comment=pwning IPv4 via IPv6
-Exec=cyber-shell -b mitm6 -x '-h'
+Exec=shell-rocket -b mitm6 -x '-h'
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

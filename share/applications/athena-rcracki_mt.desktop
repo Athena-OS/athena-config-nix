@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=rcracki_mt
 Comment=Version of rcrack that supports hybrid and indexed tables
-Exec=cyber-shell -b rcracki_mt -p rcracki-mt
+Exec=shell-rocket -b rcracki_mt -p rcracki-mt
 Icon=athena-rcracki_mt
 StartupNotify=false
 Terminal=false

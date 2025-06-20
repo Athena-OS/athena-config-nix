@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=netcat
 Comment=TCP/IP swiss army knife
-Exec=cyber-shell -b nc -p netcat -x '-h'
+Exec=shell-rocket -b nc -p netcat -x '-h'
 Icon=athena-netcat
 StartupNotify=false
 Terminal=false

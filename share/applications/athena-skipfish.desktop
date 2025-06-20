@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=skipfish
 Comment=Web application security scanner
-Exec=cyber-shell -b skipfish -x '-h'
+Exec=shell-rocket -b skipfish -x '-h'
 Icon=athena-skipfish
 StartupNotify=false
 Terminal=false

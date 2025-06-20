@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=fls
 Comment=List file and directory names in a disk image.
-Exec=cyber-shell -b fls -p sleuthkit
+Exec=shell-rocket -b fls -p sleuthkit
 Icon=athena-fls
 StartupNotify=false
 Terminal=false

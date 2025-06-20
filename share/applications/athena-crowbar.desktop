@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=crowbar
 Comment=Brute forcing tool
-Exec=cyber-shell -b crowbar -x '-h'
+Exec=shell-rocket -b crowbar -x '-h'
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=inviteflood
 Comment=SIP/SDP INVITE message flooding over UDP/IP
-Exec=cyber-shell -b inviteflood -x '-h'
+Exec=shell-rocket -b inviteflood -x '-h'
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=pipal
 Comment=Statistical analysis on password dumps
-Exec=cyber-shell -b pipal -x '-h'
+Exec=shell-rocket -b pipal -x '-h'
 Icon=athena-pipal
 StartupNotify=false
 Terminal=false

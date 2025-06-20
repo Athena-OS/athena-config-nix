@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=shellter
 Comment=Dynamic shellcode injection tool and dynamic PE infector
-Exec=cyber-shell -b shellter
+Exec=shell-rocket -b shellter
 Icon=athena-shellter
 StartupNotify=false
 Terminal=false

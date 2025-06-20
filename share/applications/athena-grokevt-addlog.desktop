@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=grokevt-addlog
 Comment=A tool for adding a raw event log to an existing GrokEVT database.
-Exec=cyber-shell -b grokevt-addlog -p grokevt -x '-h'
+Exec=shell-rocket -b grokevt-addlog -p grokevt -x '-h'
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

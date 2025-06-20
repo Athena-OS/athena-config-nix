@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=burpsuite
 Comment=platform for security testing of web applications
-Exec=cyber-shell -b burpsuite -g
+Exec=shell-rocket -b burpsuite -g
 Icon=athena-burpsuite
 StartupNotify=false
 Terminal=false

@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=hexinject
 Comment=Versatile packet injector and sniffer
-Exec=cyber-shell -b hexinject
+Exec=shell-rocket -b hexinject
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

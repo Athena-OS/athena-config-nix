@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=undbx
 Comment=A tool to extract e-mails from Outlook Express .dbx files.
-Exec=cyber-shell -b undbx -x '-h'
+Exec=shell-rocket -b undbx -x '-h'
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

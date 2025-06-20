@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=goldeneye
 Comment=HTTP DoS test tool
-Exec=cyber-shell -b goldeneye
+Exec=shell-rocket -b goldeneye
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

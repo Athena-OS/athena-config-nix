@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=unix-privesc-check
 Comment=Script to check for simple privilege escalation vectors
-Exec=cyber-shell -b unix-privesc-check
+Exec=shell-rocket -b unix-privesc-check
 Icon=athena-unix-privesc-check
 StartupNotify=false
 Terminal=false

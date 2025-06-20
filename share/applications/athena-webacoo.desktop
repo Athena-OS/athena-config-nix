@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=webacoo
 Comment=Web backdoor cookie script kit
-Exec=cyber-shell -b webacoo -x '-h'
+Exec=shell-rocket -b webacoo -x '-h'
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

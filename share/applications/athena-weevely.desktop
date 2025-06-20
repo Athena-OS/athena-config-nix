@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=weevely
 Comment=Weaponized web shell
-Exec=cyber-shell -b weevely -x 'terminal -h'
+Exec=shell-rocket -b weevely -x 'terminal -h'
 Icon=athena-weevely
 StartupNotify=false
 Terminal=false

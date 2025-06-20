@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=sctpscan
 Comment=SCTP network scanner for discovery and security
-Exec=cyber-shell -b sctpscan
+Exec=shell-rocket -b sctpscan
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

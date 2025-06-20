@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=sippts
 Comment=Set of tools to audit SIP based VoIP Systems
-Exec=cyber-shell -b sippts
+Exec=shell-rocket -b sippts
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

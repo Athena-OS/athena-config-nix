@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=grokevt-parselog
 Comment=Parse a windows event log and generate human-readable output based on message resources stored in a database.
-Exec=cyber-shell -b grokevt-parselog -p grokevt -x '-h'
+Exec=shell-rocket -b grokevt-parselog -p grokevt -x '-h'
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

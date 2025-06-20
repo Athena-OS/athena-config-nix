@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=fern-wifi-cracker
 Comment=Automated Wi-Fi cracker
-Exec=cyber-shell -b fern-wifi-cracker -g -r
+Exec=shell-rocket -b fern-wifi-cracker -g -r
 Icon=athena-fern-wifi-cracker
 StartupNotify=false
 Terminal=false

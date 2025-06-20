@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=foremost
 Comment=Recover files using their headers, footers, and data structures
-Exec=cyber-shell -b foremost -x '-h'
+Exec=shell-rocket -b foremost -x '-h'
 Icon=athena-foremost
 StartupNotify=false
 Terminal=false

@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=cewl
 Comment=Custom word list generator
-Exec=cyber-shell -b cewl -x '--help'
+Exec=shell-rocket -b cewl -x '--help'
 Icon=athena-cewl
 StartupNotify=false
 Terminal=false

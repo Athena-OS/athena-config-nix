@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=mdk3
 Comment=Wireless attack tool for IEEE 802.11 networks
-Exec=cyber-shell -b mdk3 -r
+Exec=shell-rocket -b mdk3 -r
 Icon=athena-mdk3
 StartupNotify=false
 Terminal=false

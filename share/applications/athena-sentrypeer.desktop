@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=sentrypeer
 Comment=A distributed list of bad IP addresses and phone numbers collected via a SIP Honeypot
-Exec=cyber-shell -b sentrypeer -x '-h'
+Exec=shell-rocket -b sentrypeer -x '-h'
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

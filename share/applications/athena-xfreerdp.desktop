@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=xfreerdp
 Encoding=UTF-8
-Exec=cyber-shell -b xfreerdp -p freerdp
+Exec=shell-rocket -b xfreerdp -p freerdp
 Icon=athena-pth
 StartupNotify=false
 Terminal=false

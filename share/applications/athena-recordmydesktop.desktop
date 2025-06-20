@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=recordmydesktop
 Comment=Record desktop sessions to an Ogg Theora video file with Vorbis audio
-Exec=cyber-shell -b recordmydesktop -x '-h'
+Exec=shell-rocket -b recordmydesktop -x '-h'
 Icon=athena-recordmydesktop
 StartupNotify=false
 Terminal=false

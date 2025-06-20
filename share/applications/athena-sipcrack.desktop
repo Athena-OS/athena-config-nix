@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=sipcrack
 Comment=A suite of tools to sniff and crack the digest authentications within the SIP protocol.
-Exec=cyber-shell -b sipcrack
+Exec=shell-rocket -b sipcrack
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

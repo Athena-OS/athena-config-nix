@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=sqlmap
 Comment=Automatic SQL injection tool
-Exec=cyber-shell -b sqlmap -x '--wizard'
+Exec=shell-rocket -b sqlmap -x '--wizard'
 Icon=athena-sqlmap
 StartupNotify=false
 Terminal=false

@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=enum4linux
 Comment=Enumerates info from Windows and Samba systems
-Exec=cyber-shell -b enum4linux
+Exec=shell-rocket -b enum4linux
 Icon=athena-enum4linux
 StartupNotify=false
 Terminal=false

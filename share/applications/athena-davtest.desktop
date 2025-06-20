@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=davtest
 Comment=Testing tool for WebDAV servers
-Exec=cyber-shell -b davtest
+Exec=shell-rocket -b davtest
 Icon=athena-davtest
 StartupNotify=false
 Terminal=false

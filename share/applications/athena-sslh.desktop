@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=sslh
 Comment=Protocol demultiplexer
-Exec=cyber-shell -b sslh -x '-h'
+Exec=shell-rocket -b sslh -x '-h'
 Icon=athena-sslh
 StartupNotify=false
 Terminal=false

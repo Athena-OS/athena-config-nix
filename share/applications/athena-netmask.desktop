@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=netmask
 Comment=A netmask generation and conversion program
-Exec=cyber-shell -b netmask -x '-h'
+Exec=shell-rocket -b netmask -x '-h'
 Icon=athena-netmask
 StartupNotify=false
 Terminal=false

@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=clamscan
 Comment=Scan files and directories for viruses
-Exec=cyber-shell -b clamscan -p clamav -x '-h'
+Exec=shell-rocket -b clamscan -p clamav -x '-h'
 Icon=athena-clamscan
 StartupNotify=false
 Terminal=false

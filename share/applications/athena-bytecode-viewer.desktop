@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=bytecode-viewer
 Comment=Java 8+ Jar & Android APK Reverse Engineering Suite
-Exec=cyber-shell -b bytecode-viewer -g
+Exec=shell-rocket -b bytecode-viewer -g
 Icon=athena-bytecode-viewer
 StartupNotify=false
 Terminal=false

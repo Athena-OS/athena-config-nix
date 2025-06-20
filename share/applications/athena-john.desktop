@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=john
 Comment=A tool to find weak passwords of your users
-Exec=cyber-shell -b john
+Exec=shell-rocket -b john
 Icon=athena-john
 StartupNotify=false
 Terminal=false

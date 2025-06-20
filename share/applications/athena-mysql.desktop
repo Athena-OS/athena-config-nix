@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=mysql
 Comment=The MariaDB command-line tool (mysql is now a symlink to mariadb)
-Exec=cyber-shell -b mysql -p mariadb-clients -x '--help'
+Exec=shell-rocket -b mysql -p mariadb-clients -x '--help'
 Icon=athena-mysql
 StartupNotify=false
 Terminal=false

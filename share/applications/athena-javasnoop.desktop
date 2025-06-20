@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=javasnoop
 Comment=Intercept Java applications locally
-Exec=cyber-shell -b javasnoop
+Exec=shell-rocket -b javasnoop
 Icon=athena-javasnoop
 StartupNotify=false
 Terminal=false

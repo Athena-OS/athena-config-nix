@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=thc-pptp-bruter
 Comment=THC PPTP Brute Force
-Exec=cyber-shell -b thc-pptp-bruter
+Exec=shell-rocket -b thc-pptp-bruter
 Icon=athena-thc-pptp-bruter
 StartupNotify=false
 Terminal=false

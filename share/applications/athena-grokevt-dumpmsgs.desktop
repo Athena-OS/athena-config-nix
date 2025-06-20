@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=grokevt-dumpmsgs
 Encoding=UTF-8
-Exec=cyber-shell -b grokevt-dumpmsgs -p grokevt -x '-h'
+Exec=shell-rocket -b grokevt-dumpmsgs -p grokevt -x '-h'
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

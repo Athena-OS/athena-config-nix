@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=cisco-global-exploiter
 Comment=Simple and fast Cisco exploitation tool
-Exec=cyber-shell -b cisco-global-exploiter
+Exec=shell-rocket -b cisco-global-exploiter
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=havoc
 Comment=Modern and malleable post-exploitation C2 framework
-Exec=cyber-shell -b havoc-c2
+Exec=shell-rocket -b havoc-c2
 Icon=athena-havoc
 StartupNotify=false
 Terminal=false

@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=miredo
 Comment=Teredo IPv6 tunneling for Unix
-Exec=cyber-shell -b miredo -x '-h'
+Exec=shell-rocket -b miredo -x '-h'
 Icon=athena-miredo
 StartupNotify=false
 Terminal=false

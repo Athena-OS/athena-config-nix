@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=pdfid
 Comment=Scans PDF files for certain PDF keywords
-Exec=cyber-shell -b pdfid -x '-h'
+Exec=shell-rocket -b pdfid -x '-h'
 Icon=athena-pdfid
 StartupNotify=false
 Terminal=false

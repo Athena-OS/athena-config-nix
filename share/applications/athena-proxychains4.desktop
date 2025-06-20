@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=proxychains4
 Comment=Redirect connections through proxy servers
-Exec=cyber-shell -b proxychains4 -p proxychains-ng
+Exec=shell-rocket -b proxychains4 -p proxychains-ng
 Icon=athena-proxychains4
 StartupNotify=false
 Terminal=false

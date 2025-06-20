@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=patator
 Comment=Multi-purpose brute-forcer
-Exec=cyber-shell -b patator -x '-h'
+Exec=shell-rocket -b patator -x '-h'
 Icon=athena-patator
 StartupNotify=false
 Terminal=false

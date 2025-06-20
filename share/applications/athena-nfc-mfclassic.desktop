@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=nfc-mfclassic
 Comment=MIFARE Classic command line tool
-Exec=cyber-shell -b nfc-mfclassic -p libnfc
+Exec=shell-rocket -b nfc-mfclassic -p libnfc
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

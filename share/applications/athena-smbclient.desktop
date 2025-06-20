@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=smbclient
 Comment=Ftp-like client to access SMB/CIFS resources on servers
-Exec=cyber-shell -b smbclient
+Exec=shell-rocket -b smbclient
 Icon=athena-smbclient
 StartupNotify=false
 Terminal=false

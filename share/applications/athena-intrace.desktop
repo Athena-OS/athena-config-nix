@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=intrace
 Comment=Traceroute-like application piggybacking on existing TCP connections
-Exec=cyber-shell -b intrace
+Exec=shell-rocket -b intrace
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=hydra
 Comment=A very fast network logon cracker which supports many different services
-Exec=cyber-shell -b hydra
+Exec=shell-rocket -b hydra
 Icon=athena-hydra
 StartupNotify=false
 Terminal=false

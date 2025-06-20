@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=magicrescue
 Comment=Scans a block device and extracts known file types by looking at magic bytes.
-Exec=cyber-shell -b magicrescue
+Exec=shell-rocket -b magicrescue
 Icon=athena-magicrescue
 StartupNotify=false
 Terminal=false

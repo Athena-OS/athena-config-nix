@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=samdump2
 Comment=Retrieves syskey and extract hashes from Windows 2k/NT/XP/Vista SAM.
-Exec=cyber-shell -b samdump2 -x '-h'
+Exec=shell-rocket -b samdump2 -x '-h'
 Icon=athena-samdump2
 StartupNotify=false
 Terminal=false

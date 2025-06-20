@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=responder
 Comment=LLMNR/NBT-NS/mDNS Poisoner
-Exec=cyber-shell -b responder -x '-h'
+Exec=shell-rocket -b responder -x '-h'
 Icon=athena-responder
 StartupNotify=false
 Terminal=false

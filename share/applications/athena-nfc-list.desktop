@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=nfc-list
 Comment=List NFC targets
-Exec=cyber-shell -b nfc-list -p libnfc -x '-h'
+Exec=shell-rocket -b nfc-list -p libnfc -x '-h'
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

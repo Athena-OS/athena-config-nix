@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=netexec
 Comment=Network Execution Tool
-Exec=cyber-shell -b netexec -x '-h'
+Exec=shell-rocket -b netexec -x '-h'
 Icon=athena-netexec
 StartupNotify=false
 Terminal=false

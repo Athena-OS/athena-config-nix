@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=protos-sip
 Comment=SIP test suite
-Exec=cyber-shell -b protos-sip
+Exec=shell-rocket -b protos-sip
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

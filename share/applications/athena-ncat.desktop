@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=ncat
 Comment=Concatenate and redirect sockets
-Exec=cyber-shell -b ncat -p nmap -x '-h'
+Exec=shell-rocket -b ncat -p nmap -x '-h'
 Icon=athena-ncat
 StartupNotify=false
 Terminal=false

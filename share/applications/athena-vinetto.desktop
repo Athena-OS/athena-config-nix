@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=vinetto
 Comment=Extract thumbnails and associated metadata from Thumbs.db files
-Exec=cyber-shell -b vinetto -x '-h'
+Exec=shell-rocket -b vinetto -x '-h'
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

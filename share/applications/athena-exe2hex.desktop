@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=exe2hex
 Comment=Convert EXE to bat
-Exec=cyber-shell -b exe2hex
+Exec=shell-rocket -b exe2hex
 Icon=athena-exe2hex
 StartupNotify=false
 Terminal=false

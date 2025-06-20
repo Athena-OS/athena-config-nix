@@ -2,7 +2,7 @@
 Name=minicom
 Comment=Friendly menu driven serial communication program
 Encoding=UTF-8
-Exec=cyber-shell -b minicom -x '-h'
+Exec=shell-rocket -b minicom -x '-h'
 Icon=athena-minicom
 StartupNotify=false
 Terminal=false

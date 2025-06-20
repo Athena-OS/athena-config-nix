@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=metagoofil
 Comment=Tool designed for extracting metadata of public documents
-Exec=cyber-shell -b metagoofil -x '-h'
+Exec=shell-rocket -b metagoofil -x '-h'
 Icon=athena-metagoofil
 StartupNotify=false
 Terminal=false

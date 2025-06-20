@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=stunnel
 Encoding=UTF-8
-Exec=cyber-shell -b stunnel -x '-help'
+Exec=shell-rocket -b stunnel -x '-help'
 Icon=athena-stunnel4
 StartupNotify=false
 Terminal=false

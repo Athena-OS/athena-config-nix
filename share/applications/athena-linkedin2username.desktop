@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=linkedin2username
 Comment=Generate username lists for companies on LinkedIn
-Exec=cyber-shell -b linkedin2username -x '-h'
+Exec=shell-rocket -b linkedin2username -x '-h'
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

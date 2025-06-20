@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=thcping6
 Encoding=UTF-8
-Exec=cyber-shell -b thcping6 -p thc-ipv6
+Exec=shell-rocket -b thcping6 -p thc-ipv6
 Icon=athena-thcping6
 StartupNotify=false
 Terminal=false

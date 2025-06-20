@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=powersploit
 Comment=PowerShell Post-Exploitation Framework
-Exec=cyber-shell -b powersploit -d /usr/share/windows/powersploit
+Exec=shell-rocket -b powersploit -d /usr/share/windows/powersploit
 Icon=athena-powersploit
 StartupNotify=false
 Terminal=false

@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=recoverdm
 Comment=Recover files on disks with damaged sectors
-Exec=cyber-shell -b recoverdm -x '-h'
+Exec=shell-rocket -b recoverdm -x '-h'
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=snort
 Comment=flexible Network Intrusion Detection System
-Exec=cyber-shell -b snort -x '-h'
+Exec=shell-rocket -b snort -x '-h'
 Icon=athena-snort
 StartupNotify=false
 Terminal=false

@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=t50
 Comment=Network packet injector
-Exec=cyber-shell -b t50 -x '-h'
+Exec=shell-rocket -b t50 -x '-h'
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=snmp-check
 Comment=SNMP device enumerator
-Exec=cyber-shell -b snmpcheck -x '-h'
+Exec=shell-rocket -b snmpcheck -x '-h'
 Icon=athena-snmp-check
 StartupNotify=false
 Terminal=false

@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=enum4linux-ng
 Comment=Next generation version of enum4linux
-Exec=cyber-shell -b enum4linux-ng
+Exec=shell-rocket -b enum4linux-ng
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

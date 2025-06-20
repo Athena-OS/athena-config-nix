@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=rkhunter
 Comment=RootKit Hunter
-Exec=cyber-shell -b rkhunter -z -x '-h'
+Exec=shell-rocket -b rkhunter -z -x '-h'
 Icon=athena-rkhunter
 StartupNotify=false
 Terminal=false

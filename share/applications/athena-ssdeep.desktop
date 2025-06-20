@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=ssdeep
 Comment=Computes context triggered piecewise hashes (fuzzy hashes)
-Exec=cyber-shell -b ssdeep -x '-h'
+Exec=shell-rocket -b ssdeep -x '-h'
 Icon=athena-ssdeep
 StartupNotify=false
 Terminal=false

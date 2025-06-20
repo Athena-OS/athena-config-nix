@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=iodine-client-start
 Comment=Start an iodine IPv4-over-DNS tunnel
-Exec=cyber-shell -b iodine
+Exec=shell-rocket -b iodine
 Icon=athena-iodine-client-start
 StartupNotify=false
 Terminal=false

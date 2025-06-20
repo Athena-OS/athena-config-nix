@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=dnschef
 Comment=DNS proxy for penetration testers
-Exec=cyber-shell -b dnschef -x '-h'
+Exec=shell-rocket -b dnschef -x '-h'
 Icon=athena-dnschef
 StartupNotify=false
 Terminal=false

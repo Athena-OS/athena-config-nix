@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=sslyze
 Comment=Fast and full-featured SSL scanner
-Exec=cyber-shell -b sslyze -x '-h'
+Exec=shell-rocket -b sslyze -x '-h'
 Icon=athena-sslyze
 StartupNotify=false
 Terminal=false

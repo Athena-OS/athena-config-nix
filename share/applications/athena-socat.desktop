@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=socat
 Comment=Multipurpose relay (SOcket CAT)
-Exec=cyber-shell -b socat -x '-h'
+Exec=shell-rocket -b socat -x '-h'
 Icon=athena-socat
 StartupNotify=false
 Terminal=false

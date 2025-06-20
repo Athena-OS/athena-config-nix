@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=jcat
 Comment=Show the contents of a block in the file system journal.
-Exec=cyber-shell -b jcat -p sleuthkit
+Exec=shell-rocket -b jcat -p sleuthkit
 Icon=athena-jcat
 StartupNotify=false
 Terminal=false

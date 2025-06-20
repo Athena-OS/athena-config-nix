@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=bloodhound
 Comment=Six Degrees of Domain Admin
-Exec=cyber-shell -b bloodhound
+Exec=shell-rocket -b bloodhound
 Icon=athena-bloodhound
 StartupNotify=false
 Terminal=false

@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=hashid
 Comment=Identify the different types of hashes used to encrypt data
-Exec=cyber-shell -b hashid -p python-hashid -x '-h'
+Exec=shell-rocket -b hashid -p python-hashid -x '-h'
 Icon=athena-hashid
 StartupNotify=false
 Terminal=false

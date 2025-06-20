@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=ptunnel
 Comment=Tunnel TCP connections over ICMP echo request/reply packets.
-Exec=cyber-shell -b ptunnel -x '-h'
+Exec=shell-rocket -b ptunnel -x '-h'
 Icon=athena-ptunnel
 StartupNotify=false
 Terminal=false

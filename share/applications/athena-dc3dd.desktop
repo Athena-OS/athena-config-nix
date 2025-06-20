@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=dc3dd
 Comment=Convert and copy a file
-Exec=cyber-shell -b dc3dd -x '--help'
+Exec=shell-rocket -b dc3dd -x '--help'
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=bloodhound-ce-python
 Comment=Python based ingestor for BloodHound CE
-Exec=cyber-shell -b bloodhound-ce-python
+Exec=shell-rocket -b bloodhound-ce-python
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

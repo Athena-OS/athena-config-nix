@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=linpeas
 Comment=Privilege Escalation Awesome Scripts SUITE
-Exec=cyber-shell -b linpeas -p peass -r -x '-h'
+Exec=shell-rocket -b linpeas -p peass -r -x '-h'
 Icon=athena-linpeas
 StartupNotify=false
 Terminal=false

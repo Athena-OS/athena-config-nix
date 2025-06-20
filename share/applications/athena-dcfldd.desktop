@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=dcfldd
 Comment=Enhanced version of dd for forensics and security
-Exec=cyber-shell -b dcfldd -x '--help'
+Exec=shell-rocket -b dcfldd -x '--help'
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=pasco
 Comment=Tool to extract information from MS IE cache files
-Exec=cyber-shell -b pasco
+Exec=shell-rocket -b pasco
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

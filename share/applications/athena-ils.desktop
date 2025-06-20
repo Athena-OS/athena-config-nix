@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=ils
 Comment=List inode information
-Exec=cyber-shell -b ils -p sleuthkit
+Exec=shell-rocket -b ils -p sleuthkit
 Icon=athena-ils
 StartupNotify=false
 Terminal=false

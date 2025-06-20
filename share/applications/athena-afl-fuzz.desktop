@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=afl-fuzz
 Comment=instrumentation-driven fuzzer for binary formats
-Exec=cyber-shell -b afl-fuzz -p afl++
+Exec=shell-rocket -b afl-fuzz -p afl++
 Icon=athena-afl-fuzz
 StartupNotify=false
 Terminal=false

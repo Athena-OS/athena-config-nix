@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=pev
 Encoding=UTF-8
-Exec=cyber-shell -b readpe -p pev -x '--help'
+Exec=shell-rocket -b readpe -p pev -x '--help'
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

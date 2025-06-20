@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=blkcat
 Comment=Display the contents of file system data unit in a disk image.
-Exec=cyber-shell -b blkcat -p sleuthkit
+Exec=shell-rocket -b blkcat -p sleuthkit
 Icon=athena-blkcat
 StartupNotify=false
 Terminal=false

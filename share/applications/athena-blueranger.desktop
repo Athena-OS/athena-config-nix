@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=blueranger
 Comment=Simple Bash script to locate Bluetooth devices
-Exec=cyber-shell -b blueranger
+Exec=shell-rocket -b blueranger
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

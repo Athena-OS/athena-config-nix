@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=pixiewps
 Comment=Offline Wi-Fi Protected Setup bruteforce tool
-Exec=cyber-shell -b pixiewps -x '-h'
+Exec=shell-rocket -b pixiewps -x '-h'
 Icon=athena-pixiewps
 StartupNotify=false
 Terminal=false

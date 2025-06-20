@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=p0f
 Comment=Identify remote systems passively
-Exec=cyber-shell -b p0f -x '-h'
+Exec=shell-rocket -b p0f -x '-h'
 Icon=athena-p0f
 StartupNotify=false
 Terminal=false

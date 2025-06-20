@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=hashcat
 Comment=Advanced CPU-based password recovery utility
-Exec=cyber-shell -b hashcat -x '-h'
+Exec=shell-rocket -b hashcat -x '-h'
 Icon=athena-hashcat
 StartupNotify=false
 Terminal=false

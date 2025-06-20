@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=dsniff
 Comment=Password sniffer
-Exec=cyber-shell -b dsniff -x '-h'
+Exec=shell-rocket -b dsniff -x '-h'
 Icon=athena-dsniff
 StartupNotify=false
 Terminal=false

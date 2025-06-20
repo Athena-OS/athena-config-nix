@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=myrescue
 Comment=Harddisc Rescue
-Exec=cyber-shell -b myrescue -x '-h'
+Exec=shell-rocket -b myrescue -x '-h'
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

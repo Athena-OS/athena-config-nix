@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=onesixtyone
 Comment=Fast and simple SNMP scanner
-Exec=cyber-shell -b onesixtyone
+Exec=shell-rocket -b onesixtyone
 Icon=athena-onesixtyone
 StartupNotify=false
 Terminal=false

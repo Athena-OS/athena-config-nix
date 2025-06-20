@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=dmitry
 Comment=Deepmagic Information Gathering Tool
-Exec=cyber-shell -b dmitry
+Exec=shell-rocket -b dmitry
 Icon=athena-dmitry
 StartupNotify=false
 Terminal=false

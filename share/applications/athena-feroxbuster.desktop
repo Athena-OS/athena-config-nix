@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=feroxbuster
 Comment=Manual page for feroxbuster 2.11.0
-Exec=cyber-shell -b feroxbuster -x '-h'
+Exec=shell-rocket -b feroxbuster -x '-h'
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

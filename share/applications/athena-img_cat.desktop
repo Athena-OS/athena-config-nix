@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=img_cat
 Comment=Output contents of an image file.
-Exec=cyber-shell -b img_cat -p sleuthkit
+Exec=shell-rocket -b img_cat -p sleuthkit
 Icon=athena-img_cat
 StartupNotify=false
 Terminal=false

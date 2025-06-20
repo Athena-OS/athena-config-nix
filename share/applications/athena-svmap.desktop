@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=svmap
 Comment=Scanner that searches for SIP devices on a given network
-Exec=cyber-shell -b sipvicious-svmap -p sipvicious -x '-h'
+Exec=shell-rocket -b sipvicious-svmap -p sipvicious -x '-h'
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

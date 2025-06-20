@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=istat
 Comment=Display details of a meta-data structure (i.e. inode)
-Exec=cyber-shell -b istat -p sleuthkit
+Exec=shell-rocket -b istat -p sleuthkit
 Icon=athena-istat
 StartupNotify=false
 Terminal=false

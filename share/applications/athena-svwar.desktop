@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=svwar
 Comment=Extension line scanner
-Exec=cyber-shell -b sipvicious-svwar -p sipvicious -x '-h'
+Exec=shell-rocket -b sipvicious-svwar -p sipvicious -x '-h'
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

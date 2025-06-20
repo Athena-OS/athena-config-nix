@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=rfcat
 Comment=Swiss army knife of sub-GHz radio
-Exec=cyber-shell -b rfcat -x '-h'
+Exec=shell-rocket -b rfcat -x '-h'
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

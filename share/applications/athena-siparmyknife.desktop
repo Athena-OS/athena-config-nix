@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=siparmyknife
 Comment=SIP fuzzing tool
-Exec=cyber-shell -b siparmyknife
+Exec=shell-rocket -b siparmyknife
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

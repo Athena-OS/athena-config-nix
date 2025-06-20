@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=galleta
 Comment=Tool to extract information from MSIE cookie files
-Exec=cyber-shell -b galleta
+Exec=shell-rocket -b galleta
 Icon=athena-galleta
 StartupNotify=false
 Terminal=false

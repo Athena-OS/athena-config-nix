@@ -1,6 +1,6 @@
 [Desktop Entry]
 Comment=Open source intelligence and forensics application
-Exec=cyber-shell -b maltego -g
+Exec=shell-rocket -b maltego -g
 StartupNotify=false
 Terminal=false
 Type=Application

@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=witnessme
 Comment=Web Inventory tool
-Exec=cyber-shell -b witnessme -p python-witnessme -x '-h'
+Exec=shell-rocket -b witnessme -p python-witnessme -x '-h'
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

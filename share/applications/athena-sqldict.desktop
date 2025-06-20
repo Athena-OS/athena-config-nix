@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=sqldict
 Comment=Dictionary attack tool for SQL Server
-Exec=cyber-shell -b sqldict -d /usr/share/windows/sqldict
+Exec=shell-rocket -b sqldict -d /usr/share/windows/sqldict
 Icon=athena-sqldict
 StartupNotify=false
 Terminal=false

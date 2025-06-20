@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=grokevt-findlogs
 Comment=Attempts to find log file fragments in raw binary files, such as memory dumps and disk images.
-Exec=cyber-shell -b grokevt-findlogs -p grokevt -x '-h'
+Exec=shell-rocket -b grokevt-findlogs -p grokevt -x '-h'
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

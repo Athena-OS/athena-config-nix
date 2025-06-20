@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=grokevt-ripdll
 Comment=A tool for extracting message resources from a PE-formatted file.
-Exec=cyber-shell -b grokevt-ripdll -p grokevt -x '-h'
+Exec=shell-rocket -b grokevt-ripdll -p grokevt -x '-h'
 Icon=athena-menu
 StartupNotify=false
 Terminal=false

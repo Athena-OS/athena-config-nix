@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=hash-identifier
 Comment=Tool to identify hash types
-Exec=cyber-shell -b hash-identifier
+Exec=shell-rocket -b hash-identifier
 Icon=athena-hash-identifier
 StartupNotify=false
 Terminal=false
