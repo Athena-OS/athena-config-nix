@@ -149,13 +149,25 @@ if [[ -z "$command" ]]; then
       NO_REPETITION=1 $TERMINAL_EXEC bash -c "$binary;$SHELL"
     fi
   else
-    if test -d "$directory"; then
-      cd "$directory";$SHELL
+    if [[ -n "$NO_REPETITION" ]]; then
+      if test -d "$directory"; then
+        cd "$directory";$SHELL
+      else
+        sudo sed -i "s/#${pkg:-$binary}/${pkg:-$binary}/g" /etc/nixos/hosts/software/default.nix
+        sudo nixos-rebuild switch
+        cd "$directory";$SHELL
+      fi 
     else
-      sudo sed -i "s/#${pkg:-$binary}/${pkg:-$binary}/g" /etc/nixos/hosts/software/default.nix
-      sudo nixos-rebuild switch
-      cd "$directory";$SHELL
-    fi 
+      if test -d "$directory"; then
+        NO_REPETITION=1 $TERMINAL_EXEC bash -c "cd $directory;$SHELL"
+      else
+        NO_REPETITION=1 $TERMINAL_EXEC bash -c '
+          sudo sed -i "s/#${pkg:-$binary}/${pkg:-$binary}/g" /etc/nixos/hosts/software/default.nix
+          sudo nixos-rebuild switch
+          cd "'"$directory"'"; exec $SHELL
+        '
+      fi
+    fi
   fi
 else
     if [[ -n "$NO_REPETITION" ]]; then
