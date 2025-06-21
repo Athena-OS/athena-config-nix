@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=laudanum
 Comment=Collection of injectable web files
-Exec=shell-rocket -b laudanum -d /usr/share/laudanum
+Exec=shell-rocket -b laudanum -d /run/current-system/sw/share/laudanum
 Icon=athena-laudanum
 StartupNotify=false
 Terminal=false

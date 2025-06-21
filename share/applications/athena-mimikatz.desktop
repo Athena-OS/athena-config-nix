@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=mimikatz
 Comment=Uses admin rights on Windows to display passwords in plaintext
-Exec=shell-rocket -b mimikatz -d /usr/share/windows/mimikatz
+Exec=shell-rocket -b mimikatz -d /run/current-system/sw/share/windows/mimikatz
 Icon=athena-mimikatz
 StartupNotify=false
 Terminal=false

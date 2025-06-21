@@ -4,6 +4,6 @@ Encoding=UTF-8
 Name=FuzzDB
 Comment=FuzzDB
 Icon=athena-ike-scan
-Exec=shell-rocket -b fuzzdb -d /usr/share/payloads/fuzzdb,/usr/share/fuzzdb
+Exec=shell-rocket -b fuzzdb -d /run/current-system/sw/share/payloads/fuzzdb,/usr/share/fuzzdb
 Terminal=false
 Categories=Tags;Describing;Application;Utility

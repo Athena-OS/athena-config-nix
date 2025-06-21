@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=winpeas
 Comment=Privilege Escalation Awesome Scripts SUITE
-Exec=shell-rocket -b peass -d /usr/share/windows/peass
+Exec=shell-rocket -b peass -d /run/current-system/sw/share/windows/peass
 Icon=athena-winpeas
 StartupNotify=false
 Terminal=false
