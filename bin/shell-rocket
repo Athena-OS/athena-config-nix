@@ -91,12 +91,7 @@ if [ $# -eq 0 ]; then
     exit 0
 fi
 
-TERMINAL_EXEC="$TERMINAL -e"
-
-# Set fallback terminal if needed
-if [[ "$TERMINAL_EXEC" =~ "terminator" ]] || [[ "$TERMINAL_EXEC" =~ "terminology" ]] || [[ "$TERMINAL_EXEC" =~ "xfce4-terminal" ]]; then
-  TERMINAL_EXEC="$TERMINAL -e"
-fi
+TERMINAL_EXEC="$TERMINAL --class shell -e"
 
 if [[ -z "$command" ]]; then
   # Search for application
